@@ -3,7 +3,7 @@
 // ==========================================================================
 
 .link {
-  background-color: #EFEDE3;
+  background-color: $link-bg;
   border: 1px solid transparent;
   margin: 8px 0;
   box-shadow: 2px 4px 3px transparent;
@@ -30,7 +30,7 @@
 }
 
 .entry .buttons li a {
-  color: #6C0307;
+  color: $link-color;
   &.comments {
     color: #DF011E;
   }

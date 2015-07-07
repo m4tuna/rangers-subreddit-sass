@@ -1,0 +1,56 @@
+// Button colors
+
+$btn-colors: (
+  var-black: $var-black,
+  var-blue: $var-blue,
+  var-white: $var-white,
+  var-grey: $var-grey,
+  var-pink: $var-pink,
+  var-red: $var-red,
+  var-yellow: $var-yellow,
+  var-purple: $var-purple,
+  var-orange: $var-orange
+);
+
+@each $btn-color, $color in $btn-colors {
+  .btn.#{$btn-color} {
+    background-color:#{$color};
+    color:$var-white;
+    &:hover {
+      background: #{$color};
+      color:$var-white;
+    }
+  }
+}
+
+// Buttons
+
+.btn {
+  padding:15px 20px;
+  color:$var-black;
+  font-family:$open-sans;
+  text-decoration: none;
+  border-radius:0px;
+  border:2px solid transprent;
+  text-align: center;
+  cursor:pointer;
+  &.mobile {
+    display:none;
+  }
+  &.block {
+    display: block;
+    clear:both;
+    width:100%;
+  }
+  &.var-white {
+    color: $var-black;
+    &:hover {
+      color: $var-black;
+    }
+  }
+  &.submit {
+    @extend .block;
+    width:50%;
+    margin:15px auto 0;
+  }
+}
