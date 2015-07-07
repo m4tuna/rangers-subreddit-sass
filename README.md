@@ -1,12 +1,10 @@
-R Rangers Master
+/r/rangers
 ===============
 
-New SASS dev for r-rangers.
+SASS theme engine for r-rangers.
 
-Implement Instructions
+How to Implement
 ===============
-
-'Subreddit' should be changed to your subreddit name.
 
   1. Compile app.scss ==> app.css
   2. Open app.css and remove the @charset from line one of the file.
