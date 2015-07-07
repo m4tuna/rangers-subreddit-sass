@@ -1,0 +1,706 @@
+.flair-gamertag {
+
+}
+.linkflair .linkflairlabel {
+	padding: 2px;
+	border-radius: 0px;
+	max-width: none;
+}
+.linkflair-flair-yellow .linkflairlabel {
+	background-color: #ff0;
+	color: #444;
+	border: 1px Solid #E2E200;
+}
+.linkflair-flair-blue .linkflairlabel {
+	background-color: #0072BC;
+	color: #fff;
+	border: 1px Solid #1D009B;
+}
+.linkflair-flair-green .linkflairlabel {
+	background-color: #041e42;
+	color: #fff;
+	border: 1px Solid #2CA243;
+}
+.linkflair-flair-orange .linkflairlabel {
+	background-color: #FF7F00;
+	color: #fff;
+	border: 1px Solid #C45E00;
+}
+.linkflair-flair-red .linkflairlabel {
+	background-color: #f00;
+	color: #fff;
+	border: 1px Solid #C20000;
+}
+
+/* Current Rangers Roster */
+
+/* (04) Raphael Diaz - Number Four (4) */
+.flair-Diaz:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -212px -44px;
+    width: 15px;
+    height: 21px;
+    }
+/* (05) Dan Girardi - Number Five (5) */
+.flair-Girardi:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -261px -44px;
+    width: 13px;
+    height: 21px;
+    }
+/* (06) Anton Stralman - Number Six (6) */
+.flair-Stralman:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -308px -44px;
+    width: 13px;
+    height: 21px;
+    }
+/* (08) Kevin Klein - Number Eight (8) */
+.flair-Klein:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -402px -44px;
+    width: 13px;
+    height: 21px;
+    }
+/* (10) JT Miller - Number Ten (10) */
+.flair-Miller:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -11px -82px;
+    }
+/* (12) Jesper Fast - Number Twelve (12) */
+.flair-Fast:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -96px -82px;
+    }
+/* (13) Dan Carcillo - Number Thirteen (13) */
+.flair-Carcillo:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -140px -82px;
+    }
+/* (15) Derek Dorsett - Number Fifteen (15) */
+.flair-Dorsett:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -229px -82px;
+    }
+/* (16) Derick Brassard - Number Sixteen (16) */
+.flair-Brassard:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -272px -82px;
+    }
+/* (17) John Moore - Number Seventeen (17) */
+.flair-JMoore:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -316px -82px;
+    }
+/* (18) Marc Staal - Number Eighteen (18) */
+.flair-Staal:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -361px -82px;
+    }
+/* (19) Brad Richards - Number Nineteen (19) */
+.flair-Richards:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -405px -82px;
+    }
+/* (20) Chris Kreider - Number Twenty (20)        */
+.flair-Kreider:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -448px -82px;
+    }
+/* (21) Derek Stepan - Number Twenty-One (21) */
+.flair-Stepan:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -11px -120px;
+    }
+/* (22) Brian Boyle - Number Twenty-Two (22) */
+.flair-Boyle:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -55px -120px;
+    }
+/* (26) Martin St. Louis - Number Twenty-Six (26) */
+.flair-StLouis:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -244px -120px;
+    }
+/* (27) Ryan McDonagh - Number Twenty-Seven (27) */
+.flair-McDonagh:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -291px -120px;
+    }
+/* (28) Dominic Moore - Number Twenty-Eight (28) */
+.flair-DMoore:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -338px -120px;
+    }
+/* (30) Henrik Lundqvist - Number Thirty (30) */
+.flair-Lundqvist:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -432px -120px;
+    }
+/* (33) Cam Talbot - Number Thirty-Three (33) */
+.flair-Talbot:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -102px -158px;
+    }
+/* (36) Matt Zuccarello - Number Twenty-Four (36) */
+.flair-Zuccarello:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -244px -158px;
+    }
+/* (39) Ryan Haggerty - Number Thirty-Nine (39) */
+.flair-Haggerty:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -385px -158px;
+    }
+/* (44) Justin Falk - Number Forty-Four (44) */
+.flair-Falk:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -152px -196px;
+    }
+/* (61) Rick Nash - Number Sixty-One (61) */
+.flair-Nash:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -10px -272px;
+    }
+/* (62) Carl Hagelin - Number Sixty-Two (62) */
+.flair-Hagelin:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -55px -272px;
+    }
+/* (67) Benoit Pouliot - Number Sixty-Seven (67) */
+.flair-Pouliot:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -290px -272px;
+    }
+
+/* Retired Numbers */
+
+/* (1) Eddie Giacomin - Number One (1) */
+.flair-Giacomin:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 10px;
+    height: 21px;
+    background-position: -75px -44px;
+    }
+/* (2) Brian Leetch - Number Two (2) */
+.flair-Leetch:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 13px;
+    height: 21px;
+    background-position: -119px -44px;
+    }
+/* (3) Harry Howell - Number Three (3) */
+.flair-Howell:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 13px;
+    height: 21px;
+    background-position: -166px -44px;
+    }
+/* (7) Rod Gilbert - Number Seven (7) */
+.flair-Gilbert:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 13px;
+    height: 21px;
+    background-position: -355px -44px;
+    }
+/* (9) Andy Bathgate/Adam Graves - Number Nine (9) */
+.flair-Bathgate:before, .flair-Graves:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 13px;
+    height: 21px;
+    background-position: -449px -44px;
+    }
+/* (11) Mark Messier - Number Eleven (11) */
+.flair-Messier:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 24px;
+    height: 21px;
+    background-position: -55px -82px;
+    }
+/* (35) Mike Richter - Number Thirty-Five (35) */
+.flair-Richter:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 30px;
+    height: 21px;
+    background-position: -197px -158px;
+    }
+/* (99) Wayne Gretzky - Number Ninety-Nine (99) */
+.flair-Gretzky:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 30px;
+    height: 21px;
+    background-position: -385px -386px;
+    }
+
+/* Rangers Logos */
+
+.flair-NHLNewYorkRangers:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1155px;
+    }
+.flair-NHLNewYorkRangersLady:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:18px;
+    height:18px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1177px;
+    }
+.flair-NHLNewYorkRangersOld1:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:18px;
+    height:17px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1199px;
+    }
+.flair-NHLNewYorkRangersOld2:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:18px;
+    height:17px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1221px;
+    }
+.flair-NHLNewYorkRangersOld3:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1241px;
+    }
+
+/* Other team logos */
+
+.flair-Toast:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -84px -735px;
+    }
+
+.flair-NHLLeagueLogo:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%nhl%%);
+    vertical-align: middle;
+    background-position: 0px 0px;
+    }
+.flair-NHLAnaheimDucks:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: 0px -1701px;
+    }
+.flair-NHLBostonBruins:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: 0px -1785px;
+    }
+.flair-NHLBuffaloSabres:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: 0px -1932px;
+    }
+.flair-NHLCalgaryFlames:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: 0px -1995px;
+    }
+.flair-NHLCarolinaHurricanes:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -42px;
+    }
+.flair-NHLChicagoBlackhawks:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -84px;
+    }
+.flair-NHLColoradoAvalanche:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -168px;
+    }
+.flair-NHLColumbusBlueJackets:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -210px;
+    }
+.flair-NHLDallasStars:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -83px -712px;
+    }
+.flair-NHLDetroitRedWings:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -357px;
+    }
+.flair-NHLEdmontonOilers:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -441px;
+    }
+.flair-NHLFloridaPanthers:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -546px;
+    }
+.flair-NHLLosAngelesKings:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -567px;
+    }
+.flair-NHLMinnesotaWild:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -735px;
+    }
+.flair-NHLMontrealCanadiens:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -798px;
+    }
+.flair-NHLNashvillePredators:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -987px;
+    }
+.flair-NHLNewJerseyDevils:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1050px;
+    }
+.flair-NHLNewYorkIslanders:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1092px;
+    }
+.flair-NHLOttawaSenators:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1491px;
+    }
+.flair-NHLPhiladelphiaFlyers:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1575px;
+    }
+.flair-NHLPhoenixCoyotes:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1596px;
+    }
+.flair-NHLPittsburghPenguins:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1721px;
+    }
+.flair-NHLSanJoseSharks:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1827px;
+    }
+.flair-NHLStLouisBlues:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1911px;
+    }
+.flair-NHLTampaBayLightning:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px 0px;
+    }
+.flair-NHLTorontoMapleLeafs:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px -105px;
+    }
+.flair-NHLVancouverCanucks:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px -210px;
+    }
+.flair-NHLWashingtonCapitals:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px -336px;
+    }
+.flair-NHLWinnipegJets:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px -420px;
+    }
+
+/*------------------END FLAIR OLD-----------------------*/

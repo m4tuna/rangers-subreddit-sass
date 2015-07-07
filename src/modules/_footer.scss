@@ -1,0 +1,10 @@
+// ==========================================================================
+// Footer Bit
+// ==========================================================================
+
+html:not([lang="ns"]) .footer-parent {
+  background: url("%%footerbg%%") no-repeat;
+  height: 660px;
+  background-position: bottom 0px center;
+  background-size: 50%;
+}

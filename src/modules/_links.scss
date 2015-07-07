@@ -1,0 +1,37 @@
+// ==========================================================================
+// Links
+// ==========================================================================
+
+.link {
+  background-color: #EFEDE3;
+  border: 1px solid transparent;
+  margin: 8px 0;
+  box-shadow: 2px 4px 3px transparent;
+  &:hover {
+    background-color: #F5F4EC;
+    border: 1px solid rgba(199, 199, 199, 1);
+    box-shadow: 2px 4px 3px #C8C8C8;
+  }
+  .score.likes {
+    color: #F5092A;
+  }
+}
+
+.link.last-clicked {
+  background-color: #E7E5DA;
+}
+
+.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {
+  color:#2F5594!important;
+}
+
+.thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {
+  color: #2B4877;
+}
+
+.entry .buttons li a {
+  color: #6C0307;
+  &.comments {
+    color: #DF011E;
+  }
+}
