@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/* @import "settings/themes/default/colors";
-@import "settings/themes/default/buttons";
-@import "settings/themes/default/fonts";
- */
-/* @import "settings/themes/home/colors";
-@import "settings/themes/home/buttons";
-@import "settings/themes/home/fonts";
- */
-/* @import "settings/themes/away/colors";
-@import "settings/themes/away/buttons";
-@import "settings/themes/away/fonts"; */
 .btn.var-black {
   background-color: #000;
   color: #fff; }
@@ -107,13 +96,6 @@
     font-style: normal;
     font-weight: normal;
 } */
-/* @import "settings/themes/allstar/colors";
-@import "settings/themes/allstar/buttons";
-@import "settings/themes/allstar/fonts"; */
-/* @import "settings/themes/playoffs2016/colors";
-@import "settings/themes/playoffs2016/buttons";
-@import "settings/themes/playoffs2016/fonts";
- */
 .wrapper, .row {
   /* *zoom: 1; */ }
   .wrapper:before, .row:before, .wrapper:after, .row:after {

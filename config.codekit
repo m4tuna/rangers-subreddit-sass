@@ -288,15 +288,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/allstar\/_buttons.scss": {
+	"\/src\/themes\/allstar\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/allstar\/_buttons.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/src\/themes\/allstar\/_buttons.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -304,15 +304,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/allstar\/_colors.scss": {
+	"\/src\/themes\/allstar\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/allstar\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/allstar\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -320,15 +320,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/allstar\/_fonts.scss": {
+	"\/src\/themes\/allstar\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/allstar\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/allstar\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -336,15 +336,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/away\/_buttons.scss": {
+	"\/src\/themes\/away\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/away\/_buttons.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/src\/themes\/away\/_buttons.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -352,15 +352,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/away\/_colors.scss": {
+	"\/src\/themes\/away\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/away\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/away\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -368,15 +368,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/away\/_fonts.scss": {
+	"\/src\/themes\/away\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/away\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/away\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -384,15 +384,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/default\/_buttons.scss": {
+	"\/src\/themes\/default\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/default\/_buttons.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/src\/themes\/default\/_buttons.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -400,15 +400,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/default\/_colors.scss": {
+	"\/src\/themes\/default\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/default\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/default\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -416,15 +416,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/default\/_fonts.scss": {
+	"\/src\/themes\/default\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/default\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/default\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -432,15 +432,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/home\/_buttons.scss": {
+	"\/src\/themes\/home\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/home\/_buttons.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/src\/themes\/home\/_buttons.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -448,15 +448,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/home\/_colors.scss": {
+	"\/src\/themes\/home\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/home\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/home\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -464,15 +464,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/home\/_fonts.scss": {
+	"\/src\/themes\/home\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/home\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/home\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -480,15 +480,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/playoffs2016\/_buttons.scss": {
+	"\/src\/themes\/playoffs2016\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/playoffs2016\/_buttons.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/src\/themes\/playoffs2016\/_buttons.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -496,15 +496,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/playoffs2016\/_colors.scss": {
+	"\/src\/themes\/playoffs2016\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/playoffs2016\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/playoffs2016\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -512,15 +512,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/playoffs2016\/_fonts.scss": {
+	"\/src\/themes\/playoffs2016\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/playoffs2016\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/playoffs2016\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -528,15 +528,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/third\/_buttons.scss": {
+	"\/src\/themes\/third\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/third\/_buttons.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/src\/themes\/third\/_buttons.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -544,15 +544,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/third\/_colors.scss": {
+	"\/src\/themes\/third\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/third\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/third\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -560,15 +560,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/settings\/themes\/third\/_fonts.scss": {
+	"\/src\/themes\/third\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/settings\/themes\/third\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/settings\/themes\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/third\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
