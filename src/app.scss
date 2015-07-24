@@ -3,23 +3,21 @@
 // Author: Mike Fortuna
 // ==========================================================================
 
-// SETTINGS
+// BASE
 
-@import "settings/variables";
+@import "base/variables";
+@import "base/mixins";
+@import "base/media-mixins";
+@import "base/grid";
+
 
 // THEMES
 // CURRENT THEME: THIRD
 // OPTIONS: DEFAULT, HOME, AWAY, THIRD, ALLSTAR, PLAYOFFS2016
 
-@import "themes/third/colors";
-@import "themes/third/buttons";
-@import "themes/third/fonts";
-
-
-// BASE
-
-@import "base/mixins";
-@import "base/grid";
+@import "themes/home/colors";
+@import "themes/home/buttons";
+@import "themes/home/fonts";
 
 // VENDOR
 
@@ -30,7 +28,13 @@
 @import "modules/header";
 @import "modules/main";
 @import "modules/flair";
+@import "modules/single";
 @import "modules/sidebar";
 @import "modules/links";
 @import "modules/post";
 @import "modules/footer";
+
+
+// RESPONSIVE
+
+@import "base/responsive";

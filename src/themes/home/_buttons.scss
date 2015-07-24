@@ -9,11 +9,7 @@ $btn-colors: (
   var-red: $var-red,
   var-yellow: $var-yellow,
   var-purple: $var-purple,
-  var-light-brown: $var-light-brown,
-  var-lighter-brown: $var-lighter-brown,
   var-orange: $var-orange,
-  mod-green: $mod-green,
-  mod-blue: $mod-blue
 );
 
 @each $btn-color, $color in $btn-colors {
@@ -38,15 +34,6 @@ $btn-colors: (
   border:2px solid transprent;
   text-align: center;
   cursor:pointer;
-  &.complete {
-    cursor:default;
-    background:$var-dark-grey;
-    border-color:$var-dark-grey;
-    &:hover {
-      background:$var-dark-grey;
-      border-color:$var-dark-grey;
-    }
-  }
   &.mobile {
     display:none;
   }
