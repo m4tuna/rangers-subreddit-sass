@@ -4,9 +4,19 @@
 
 
 .side {
-  background-color: #EFEDE3;
+  background-color: $sidebar-color;
   box-shadow: 2px 4px 3px transparent;
+  margin:290px 16px 0 0;
   &:hover {
-    box-shadow: 2px 4px 3px #C8C8C8;
+    box-shadow: 2px 4px 3px $sidebar-color;
   }
+}
+
+
+#search {
+  top: 176px;
+}
+
+.morelink {
+  top: 228px;
 }

@@ -3014,11 +3014,20 @@ body > .content {
     transform: scale(1.5, 1.5);
     -webkit-transform: scale(1.5, 1.5);
     opacity: 0; } }
+body {
+  background-color: #234080; }
+
 body > .content {
-  margin: 160px 332px 0 16px; }
+  margin: 212px 332px 0 16px; }
+
+#header-bottom-left {
+  top: 164px; }
 
 .content {
   border: 1px solid transparent; }
+
+.link {
+  background-color: #FFF; }
 
 .linkflair .linkflairlabel {
   padding: 2px;
@@ -3714,13 +3723,20 @@ body > .content {
 
 /*------------------END FLAIR OLD-----------------------*/
 .side {
-  background-color: #EFEDE3;
-  box-shadow: 2px 4px 3px transparent; }
+  background-color: #fff;
+  box-shadow: 2px 4px 3px transparent;
+  margin: 290px 16px 0 0; }
   .side:hover {
-    box-shadow: 2px 4px 3px #C8C8C8; }
+    box-shadow: 2px 4px 3px #fff; }
+
+#search {
+  top: 176px; }
+
+.morelink {
+  top: 228px; }
 
 .link {
-  background-color: #EFEDE3;
+  background-color: #fff;
   border: 1px solid transparent;
   margin: 8px 0;
   box-shadow: 2px 4px 3px transparent; }
