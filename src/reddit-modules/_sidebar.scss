@@ -5,43 +5,16 @@
 
 .side {
   background-color: $sidebar-color;
-  box-shadow: 2px 4px 3px transparent;
-  margin:290px 16px 0 0;
+  box-shadow: $sidebar-box-shadow;
+  margin:$sidebar-margin;
   &:hover {
-    box-shadow: 2px 4px 3px $sidebar-color;
+    box-shadow:$sidebar-hover-box-shadow;
   }
 }
 
-div.side div.spacer:nth-of-type(1) {
-  background: url('%%sidebar1%%');
-  height:240px;
-}
-
-div.side div.spacer:nth-of-type(2):before {
-  content: "sweet it works";
-  width: 100%;
-  display: block;
-  color: #000;
-  padding: 10px 0;
-  font-size: 20px;
-  text-align: center;
-  background-color: #FFF;
-  border: 1px solid #000;
-}
-
-
 #search {
-  top: 176px;
+  top: $search-top;
 }
-
-.morelink {
-
-}
-
-ul.content {
-  border: 1px solid transparent;
-}
-
 
 // submit button
 .morelink  {

@@ -3806,26 +3806,8 @@ body > .content {
   .side:hover {
     box-shadow: 2px 4px 3px #fff; }
 
-div.side div.spacer:nth-of-type(1) {
-  background: url("%%sidebar1%%");
-  height: 240px; }
-
-div.side div.spacer:nth-of-type(2):before {
-  content: "sweet it works";
-  width: 100%;
-  display: block;
-  color: #000;
-  padding: 10px 0;
-  font-size: 20px;
-  text-align: center;
-  background-color: #FFF;
-  border: 1px solid #000; }
-
 #search {
   top: 176px; }
-
-ul.content {
-  border: 1px solid transparent; }
 
 .morelink {
   top: 228px;
