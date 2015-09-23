@@ -3,12 +3,12 @@
 // Author: Mike Fortuna
 // ==========================================================================
 
-//-naut
-@import "naut/naut";
-
 //-global
 @import "global/var";
 @import "global/copy";
+
+//-naut 3.2
+@import "naut/naut";
 
 //-NYR themes
 // CURRENT THEME: home
