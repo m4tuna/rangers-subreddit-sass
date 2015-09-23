@@ -21,11 +21,20 @@
   top: $search-top;
 }
 
+#search input[type="text"]:-ms-input-placeholder::after{
+  content:$search-placeholder-copy;
+}
+
+
 // submit button
 .morelink  {
   top: $submit-top;
   color:$submit-txt-color;
   background-color:$submit-bg;
+}
+
+.disabled .morelink:after{
+  content:$disabled-copy;
 }
 
 // sidebar img

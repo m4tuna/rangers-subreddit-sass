@@ -3087,8 +3087,13 @@ body > .content {
 
 #header .pagename a {
   color: #fff; }
+  #header .pagename a:before {
+    content: "/r/"; }
   #header .pagename a:hover {
     color: #D60642; }
+
+#mail.havemail:before {
+  content: "You have new messages!"; }
 
 #header .tabmenu li a {
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
@@ -3820,10 +3825,16 @@ body > .content {
 #search {
   top: 176px; }
 
+#search input[type="text"]:-ms-input-placeholder::after {
+  content: "Search reddit.."; }
+
 .morelink {
   top: 228px;
   color: #fff;
   background-color: #516ae8; }
+
+.disabled .morelink:after {
+  content: "You must be approved by the moderators in order to submit."; }
 
 div.side div.spacer:nth-of-type(1) {
   background: url("%%sidebar1%%"); }
@@ -3885,6 +3896,9 @@ html:not([lang="ns"]) .footer-parent {
 .footer .flat-vert.title {
   color: #fff; }
 .footer .flat-vert li a {
+  color: #fff; }
+
+p.bottommenu {
   color: #fff; }
 
 #images {

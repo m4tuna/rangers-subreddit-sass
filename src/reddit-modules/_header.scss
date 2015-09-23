@@ -16,7 +16,14 @@ body>.content {
 
 #header .pagename a {
   color:$pagename-color;
+  &:before {
+    content:$pagename-prefix-copy;
+  }
   &:hover {
     color:$pagename-hover;
   }
+}
+
+#mail.havemail:before {
+  content:$have-mail-copy;
 }
