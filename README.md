@@ -3,14 +3,21 @@
 
 SASS theme engine for r-rangers.
 
-How to Implement
+Compiling
 ===============
 
-  1. Compile app.scss ==> app.css
-  2. Open app.css and remove the @charset from line one of the file.
-  3. Copy the CSS and Paste into the subreddit stylesheet text area.
-  4. Hit save!
+  1. Compile src/app.scss ==> src/app.css
+  2. Open src/app.css and remove the @charset from line one of the compiled CSS if needed.
+  3. Paste CSS into the subreddit stylesheet text area.
+  4. Save.
 
+Changing Themes
+===============
+
+  1. Open src/app.scss
+  2. Change the theme path in lines 21-26.
+  3. Paste CSS into the subreddit stylesheet text area.
+  4. Compile.
 
 Built on top of Naut
 ===============
