@@ -4,9 +4,6 @@
 		by Cryptonaut
 
 		-------------------------------------------------------------------------- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300");
-@import url("http://fonts.googleapis.com/css?family=Lato");
-@import url("http://fonts.googleapis.com/css?family=Source+Code+Pro");
 *, :before, :after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -3081,7 +3078,7 @@ input[type="submit"] {
   width: 100%; }
 
 body {
-  background-color: #efefef; }
+  background-color: #234080; }
   body:before {
     background-image: "%%headerimg%%";
     height: 166px; }
@@ -3864,7 +3861,7 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
   background-color: #FFEAEA; }
 
 html:not([lang="ns"]) .footer-parent {
-  background-image: url(true);
+  background-image: url("%%footerbg%%");
   background-repeat: no-repeat;
   background-attachment: none;
   height: 660px;
