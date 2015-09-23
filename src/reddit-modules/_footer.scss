@@ -10,3 +10,14 @@ html:not([lang="ns"]) .footer-parent {
   background-position: $footer-img-position;
   background-size: $footer-img-size;
 }
+
+// footer links
+
+.footer .flat-vert {
+  &.title {
+    color:$footer-link-titles;
+  }
+  li a {
+    color:$footer-link-color;
+  }
+}

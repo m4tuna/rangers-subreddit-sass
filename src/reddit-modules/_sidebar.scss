@@ -7,8 +7,13 @@
   background-color: $sidebar-color;
   box-shadow: $sidebar-box-shadow;
   margin:$sidebar-margin;
+  width:$sidebar-width;
   &:hover {
     box-shadow:$sidebar-hover-box-shadow;
+  }
+  .res #search #searchexpando {
+    width:$sidebar-width;
+    box-shadow: $search-expando-box-shadow;
   }
 }
 

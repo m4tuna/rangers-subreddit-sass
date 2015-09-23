@@ -1,50 +1,20 @@
-// Button colors
-
-$btn-colors: (
-  var-black: $var-black,
-  var-blue: $var-blue,
-  var-white: $var-white,
-  var-grey: $var-grey,
-  var-pink: $var-pink,
-  var-red: $var-red,
-  var-yellow: $var-yellow,
-  var-purple: $var-purple,
-  var-light-brown: $var-light-brown,
-  var-lighter-brown: $var-lighter-brown,
-  var-orange: $var-orange,
-  mod-green: $mod-green,
-  mod-blue: $mod-blue
-);
-
-@each $btn-color, $color in $btn-colors {
-  .btn.#{$btn-color} {
-    background-color:#{$color};
-    color:$var-white;
-    &:hover {
-      background: #{$color};
-      color:$var-white;
-    }
-  }
-}
-
 // Buttons
 
 .btn {
-  padding:15px 20px;
+  padding:$btn-padding;
   color:$var-black;
-  font-family:$open-sans;
   text-decoration: none;
   border-radius:0px;
-  border:2px solid transprent;
+  border:2px solid transparent;
   text-align: center;
   cursor:pointer;
   &.complete {
     cursor:default;
-    background:$var-dark-grey;
-    border-color:$var-dark-grey;
+    background:$dark-grey;
+    border-color:$dark-grey;
     &:hover {
-      background:$var-dark-grey;
-      border-color:$var-dark-grey;
+      background:$dark-grey;
+      border-color:$dark-grey;
     }
   }
   &.mobile {

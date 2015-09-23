@@ -7,6 +7,33 @@
 $grid-columns: 12;
 $grid-max-width: 100em;
 
+//-body
+$body-margin: 212px 332px 0 16px;
+
+//-header
+$header-height: 166px;
+
+//-tabmenu
+$tabmenu-top: 164px;
+
+//-buttons
+$btn-padding: 9px 20px;
+$btn-border-radius: 0px;
+
+//-custom buttons
+$button1-width: 100%;
+$button1-padding: 10px 0;
+
+//-sidebar
+$submit-top: 228px;
+$sidebar-width: 300px;
+$sidebar-margin: 290px 16px 0 0;
+$search-expando-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+$sidebar-box-shadow: 2px 4px 3px transparent;
+$sidebar-hover-box-shadow: 2px 4px 3px $sidebar-color;
+$sidebar-img-height: 240px;
+$search-top: 176px;
+
 //-logo
 $logo-max-width: 250px;
 
@@ -14,38 +41,6 @@ $logo-max-width: 250px;
 $main-row-padding: 1em;
 $main-col-padding: 0;
 $wrapper-padding: 0 2em;
-
-//-nav
-$nav-height: auto;
-$nav-padding: 0 0;
-
-//-mobile nav
-$mobile-nav-height: auto;
-$mobile-nav-padding:0 0 15px;
-
-//-header
-$header-height: 75px;
-$header-col-padding: 10px;
-$header-padding: 0;
-
-//-hero
-$hero-height: 420px;
-$hero-padding: 100px 0;
-$hero-mobile-padding: 80px 0;
-
-//-footer
-$footer-padding: 1em 10%;
-$footer-col-padding: 1em;
-$footer-height: 50px;
-
-//-sidebar
-$sidebar-width: 100px;
-$sidebar-col-padding: 0;
-$sidebar-padding: 10px 5px;
-
-//-buttons
-$btn-padding: 15px 20px;
-$btn-border-radius: 0px;
 
 //-socials
 $social-link-padding: 5px 10px;

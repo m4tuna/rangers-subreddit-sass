@@ -1,12 +1,11 @@
 // Buttons
 
-.btn {
-  padding:15px 20px;
+.btn, button.btn {
+  padding:$btn-padding;
   color:$var-black;
-  font-family:$open-sans;
   text-decoration: none;
   border-radius:0px;
-  border:2px solid transprent;
+  border:2px solid transparent;
   text-align: center;
   cursor:pointer;
   &.complete {

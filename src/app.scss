@@ -18,12 +18,13 @@
 // =====================================
 // nyr-themes/{{option}}/{{include}}
 // =====================================
-@import "nyr-themes/home/modules/buttons";
+
 @import "nyr-themes/home/settings/colors";
 @import "nyr-themes/home/settings/fonts";
 @import "nyr-themes/home/settings/images";
 @import "nyr-themes/home/settings/dimensions";
 @import "nyr-themes/home/settings/settings";
+@import "nyr-themes/home/modules/buttons";
 
 //-mg-core
 @import "mg-core/base/helpers";
@@ -41,6 +42,8 @@
 @import "reddit-modules/links";
 @import "reddit-modules/post";
 @import "reddit-modules/footer";
+@import "reddit-modules/mod";
+@import "reddit-modules/animations";
 
 //mg-responsive
 @import "mg-responsive/ie";

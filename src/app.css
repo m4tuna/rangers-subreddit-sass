@@ -2841,36 +2841,6 @@ body > .content {
     transform: scale(1.5, 1.5);
     -webkit-transform: scale(1.5, 1.5);
     opacity: 0; } }
-.btn {
-  padding: 15px 20px;
-  color: #000;
-  font-family: "Open Sans", sans-serif;
-  text-decoration: none;
-  border-radius: 0px;
-  border: 2px solid transprent;
-  text-align: center;
-  cursor: pointer; }
-  .btn.complete {
-    cursor: default;
-    background: #a6a6a7;
-    border-color: #a6a6a7; }
-    .btn.complete:hover {
-      background: #a6a6a7;
-      border-color: #a6a6a7; }
-  .btn.mobile {
-    display: none; }
-  .btn.block, .btn.submit {
-    display: block;
-    clear: both;
-    width: 100%; }
-  .btn.var-white {
-    color: #000; }
-    .btn.var-white:hover {
-      color: #000; }
-  .btn.submit {
-    width: 50%;
-    margin: 15px auto 0; }
-
 .btn.btn-black {
   background-color: #000; }
 
@@ -2900,6 +2870,35 @@ body > .content {
 
 .btn.btn-light-blue {
   background-color: #588bcd; }
+
+.btn, button.btn {
+  padding: 9px 20px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 0px;
+  border: 2px solid transparent;
+  text-align: center;
+  cursor: pointer; }
+  .btn.complete, button.btn.complete {
+    cursor: default;
+    background: #a6a6a7;
+    border-color: #a6a6a7; }
+    .btn.complete:hover, button.btn.complete:hover {
+      background: #a6a6a7;
+      border-color: #a6a6a7; }
+  .btn.mobile, button.btn.mobile {
+    display: none; }
+  .btn.block, .btn.submit, button.btn.submit, button.btn.block, button.btn.submit {
+    display: block;
+    clear: both;
+    width: 100%; }
+  .btn.var-white, button.btn.var-white {
+    color: #000; }
+    .btn.var-white:hover, button.btn.var-white:hover {
+      color: #000; }
+  .btn.submit, button.btn.submit {
+    width: 50%;
+    margin: 15px auto 0; }
 
 .wrapper, .row {
   /* *zoom: 1; */ }
@@ -3099,6 +3098,17 @@ body > .content {
 
 #header-bottom-left {
   top: 164px; }
+
+#header-img.default-header, #header-img {
+  z-index: 99;
+  width: 0;
+  padding-left: 48px;
+  height: 48px;
+  background-image: url("%%spritesheet%%");
+  background-position: -208px -48px;
+  position: relative;
+  top: 0;
+  margin: 0; }
 
 .linkflair .linkflairlabel {
   padding: 2px;
@@ -3799,9 +3809,13 @@ body > .content {
 .side {
   background-color: #fff;
   box-shadow: 2px 4px 3px transparent;
-  margin: 290px 16px 0 0; }
+  margin: 290px 16px 0 0;
+  width: 300px; }
   .side:hover {
     box-shadow: 2px 4px 3px #fff; }
+  .side .res #search #searchexpando {
+    width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); }
 
 #search {
   top: 176px; }
@@ -3867,3 +3881,15 @@ html:not([lang="ns"]) .footer-parent {
   height: 660px;
   background-position: bottom 0px center;
   background-size: 50%; }
+
+.footer .flat-vert.title {
+  color: #fff; }
+.footer .flat-vert li a {
+  color: #fff; }
+
+#images {
+  height: auto;
+  float: left; }
+
+.titlebox .fancy-toggle-button .remove:after {
+  content: "Unsubscribe =("; }

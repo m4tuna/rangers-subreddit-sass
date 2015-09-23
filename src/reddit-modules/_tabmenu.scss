@@ -13,3 +13,16 @@
 #header-bottom-left {
   top: $tabmenu-top;
 }
+
+// tabmenu reddit winky
+#header-img.default-header, #header-img {
+  z-index: 99;
+  width: 0;
+  padding-left: $tab-menu-left-padding;
+  height: $tab-menu-left-height;
+  background-image: url($tab-menu-left-img);
+  background-position:$tab-menu-left-bg-position ;
+  position: relative;
+  top: 0;
+  margin: 0;
+}
