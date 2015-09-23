@@ -3,6 +3,7 @@
 // ==========================================================================
 
 //-dev
+// highlights layers of divs to illuminate margin, padding and z-index issues
 $dev-mode: false;
 
 //-logo
@@ -26,8 +27,7 @@ $full-width-header-mobile: false;
 $full-width-main-mobile: true;
 
 //-footer
-$full-width-footer-mobile: false;
-$sticky-footer: true;
+$footer-img: true;
 
 //-sidebar
 $add-sidebar: false;
