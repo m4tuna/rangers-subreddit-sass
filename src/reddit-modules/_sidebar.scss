@@ -35,5 +35,35 @@ div.side div.spacer:nth-of-type(2):before {
 }
 
 .morelink {
-  top: 228px;
+
+}
+
+ul.content {
+  border: 1px solid transparent;
+}
+
+
+// submit button
+.morelink  {
+  top: $submit-top;
+  color:$submit-txt-color;
+  background-color:$submit-bg;
+}
+
+// sidebar img
+div.side div.spacer:nth-of-type(1) {
+  background:url($sidebar-img);
+}
+
+// sidebar custom buttons
+div.side div.spacer:nth-of-type(2):before {
+  content: $button-1-copy;
+  width: $button1-width;
+  display: block;
+  color: $button1-txt-color;
+  padding: $button1-padding;
+  font-size: $button1-fsz;
+  text-align: center;
+  background-color: $button1-bg-color;
+  border: 1px solid $button1-border-color;
 }

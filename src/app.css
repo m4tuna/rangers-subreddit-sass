@@ -7,9 +7,6 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300");
 @import url("http://fonts.googleapis.com/css?family=Lato");
 @import url("http://fonts.googleapis.com/css?family=Source+Code+Pro");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300");
-@import url("http://fonts.googleapis.com/css?family=Lato");
-@import url("http://fonts.googleapis.com/css?family=Source+Code+Pro");
 *, :before, :after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -3084,25 +3081,27 @@ input[type="submit"] {
   width: 100%; }
 
 body {
-  background-color: #234080; }
+  background-color: #efefef; }
+  body:before {
+    background-image: "%%headerimg%%";
+    height: 166px; }
 
 body > .content {
   margin: 212px 332px 0 16px; }
 
+#header .pagename a {
+  color: #fff; }
+  #header .pagename a:hover {
+    color: #D60642; }
+
+#header .tabmenu li a {
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  color: #fff; }
+  #header .tabmenu li a:hover {
+    color: #fff; }
+
 #header-bottom-left {
   top: 164px; }
-
-#header .pagename a:hover {
-  color: #D60642; }
-
-.content {
-  border: 1px solid transparent; }
-
-.link {
-  background-color: #FFF; }
-
-div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
-  border-color: #D60642; }
 
 .linkflair .linkflairlabel {
   padding: 2px;
@@ -3825,8 +3824,27 @@ div.side div.spacer:nth-of-type(2):before {
 #search {
   top: 176px; }
 
+ul.content {
+  border: 1px solid transparent; }
+
 .morelink {
-  top: 228px; }
+  top: 228px;
+  color: #fff;
+  background-color: #516ae8; }
+
+div.side div.spacer:nth-of-type(1) {
+  background: url("%%sidebar1%%"); }
+
+div.side div.spacer:nth-of-type(2):before {
+  content: "sweet it works";
+  width: 100%;
+  display: block;
+  color: #000;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #fff; }
 
 .link {
   background-color: #fff;
@@ -3850,9 +3868,12 @@ div.side div.spacer:nth-of-type(2):before {
   color: #2B4877; }
 
 .entry .buttons li a {
-  color: #fff; }
+  color: #2F5594; }
   .entry .buttons li a.comments {
     color: #DF011E; }
+
+div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
+  border-color: #D60642; }
 
 .commentarea > .usertext {
   background-color: #EAF5FF; }
@@ -3861,7 +3882,9 @@ div.side div.spacer:nth-of-type(2):before {
   background-color: #FFEAEA; }
 
 html:not([lang="ns"]) .footer-parent {
-  background: url("%%footerbg%%") no-repeat;
+  background-image: url(true);
+  background-repeat: no-repeat;
+  background-attachment: none;
   height: 660px;
   background-position: bottom 0px center;
   background-size: 50%; }

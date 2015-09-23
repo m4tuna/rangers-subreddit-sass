@@ -5,23 +5,47 @@
 
 //-pagename
 $pagename-hover: $rangers-red;
+$pagename-color: $var-white;
+$body-bg-color: #234080;
+
+//-primary-colors
 $active-post-border: $rangers-red;
 $sidebar-color: $var-white;
 $link-bg: $var-white;
+
+//-tabmenu
+$tabmenu-anchor-color: $var-white;
+$tabmenu-anchor-hover: $var-white;
+$tabmenu-anchor-text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+
+//-sidebar
+$submit-txt-color: $var-white;
+$submit-bg: #516ae8;
+
+//-custom buttons
+$button1-txt-color: $var-black;
+$button1-border-color: $var-white;
+$button1-bg-color: transparent;
 
 //-body
 $body-bg-color: $light-grey;
 $body-text-color: $var-black;
 
-//-global link
-$link-color: $var-white;
-$link-hover: $var-black;
+//-main links
+$main-link-bg-color: $var-white;
+$main-link-txt-color: $var-white;
+$main-link-hover: #EAF5FF;
+$main-link-border-color: rgba(199, 199, 199, 1);
+$main-link-box-shadow-color: #C8C8C8;
+$main-link-last-clicked-bg: #E7E5DA;
+$main-link-stickied-txt-color: #2F5594!important;
+$main-link-comments-anchor: #DF011E;
 
-//-header
-$header-bg-color: $var-black;
-$header-text-color: $var-white;
-$header-link-color: $var-white;
-$header-link-hover: $var-grey;
+$like-score: #F5092A;
+
+//-anchors
+$anchor-color: #2F5594;
+$anchor-hover: $var-black;
 
 
 //-buttons
@@ -49,10 +73,3 @@ $btn-colors: (
     background-color:#{$color};
   }
 }
-
-//-social icons
-$social-bg-color: $var-white;
-$social-text-color: $var-black;
-
-//-code
-$code-bg-color: rgba(193, 199, 208, .3);

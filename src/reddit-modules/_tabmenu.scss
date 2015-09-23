@@ -1,0 +1,15 @@
+// ==========================================================================
+// Tabmenu
+// ==========================================================================
+
+#header .tabmenu li a {
+  text-shadow: $tabmenu-anchor-text-shadow;
+  color:$tabmenu-anchor-color;
+  &:hover {
+    color:$tabmenu-anchor-hover;
+  }
+}
+
+#header-bottom-left {
+  top: $tabmenu-top;
+}

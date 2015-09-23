@@ -3,19 +3,19 @@
 // ==========================================================================
 
 body {
-  background-color: $page-bg-color;
+  background-color: $body-bg-color;
+  &:before {
+    background-image: $header-img;
+    height: $header-height;
+  }
 }
 
 body>.content {
-  margin: 212px 332px 0 16px;
-}
-
-
-#header-bottom-left {
-  top: 164px;
+  margin: $body-margin;
 }
 
 #header .pagename a {
+  color:$pagename-color;
   &:hover {
     color:$pagename-hover;
   }

@@ -1,28 +1,28 @@
 // ==========================================================================
-// Links
+// Main Links
 // ==========================================================================
 
 .link {
-  background-color: $link-bg;
+  background-color: $main-link-bg-color;
   border: 1px solid transparent;
   margin: 8px 0;
   box-shadow: 2px 4px 3px transparent;
   &:hover {
-    background-color: #EAF5FF;
-    border: 1px solid rgba(199, 199, 199, 1);
-    box-shadow: 2px 4px 3px #C8C8C8;
+    background-color: $main-link-hover;
+    border: 1px solid $main-link-border-color;
+    box-shadow: 2px 4px 3px $main-link-box-shadow-color;
   }
   .score.likes {
-    color: #F5092A;
+    color: $like-score;
   }
 }
 
 .link.last-clicked {
-  background-color: #E7E5DA;
+  background-color: $main-link-last-clicked-bg;
 }
 
 .thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {
-  color:#2F5594!important;
+  color:$main-link-stickied-txt-color;
 }
 
 .thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {
@@ -30,8 +30,11 @@
 }
 
 .entry .buttons li a {
-  color: $link-color;
+  color: $anchor-color;
   &.comments {
-    color: #DF011E;
+    color: $main-link-comments-anchor;
   }
+}
+div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
+  border-color:$active-post-border;
 }
