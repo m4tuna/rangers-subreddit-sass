@@ -1,0 +1,58 @@
+// ==========================================================================
+// Color Config
+// ==========================================================================
+
+
+//-pagename
+$pagename-hover: $rangers-red;
+$active-post-border: $rangers-red;
+$sidebar-color: $var-white;
+$link-bg: $var-white;
+
+//-body
+$body-bg-color: $light-grey;
+$body-text-color: $var-black;
+
+//-global link
+$link-color: $var-white;
+$link-hover: $var-black;
+
+//-header
+$header-bg-color: $var-black;
+$header-text-color: $var-white;
+$header-link-color: $var-white;
+$header-link-hover: $var-grey;
+
+
+//-buttons
+$btn-text-color: $var-black;
+$btn-border-size: 2px;
+$btn-border-style: solid;
+$btn-border-color: transparent;
+
+//-buttons mapping
+$btn-colors: (
+  btn-black: $var-black,
+  btn-blue: $var-blue,
+  btn-white: $var-white,
+  btn-grey: $var-grey,
+  btn-pink: $var-pink,
+  btn-red: $var-red,
+  btn-yellow: $var-yellow,
+  btn-purple: $var-purple,
+  btn-orange: $var-orange,
+  btn-light-blue: $light-blue
+);
+
+@each $btn-color, $color in $btn-colors {
+  .btn.#{$btn-color} {
+    background-color:#{$color};
+  }
+}
+
+//-social icons
+$social-bg-color: $var-white;
+$social-text-color: $var-black;
+
+//-code
+$code-bg-color: rgba(193, 199, 208, .3);

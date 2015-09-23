@@ -3,38 +3,48 @@
 // Author: Mike Fortuna
 // ==========================================================================
 
-// BASE
+//-naut
+@import "naut/naut";
 
-@import "base/variables";
-@import "base/mixins";
-@import "base/media-mixins";
-@import "base/grid";
+//-global
+@import "global/fonts";
+@import "global/var";
 
+//-NYR themes
+// CURRENT THEME: home
+// To swap themes, change path option:
+// options:
+//  default, home, away, third, allstar, playoffs2016
+// =====================================
+// nyr-themes/{{option}}/{{include}}
+// =====================================
+@import "nyr-themes/home/modules/buttons";
+@import "nyr-themes/home/settings/colors";
+@import "nyr-themes/home/settings/fonts";
+@import "nyr-themes/home/settings/images";
+@import "nyr-themes/home/settings/dimensions";
+@import "nyr-themes/home/settings/settings";
 
-// THEMES
-// CURRENT THEME: THIRD
-// OPTIONS: DEFAULT, HOME, AWAY, THIRD, ALLSTAR, PLAYOFFS2016
-
-@import "themes/home/colors";
-@import "themes/home/buttons";
-@import "themes/home/fonts";
-
-// VENDOR
-
-@import "vendor/naut";
-
-// MODULES
-
-@import "modules/header";
-@import "modules/main";
-@import "modules/flair";
-@import "modules/single";
-@import "modules/sidebar";
-@import "modules/links";
-@import "modules/post";
-@import "modules/footer";
+//-mg-core
+@import "mg-core/base/helpers";
+@import "mg-core/base/mixins";
+@import "mg-core/base/reset";
+@import "mg-core/base/print";
+@import "mg-core/base/grid";
 
 
-// RESPONSIVE
+//-reddit modules
+@import "reddit-modules/header";
+@import "reddit-modules/main";
+@import "reddit-modules/flair";
+@import "reddit-modules/single";
+@import "reddit-modules/sidebar";
+@import "reddit-modules/links";
+@import "reddit-modules/post";
+@import "reddit-modules/footer";
 
-@import "base/responsive";
+//mg-responsive
+@import "mg-responsive/ie";
+@import "mg-responsive/tablet";
+@import "mg-responsive/mobile";
+@import "mg-responsive/desktop";

@@ -1,0 +1,59 @@
+// ==========================================================================
+// Load in Fonts
+// ==========================================================================
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300');
+@import url('http://fonts.googleapis.com/css?family=Lato');
+@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+//-body
+$body-fsz: 14px;
+$body-fw: 'normal';
+$body-font: $sans;
+
+//-header
+$header-fsz: 14px;
+$header-fw: 'normal';
+$header-font: $sans;
+
+//-section
+$section-fsz: 14px;
+$section-fw: 'normal';
+$section-font: $sans;
+
+//-article
+$article-fsz: 14px;
+$article-fw: 'normal';
+$article-font: $sans;
+
+//-nav
+$nav-fsz: 14px;
+$nav-fw: 'normal';
+$nav-link-font: $sans;
+
+//-mobile nav
+$mobile-nav-fsz: 20px;
+$nav-toggle-fsz: 28px;
+
+//-hero
+$hero-fsz: 14px;
+$hero-fw: 'normal';
+$hero-font: $sans;
+
+//-main
+$main-fsz: 14px;
+$main-fw: 'normal';
+$main-font: $sans;
+
+//-sidebar
+$sidebar-fsz: 14px;
+$sidebar-fw: 'normal';
+$sidebar-font: $sans;
+
+//-footer
+$footer-fsz: 14px;
+$footer-fw: 'normal';
+$footer-font: $sans;
+
+//-buttons
+$btn-font: $open-sans;
