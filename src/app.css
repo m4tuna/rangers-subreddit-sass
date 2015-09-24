@@ -3823,7 +3823,8 @@ body > .content {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); }
 
 #search {
-  top: 176px; }
+  top: 176px;
+  z-index: 555; }
 
 #search input[type="text"]:-ms-input-placeholder::after {
   content: "Search reddit.."; }
@@ -3840,15 +3841,49 @@ div.side div.spacer:nth-of-type(1) {
   background: url("%%sidebar1%%"); }
 
 div.side div.spacer:nth-of-type(2):before {
-  content: "sweet it works";
+  content: "FB";
   width: 100%;
   display: block;
-  color: #000;
+  color: #fff;
   padding: 10px 0;
   font-size: 20px;
   text-align: center;
-  background-color: transparent;
+  background-color: #495699;
   border: 1px solid #fff; }
+
+div.side div.spacer:nth-of-type(3):before {
+  content: "Twitter";
+  width: 100%;
+  display: block;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: #99bef3;
+  border: 1px solid #fff; }
+
+div.side div.spacer:nth-of-type(4):before {
+  content: "Instagram";
+  width: 100%;
+  display: block;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: #455b84;
+  border: 1px solid #fff; }
+
+div.side div.spacer:nth-of-type(5):before {
+  content: "Youtube";
+  width: 100%;
+  display: block;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  background-color: #a8462a;
+  border: 1px solid #fff;
+  margin-bottom: 30px; }
 
 .link {
   background-color: #fff;
@@ -3857,8 +3892,7 @@ div.side div.spacer:nth-of-type(2):before {
   box-shadow: 2px 4px 3px transparent; }
   .link:hover {
     background-color: #EAF5FF;
-    border: 1px solid #c7c7c7;
-    box-shadow: 2px 4px 3px #C8C8C8; }
+    border: 1px solid #c7c7c7; }
   .link .score.likes {
     color: #F5092A; }
 
@@ -3889,9 +3923,27 @@ html:not([lang="ns"]) .footer-parent {
   background-image: url("%%footerbg%%");
   background-repeat: no-repeat;
   background-attachment: none;
-  height: 660px;
-  background-position: bottom 0px center;
-  background-size: 50%; }
+  height: 780px;
+  background-position: bottom 100px center;
+  background-size: "";
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+  border-bottom: 50px solid #D60642;
+  position: relative;
+  padding-bottom: 100px; }
+  html:not([lang="ns"]) .footer-parent:after {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    height: 750px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 50px solid #fff;
+    box-shadow: 20px 160px 0px 20px #fff; }
 
 .footer .flat-vert.title {
   color: #fff; }

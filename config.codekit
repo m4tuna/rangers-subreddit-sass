@@ -61,7 +61,18 @@
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7792,
 		"inputAbbreviatedPath": "\/Images\/noresults.png",
-		"outputAbbreviatedPath": "\/Images\/noresults.png",
+		"outputAbbreviatedPath": "\/Images\/noresults1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/noresults1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7792,
+		"inputAbbreviatedPath": "\/Images\/noresults1.png",
+		"outputAbbreviatedPath": "\/Images\/noresults1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
