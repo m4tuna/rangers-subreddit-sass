@@ -126,7 +126,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/app.scss",
-		"outputAbbreviatedPath": "\/src\/theme-home.css",
+		"outputAbbreviatedPath": "\/theme-home.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
@@ -1414,11 +1414,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme-home.css": {
+	"\/theme-home.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme-home.css",
+		"inputAbbreviatedPath": "\/theme-home.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
