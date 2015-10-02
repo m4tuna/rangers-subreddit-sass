@@ -2,7 +2,7 @@
 // Sidebar
 // ==========================================================================
 
-
+// side
 
 .side {
   background-color: $sidebar-color;
@@ -15,7 +15,7 @@
     content:' ';
     height: $sidebar-img-height;
     width: 100%;
-    background-repeat: no-repeat;
+    background-repeat: $sidebar-img-bg-repeat;
     display: block;
     background-size: $sidebar-img-bg-size ;
     margin-top: 10px;
@@ -28,6 +28,8 @@
     box-shadow: $search-expando-box-shadow;
   }
 }
+
+// search
 
 #search {
   top: $search-top;
@@ -44,6 +46,18 @@
   top: $submit-top;
   color:$submit-txt-color;
   background-color:$submit-bg;
+  text-transform: uppercase;
+  @include transition-all(0.3s);
+  &:hover {
+    height:$submit-height;
+    background-color:$rangers-blue;
+    border-top: 5px solid $rangers-red;
+    border-bottom: 5px solid $rangers-red;
+  }
+  a {
+    letter-spacing:5px;
+    color:$submit-txt-color;
+  }
 }
 
 .disabled .morelink:after{

@@ -6,7 +6,7 @@
 //-pagename
 $pagename-hover: $rangers-red;
 $pagename-color: $var-white;
-$body-bg-color: #234080;
+$body-bg-color: $rangers-blue;
 
 //-primary-colors
 $active-post-border: $rangers-red;
@@ -20,7 +20,8 @@ $tabmenu-anchor-text-shadow: 0 1px 8px rgba(0,0,0,0.5);
 
 //-sidebar
 $submit-txt-color: $var-white;
-$submit-bg: #516ae8;
+$submit-bg: $rangers-red;
+$submit-bg-border-color: $rangers-red;
 
 //-custom buttons
 $button1-txt-color: $var-white;

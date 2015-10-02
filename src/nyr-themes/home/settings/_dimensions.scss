@@ -7,14 +7,18 @@
 $grid-columns: 12;
 $grid-max-width: 100em;
 
-//-body
-$body-margin: 212px 332px 0 16px;
+$header-height: 500px;
 
-//-header
-$header-height: 166px;
+//-calc position from top based on header height
+$body-margin: $header-height+50 332px 0 16px;
+$search-top: $header-height + 10;
+$tabmenu-top: $header-height - 2;
+$submit-top: $header-height+60;
+$sidebar-margin: $header-height + 110 16px 0 0;
 
-//-tabmenu
-$tabmenu-top: 164px;
+$single-linkinfo-top: $header-height + 110;
+$single-sidebar-top: $header-height + 235;
+
 
 //-buttons
 $btn-padding: 9px 20px;
@@ -39,13 +43,13 @@ $footer-parent-after-height: 730px;
 
 
 //-sidebar
-$submit-top: 228px;
+$submit-height: 45px;
 $sidebar-width: 300px;
-$sidebar-margin: 290px 16px 0 0;
+
 $search-expando-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 $sidebar-box-shadow: 2px 4px 3px transparent;
 $sidebar-hover-box-shadow: 2px 4px 3px $sidebar-color;
-$search-top: 176px;
+
 
 //-logo
 $logo-max-width: 250px;

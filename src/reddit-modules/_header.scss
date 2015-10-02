@@ -5,8 +5,10 @@
 body {
   background-color: $body-bg-color;
   &:before {
-    background-image: $header-img;
+    background-image: url($rangerstown-banner);
     height: $header-height;
+    background-size: cover;
+    background-position: center center;
   }
 }
 

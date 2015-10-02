@@ -2917,6 +2917,32 @@ body > .content {
 [class*='column-'].left {
   text-align: left; }
 
+@-webkit-keyframes brotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes brotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
 /**
 
   @reset
@@ -3079,11 +3105,13 @@ input[type="submit"] {
 body {
   background-color: #234080; }
   body:before {
-    background-image: "%%headerimg%%";
-    height: 166px; }
+    background-image: url("%%rangerstown%%");
+    height: 500px;
+    background-size: cover;
+    background-position: center center; }
 
 body > .content {
-  margin: 212px 332px 0 16px; }
+  margin: 550px 332px 0 16px; }
 
 #header .pagename a {
   color: #fff; }
@@ -3102,7 +3130,7 @@ body > .content {
     color: #fff; }
 
 #header-bottom-left {
-  top: 164px; }
+  top: 498px; }
 
 #header-img.default-header, #header-img {
   z-index: 99;
@@ -3808,13 +3836,15 @@ body > .content {
   background-position: -42px -420px; }
 
 /*------------------END FLAIR OLD-----------------------*/
-.single-page .morelink {
-  top: 322px; }
+.comments-page .side, .res.comments-page .side {
+  margin-top: 735px; }
+  .comments-page .side .linkinfo, .res.comments-page .side .linkinfo {
+    top: 610px; }
 
 .side {
   background-color: #fff;
   box-shadow: 2px 4px 3px transparent;
-  margin: 290px 16px 0 0;
+  margin: 610px 16px 0 0;
   width: 300px; }
   .side:before {
     background-image: url("%%sidebar1%%");
@@ -3832,16 +3862,28 @@ body > .content {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); }
 
 #search {
-  top: 176px;
+  top: 510px;
   z-index: 555; }
 
 #search input[type="text"]:-ms-input-placeholder::after {
   content: "Search reddit.."; }
 
 .morelink {
-  top: 228px;
+  top: 560px;
   color: #fff;
-  background-color: #516ae8; }
+  background-color: #D60642;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .morelink:hover {
+    height: 45px;
+    background-color: #234080;
+    border-top: 5px solid #D60642;
+    border-bottom: 5px solid #D60642; }
+  .morelink a {
+    letter-spacing: 5px;
+    color: #fff; }
 
 .disabled .morelink:after {
   content: "You must be approved by the moderators in order to submit."; }
