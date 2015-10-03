@@ -1,4 +1,13 @@
 @charset "UTF-8";
+/* $home-theme    : true;
+$away-theme    : false;
+$third-theme   : false;
+$playoffs-theme : false;
+
+
+other
+
+ */
 /*
 		Naut 3.2
 		by Cryptonaut
@@ -2871,35 +2880,6 @@ body > .content {
 .btn.btn-light-blue {
   background-color: #588bcd; }
 
-.btn, button.btn {
-  padding: 9px 20px;
-  color: #000;
-  text-decoration: none;
-  border-radius: 0px;
-  border: 2px solid transparent;
-  text-align: center;
-  cursor: pointer; }
-  .btn.complete, button.btn.complete {
-    cursor: default;
-    background: #a6a6a7;
-    border-color: #a6a6a7; }
-    .btn.complete:hover, button.btn.complete:hover {
-      background: #a6a6a7;
-      border-color: #a6a6a7; }
-  .btn.mobile, button.btn.mobile {
-    display: none; }
-  .btn.block, .btn.submit, button.btn.submit, button.btn.block, button.btn.submit {
-    display: block;
-    clear: both;
-    width: 100%; }
-  .btn.var-white, button.btn.var-white {
-    color: #000; }
-    .btn.var-white:hover, button.btn.var-white:hover {
-      color: #000; }
-  .btn.submit, button.btn.submit {
-    width: 50%;
-    margin: 15px auto 0; }
-
 .wrapper, .row {
   /* *zoom: 1; */ }
   .wrapper:before, .row:before, .wrapper:after, .row:after {
@@ -3861,6 +3841,9 @@ body > .content {
     width: 300px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); }
 
+.res .titlebox .tagline {
+  margin-top: 5px; }
+
 #search {
   top: 510px;
   z-index: 555; }
@@ -3937,7 +3920,7 @@ html:not([lang="ns"]) .footer-parent {
   position: relative;
   padding-bottom: 100px; }
   html:not([lang="ns"]) .footer-parent:after {
-    content: "/r/rangers theme: home";
+    content: "home";
     color: #fff;
     position: absolute;
     z-index: -1;
@@ -3963,3 +3946,32 @@ p.bottommenu {
 
 .titlebox .fancy-toggle-button .remove:after {
   content: "Unsubscribe =("; }
+
+.btn, button.btn {
+  padding: 9px 20px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 0px;
+  border: 2px solid transparent;
+  text-align: center;
+  cursor: pointer; }
+  .btn.complete, button.btn.complete {
+    cursor: default;
+    background: #a6a6a7;
+    border-color: #a6a6a7; }
+    .btn.complete:hover, button.btn.complete:hover {
+      background: #a6a6a7;
+      border-color: #a6a6a7; }
+  .btn.mobile, button.btn.mobile {
+    display: none; }
+  .btn.block, .btn.submit, button.btn.submit, button.btn.block, button.btn.submit {
+    display: block;
+    clear: both;
+    width: 100%; }
+  .btn.var-white, button.btn.var-white {
+    color: #000; }
+    .btn.var-white:hover, button.btn.var-white:hover {
+      color: #000; }
+  .btn.submit, button.btn.submit {
+    width: 50%;
+    margin: 15px auto 0; }

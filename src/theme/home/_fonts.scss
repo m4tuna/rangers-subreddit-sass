@@ -1,0 +1,16 @@
+// ==========================================================================
+// Fonts
+// ==========================================================================
+@if $current-theme == "home" {
+  //-body
+  $body-fsz: 14px;
+  $body-fw: 'normal';
+  $body-font: $sans;
+
+  //-sidebar
+  $button1-fsz: 20px;
+  $button2-fsz: 20px;
+  $button3-fsz: 20px;
+  $button4-fsz: 20px;
+
+}

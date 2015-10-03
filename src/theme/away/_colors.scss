@@ -1,0 +1,99 @@
+// ==========================================================================
+// Home Color Config
+// ==========================================================================
+@if $current-theme == "away" {
+
+  //-pagename
+  $pagename-hover: $rangers-red;
+  $pagename-color: $var-white;
+  $body-bg-color: $rangers-blue;
+
+  //-primary-colors
+  $active-post-border: $rangers-red;
+  $sidebar-color: $var-white;
+  $link-bg: $var-white;
+
+  //-tabmenu
+  $tabmenu-anchor-color: $var-white;
+  $tabmenu-anchor-hover: $var-white;
+  $tabmenu-anchor-text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+
+  //-sidebar
+  $submit-txt-color: $var-white;
+  $submit-bg: $rangers-red;
+  $submit-bg-border-color: $rangers-red;
+
+  //-custom buttons
+  $button1-txt-color: $var-white;
+  $button1-border-color: $var-white;
+  $button1-bg-color: $fb-blue;
+
+  $button2-txt-color: $var-white;
+  $button2-border-color: $var-white;
+  $button2-bg-color: $tw-blue;
+
+  $button3-txt-color: $var-white;
+  $button3-border-color: $var-white;
+  $button3-bg-color: $insta-blue;
+
+  $button4-txt-color: $var-white;
+  $button4-border-color: $var-white;
+  $button4-bg-color: $yt-red;
+
+  //-body
+  $body-bg-color: $rangers-blue;
+  $body-text-color: $var-black;
+
+  //-main links
+  $main-link-bg-color: $var-white;
+  $main-link-txt-color: $var-white;
+  $main-link-hover: #EAF5FF;
+  $main-link-border-color: rgba(199, 199, 199, 1);
+  $main-link-box-shadow: 2px 4px 3px #C8C8C8;
+  $main-link-last-clicked-bg: #E7E5DA;
+  $main-link-stickied-txt-color: #2F5594!important;
+  $main-link-comments-anchor: #DF011E;
+
+  $like-score: #F5092A;
+
+  //-anchors
+  $anchor-color: #2F5594;
+  $anchor-hover: $var-black;
+
+  //-footer
+  $footer-link-titles: $var-white;
+  $footer-link-color: $var-white;
+
+  $footer-stripe1: $var-white;
+  $footer-stripe2: $rangers-red;
+  $footer-stripe3: $var-white;
+
+  $theme-name-color: $var-white;
+
+  //-buttons
+  $btn-text-color: $var-black;
+  $btn-border-size: 2px;
+  $btn-border-style: solid;
+  $btn-border-color: transparent;
+
+  //-buttons mapping
+  $btn-colors: (
+  btn-black: $var-black,
+  btn-blue: $var-blue,
+  btn-white: $var-white,
+  btn-grey: $var-grey,
+  btn-pink: $var-pink,
+  btn-red: $var-red,
+  btn-yellow: $var-yellow,
+  btn-purple: $var-purple,
+  btn-orange: $var-orange,
+  btn-light-blue: $light-blue
+  );
+
+  @each $btn-color, $color in $btn-colors {
+    .btn.#{$btn-color} {
+      background-color:#{$color};
+    }
+  }
+
+}

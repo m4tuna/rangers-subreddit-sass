@@ -5,26 +5,38 @@
 
 //-global
 @import "global/var";
+@import "global/define";
 @import "global/copy";
+@import "global/options";
 
 //-naut 3.2
 @import "naut/naut";
 
-//-NYR themes
-// CURRENT THEME: home
-// To swap themes, change path option:
-// options:
-//  default, home, away, third, allstar, playoffs2016
-// =====================================
-// nyr-themes/{{option}}/{{include}}
-// =====================================
+//-themes
+@import "theme/home/colors";
+@import "theme/home/fonts";
+@import "theme/home/images";
+@import "theme/home/dimensions";
+@import "theme/home/settings";
 
-@import "nyr-themes/home/settings/colors";
-@import "nyr-themes/home/settings/fonts";
-@import "nyr-themes/home/settings/images";
-@import "nyr-themes/home/settings/dimensions";
-@import "nyr-themes/home/settings/settings";
-@import "nyr-themes/home/modules/buttons";
+@import "theme/away/colors";
+@import "theme/away/fonts";
+@import "theme/away/images";
+@import "theme/away/dimensions";
+@import "theme/away/settings";
+
+@import "theme/third/colors";
+@import "theme/third/fonts";
+@import "theme/third/images";
+@import "theme/third/dimensions";
+@import "theme/third/settings";
+
+@import "theme/playoffs/colors";
+@import "theme/playoffs/fonts";
+@import "theme/playoffs/images";
+@import "theme/playoffs/dimensions";
+@import "theme/playoffs/settings";
+
 
 //-mg-core
 @import "mg-core/base/helpers";
@@ -39,12 +51,14 @@
 @import "reddit-modules/tabmenu";
 @import "reddit-modules/flair";
 @import "reddit-modules/single";
+@import "reddit-modules/submit-page";
 @import "reddit-modules/sidebar";
 @import "reddit-modules/links";
 @import "reddit-modules/post";
 @import "reddit-modules/footer";
 @import "reddit-modules/mod";
 @import "reddit-modules/animations";
+@import "reddit-modules/buttons";
 
 //mg-responsive
 @import "mg-responsive/ie";

@@ -1,0 +1,43 @@
+// ==========================================================================
+// Images
+// ==========================================================================
+@if $current-theme == "home" {
+  //-body
+  $body-bg-image:'' ;
+  $body-bg-attachment: none ;
+  $body-bg-position: 0 0;
+  $body-bg-repeat: no-repeat;
+  $body-bg-size: cover;
+
+  //-header
+  $header-img: '%%headerimg%%';
+  $rangerstown-banner: '%%rangerstown%%';
+
+  //-sprite
+  $naut-sprite: '%%spritesheet%%';
+
+  //-tabmenu
+  $tab-menu-left-img: $naut-sprite;
+  $tab-menu-left-bg-position: -208px -48px;
+  $tab-menu-left-padding: 48px;
+  $tab-menu-left-height: 48px;
+
+  //-sidebar
+  $sidebar-img: '%%sidebar1%%';
+  $sidebar-img-height: 350px;
+  $sidebar-img-bg-size: cover;
+  $sidebar-img-bg-repeat: no-repeat;
+
+  $sidebar-bg-image: '';
+  $sidebar-bg-attachment: none;
+  $sidebar-bg-position: 0 0;
+  $sidebar-bg-repeat: no-repeat;
+  $sidebar-bg-size: cover;
+
+  //-footer
+  $footer-img: "%%footerbg%%";
+  $footer-img-attachment: none;
+  $footer-img-position: bottom 100px center;
+  $footer-img-repeat: no-repeat;
+  $footer-img-size: '';
+}

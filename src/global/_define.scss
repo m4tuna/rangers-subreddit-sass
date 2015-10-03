@@ -1,0 +1,182 @@
+// ==========================================================================
+// Define Vars for @if
+// ==========================================================================
+
+//-defining all variables within theme @if scopes
+$sidebar-color: null;
+$pagename-hover: null;
+$pagename-color: null;
+$body-bg-color: null;
+
+//-primary-colors
+$active-post-border: null;
+$sidebar-color: null;
+$link-bg: null;
+
+//-tabmenu
+$tabmenu-anchor-color: null;
+$tabmenu-anchor-hover: null;
+$tabmenu-anchor-text-shadow: null;
+
+//-sidebar
+$submit-txt-color:null;
+$submit-bg: null;
+$submit-bg-border-color: null;
+
+//-custom buttons
+$button1-txt-color: null;
+$button1-border-color: null;
+$button1-bg-color: null;
+
+$button2-txt-color: null;
+$button2-border-color: null;
+$button2-bg-color: null;
+
+$button3-txt-color: null;
+$button3-border-color: null;
+$button3-bg-color: null;
+
+$button4-txt-color: null;
+$button4-border-color: null;
+$button4-bg-color: null;
+
+//-body
+$body-bg-color: null;
+$body-text-color: null;
+
+//-main links
+$main-link-bg-color: null;
+$main-link-txt-color: null;
+$main-link-hover: null;
+$main-link-border-color: null;
+$main-link-box-shadow: null;
+$main-link-last-clicked-bg: null;
+$main-link-stickied-txt-color: null;
+$main-link-comments-anchor: null;
+
+$like-score: null;
+
+//-anchors
+$anchor-color: null;
+$anchor-hover: null;
+
+//-footer
+$footer-link-titles: null;
+$footer-link-color: null;
+
+$footer-stripe1: null;
+$footer-stripe2: null;
+$footer-stripe3: null;
+
+$theme-name-color: null;
+
+//-buttons
+$btn-text-color: null;
+$btn-border-size: null;
+$btn-border-style: null;
+$btn-border-color: null;
+
+
+//-grid
+$grid-columns: null;
+$grid-max-width: null;
+
+$header-height: null;
+
+//-calc position from top based on header height
+$body-margin: null;
+$search-top: null;
+$tabmenu-top: null;
+$submit-top: null;
+$sidebar-margin: null;
+
+$single-linkinfo-top: null;
+$single-sidebar-top: null;
+
+
+//-buttons
+$btn-padding: null;
+$btn-border-radius: null;
+
+//-custom buttons
+$button1-width: null;
+$button1-padding: null;
+
+$button2-width: null;
+$button2-padding: null;
+
+$button3-width: null;
+$button3-padding: null;
+
+$button4-width: null;
+$button4-padding: null;
+
+//-footer
+$footer-parent-height:  null;
+$footer-parent-after-height: null;
+
+
+//-sidebar
+$submit-height: null;
+$sidebar-width: null;
+
+$search-expando-box-shadow: null;
+$sidebar-box-shadow: null;
+$sidebar-hover-box-shadow: null;
+
+
+//-logo
+$logo-max-width: null;
+
+//-main
+$main-row-padding: null;
+$main-col-padding: null;
+$wrapper-padding: null;
+
+//-socials
+$social-link-padding: null;
+$social-border-radius: null;
+$social-extras-padding: null;
+
+//-code
+$code-padding: null;
+$code-vertical-align: null;
+
+
+$body-bg-image:null;
+$body-bg-attachment:  null ;
+$body-bg-position: null;
+$body-bg-repeat: null;
+$body-bg-size: null;
+
+//-header
+$header-img: null;
+$rangerstown-banner: null;
+
+//-sprite
+$naut-sprite: null;
+
+//-tabmenu
+$tab-menu-left-img: null;
+$tab-menu-left-bg-position: null;
+$tab-menu-left-padding: null;
+$tab-menu-left-height: null;
+
+//-sidebar
+$sidebar-img: null;
+$sidebar-img-height: null;
+$sidebar-img-bg-size: null;
+$sidebar-img-bg-repeat: null;
+
+$sidebar-bg-image: null;
+$sidebar-bg-attachment: null;
+$sidebar-bg-position: null;
+$sidebar-bg-repeat: null;
+$sidebar-bg-size: null;
+
+//-footer
+$footer-img: null;
+$footer-img-attachment: null;
+$footer-img-position: null;
+$footer-img-repeat: null;
+$footer-img-size: null;
