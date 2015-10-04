@@ -20,8 +20,12 @@
   background-color: $main-link-last-clicked-bg;
 }
 
-.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {
-  color:$main-link-stickied-txt-color;
+
+.thing.stickied {
+  border:2px solid $main-link-stickied-border-color;
+  a.title, .thing.stickied a, .entry li .comments {
+    color:$main-link-stickied-txt-color;
+  }
 }
 
 .thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {
@@ -33,7 +37,4 @@
   &.comments {
     color: $main-link-comments-anchor;
   }
-}
-div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
-  border-color:$active-post-border;
 }

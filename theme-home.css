@@ -1,11 +1,12 @@
 @charset "UTF-8";
-/* $home-theme    : true;
-$away-theme    : false;
-$third-theme   : false;
-$playoffs-theme : false;
+/*
 
+// ==========================================================================
+// R Rangers Style Base
+// Author: Mike Fortuna
+// ==========================================================================
 
-other
+  themes: home, away, third, playoffs
 
  */
 /*
@@ -3082,6 +3083,9 @@ input[type="submit"] {
 .column-12 {
   width: 100%; }
 
+div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
+  border-color: #D60642; }
+
 body {
   background-color: #234080; }
   body:before {
@@ -3821,6 +3825,19 @@ body > .content {
   .comments-page .side .linkinfo, .res.comments-page .side .linkinfo {
     top: 610px; }
 
+.link.stickied:before {
+  content: url("%%toaststicky%%");
+  float: left;
+  top: 18px;
+  position: relative;
+  left: 2px; }
+
+.top-bar {
+  position: fixed;
+  width: 100%;
+  background: #234080;
+  height: 50px; }
+
 .side {
   background-color: #fff;
   box-shadow: 2px 4px 3px transparent;
@@ -3885,8 +3902,10 @@ body > .content {
 .link.last-clicked {
   background-color: #E7E5DA; }
 
-.thing.stickied a.title, .thing.stickied a, .thing.stickied .entry li .comments {
-  color: #2F5594 !important; }
+.thing.stickied {
+  border: 2px solid #D60642; }
+  .thing.stickied a.title, .thing.stickied .thing.stickied a, .thing.stickied .entry li .comments {
+    color: #2F5594 !important; }
 
 .thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title {
   color: #2B4877; }
@@ -3895,9 +3914,6 @@ body > .content {
   color: #2F5594; }
   .entry .buttons li a.comments {
     color: #DF011E; }
-
-div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
-  border-color: #D60642; }
 
 .commentarea > .usertext {
   background-color: #EAF5FF; }
@@ -3943,6 +3959,14 @@ p.bottommenu {
 #images {
   height: auto;
   float: left; }
+
+body > .content {
+  margin: 550px 332px 0 16px;
+  animation-duration: 0.55s;
+  animation-iteration-count: 1;
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 0.55s;
+  -webkit-animation-iteration-count: 1; }
 
 .titlebox .fancy-toggle-button .remove:after {
   content: "Unsubscribe =("; }

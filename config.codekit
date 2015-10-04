@@ -2,88 +2,88 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19051",
 "files": {
-	"\/Fonts\/nhl-fonts\/ffonts.net.htm": {
+	"\/fonts\/nhl-fonts\/ffonts.net.htm": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Fonts\/nhl-fonts\/ffonts.net.htm",
+		"inputAbbreviatedPath": "\/fonts\/nhl-fonts\/ffonts.net.htm",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Images\/footer.png": {
+	"\/images\/footer.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 505883,
-		"inputAbbreviatedPath": "\/Images\/footer.png",
-		"outputAbbreviatedPath": "\/Images\/footer.png",
+		"inputAbbreviatedPath": "\/images\/footer.png",
+		"outputAbbreviatedPath": "\/images\/footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/footerbg.png": {
+	"\/images\/footerbg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 228080,
-		"inputAbbreviatedPath": "\/Images\/footerbg.png",
-		"outputAbbreviatedPath": "\/Images\/footerbg.png",
+		"inputAbbreviatedPath": "\/images\/footerbg.png",
+		"outputAbbreviatedPath": "\/images\/footerbg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/headerimg-OG.png": {
+	"\/images\/headerimg-OG.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 44062,
-		"inputAbbreviatedPath": "\/Images\/headerimg-OG.png",
-		"outputAbbreviatedPath": "\/Images\/headerimg-OG.png",
+		"inputAbbreviatedPath": "\/images\/headerimg-OG.png",
+		"outputAbbreviatedPath": "\/images\/headerimg-OG.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/headerimg.png": {
+	"\/images\/headerimg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 107019,
-		"inputAbbreviatedPath": "\/Images\/headerimg.png",
-		"outputAbbreviatedPath": "\/Images\/headerimg.png",
+		"inputAbbreviatedPath": "\/images\/headerimg.png",
+		"outputAbbreviatedPath": "\/images\/headerimg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/noresults.png": {
+	"\/images\/noresults.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7792,
-		"inputAbbreviatedPath": "\/Images\/noresults.png",
-		"outputAbbreviatedPath": "\/Images\/noresults.png",
+		"inputAbbreviatedPath": "\/images\/noresults.png",
+		"outputAbbreviatedPath": "\/images\/noresults.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/noresults1.png": {
+	"\/images\/noresults1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7792,
-		"inputAbbreviatedPath": "\/Images\/noresults1.png",
-		"outputAbbreviatedPath": "\/Images\/noresults1.png",
+		"inputAbbreviatedPath": "\/images\/noresults1.png",
+		"outputAbbreviatedPath": "\/images\/noresults1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/spritesheet.png": {
+	"\/images\/spritesheet.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 13709,
-		"inputAbbreviatedPath": "\/Images\/spritesheet.png",
-		"outputAbbreviatedPath": "\/Images\/spritesheet.png",
+		"inputAbbreviatedPath": "\/images\/spritesheet.png",
+		"outputAbbreviatedPath": "\/images\/spritesheet.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -735,6 +735,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/src\/reddit-modules\/_res.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/reddit-modules\/_res.scss",
+		"outputAbbreviatedPath": "\/src\/css\/_res.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/src\/reddit-modules\/_sidebar-buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -831,15 +847,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/away\/_colors.scss": {
+	"\/src\/themes\/away\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/away\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/away\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -847,15 +863,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/away\/_dimensions.scss": {
+	"\/src\/themes\/away\/_dimensions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/away\/_dimensions.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_dimensions.css",
+		"inputAbbreviatedPath": "\/src\/themes\/away\/_dimensions.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_dimensions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -863,15 +879,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/away\/_fonts.scss": {
+	"\/src\/themes\/away\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/away\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/away\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -879,15 +895,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/away\/_images.scss": {
+	"\/src\/themes\/away\/_images.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/away\/_images.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_images.css",
+		"inputAbbreviatedPath": "\/src\/themes\/away\/_images.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_images.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -895,15 +911,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/away\/_settings.scss": {
+	"\/src\/themes\/away\/_settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/away\/_settings.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_settings.css",
+		"inputAbbreviatedPath": "\/src\/themes\/away\/_settings.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -911,15 +927,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/home\/_colors.scss": {
+	"\/src\/themes\/home\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/home\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/home\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -927,15 +943,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/home\/_dimensions.scss": {
+	"\/src\/themes\/home\/_dimensions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/home\/_dimensions.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_dimensions.css",
+		"inputAbbreviatedPath": "\/src\/themes\/home\/_dimensions.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_dimensions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -943,15 +959,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/home\/_fonts.scss": {
+	"\/src\/themes\/home\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/home\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/home\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -959,15 +975,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/home\/_images.scss": {
+	"\/src\/themes\/home\/_images.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/home\/_images.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_images.css",
+		"inputAbbreviatedPath": "\/src\/themes\/home\/_images.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_images.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -975,15 +991,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/home\/_settings.scss": {
+	"\/src\/themes\/home\/_settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/home\/_settings.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_settings.css",
+		"inputAbbreviatedPath": "\/src\/themes\/home\/_settings.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -991,15 +1007,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/playoffs\/_colors.scss": {
+	"\/src\/themes\/playoffs\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/playoffs\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/playoffs\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1007,15 +1023,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/playoffs\/_dimensions.scss": {
+	"\/src\/themes\/playoffs\/_dimensions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/playoffs\/_dimensions.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_dimensions.css",
+		"inputAbbreviatedPath": "\/src\/themes\/playoffs\/_dimensions.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_dimensions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1023,15 +1039,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/playoffs\/_fonts.scss": {
+	"\/src\/themes\/playoffs\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/playoffs\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/playoffs\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1039,15 +1055,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/playoffs\/_images.scss": {
+	"\/src\/themes\/playoffs\/_images.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/playoffs\/_images.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_images.css",
+		"inputAbbreviatedPath": "\/src\/themes\/playoffs\/_images.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_images.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1055,15 +1071,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/playoffs\/_settings.scss": {
+	"\/src\/themes\/playoffs\/_settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/playoffs\/_settings.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_settings.css",
+		"inputAbbreviatedPath": "\/src\/themes\/playoffs\/_settings.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1071,15 +1087,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/third\/_colors.scss": {
+	"\/src\/themes\/third\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/third\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/src\/themes\/third\/_colors.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1087,15 +1103,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/third\/_dimensions.scss": {
+	"\/src\/themes\/third\/_dimensions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/third\/_dimensions.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_dimensions.css",
+		"inputAbbreviatedPath": "\/src\/themes\/third\/_dimensions.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_dimensions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1103,15 +1119,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/third\/_fonts.scss": {
+	"\/src\/themes\/third\/_fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/third\/_fonts.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/src\/themes\/third\/_fonts.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1119,15 +1135,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/third\/_images.scss": {
+	"\/src\/themes\/third\/_images.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/third\/_images.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_images.css",
+		"inputAbbreviatedPath": "\/src\/themes\/third\/_images.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_images.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1135,15 +1151,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/theme\/third\/_settings.scss": {
+	"\/src\/themes\/third\/_settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/third\/_settings.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_settings.css",
+		"inputAbbreviatedPath": "\/src\/themes\/third\/_settings.scss",
+		"outputAbbreviatedPath": "\/src\/themes\/css\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

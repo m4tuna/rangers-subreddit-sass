@@ -4,6 +4,21 @@
 
 // side
 
+.link.stickied:before {
+  content: url($sticky-img);
+  float: left;
+  top: 18px;
+  position: relative;
+  left: 2px;
+}
+
+.top-bar {
+  position:fixed;
+  width:100%;
+  background:$rangers-blue;
+  height:50px;
+}
+
 .side {
   background-color: $sidebar-color;
   box-shadow: $sidebar-box-shadow;
