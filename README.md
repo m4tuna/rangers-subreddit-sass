@@ -13,8 +13,8 @@ Compiling
 Changing Themes
 ===============
 
-  1. Open src/app.scss
-  2. Change the theme path in lines 21-26.
+  1. Open src/global/options.scss
+  2. Change the $current-theme variable to desired theme.
   3. Compile.
   4. Paste CSS into subreddit.
 
