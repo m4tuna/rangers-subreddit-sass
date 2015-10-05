@@ -12,7 +12,7 @@
   //-header
   $header-img: '%%headerimg%%';
   $rangerstown-banner: '%%rangerstown%%';
-
+ 
   //-sprite
   $naut-sprite: '%%spritesheet%%';
 
@@ -35,7 +35,9 @@
   $sidebar-bg-size: cover;
 
   //-links
-  $sticky-img: "%%toaststicky%%";
+  $sticky-img: "%%stickytoast%%";
+  $upvote-img: "%%sidebar-nhl-rangers%%";
+  $downvote-img: "%%sticky%%";
 
   //-footer
   $footer-img: "%%footerbg%%";

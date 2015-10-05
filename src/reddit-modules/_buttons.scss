@@ -1,5 +1,9 @@
 // Buttons
 
+.sheets .btn {
+  height: 40px;
+}
+
 .btn, button.btn {
   padding:$btn-padding;
   color:$var-black;

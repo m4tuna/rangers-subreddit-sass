@@ -2881,6 +2881,14 @@ body > .content {
 .btn.btn-light-blue {
   background-color: #588bcd; }
 
+/**
+
+  MG_Core v 1.0
+---------------------------------------------------------
+
+  Author: Mike Fortuna
+
+--------------------------------------------------------- */
 .wrapper, .row {
   /* *zoom: 1; */ }
   .wrapper:before, .row:before, .wrapper:after, .row:after {
@@ -2936,12 +2944,14 @@ body > .content {
   http://normalize.css v2.1.0 http://git.io/normalize
 
 --------------------------------------------------------- */
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0; }
+* {
+  /* -webkit-tap-highlight-color:rgba(0,0,0,0); */ }
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; }
 
 article,
 aside,
@@ -3090,12 +3100,12 @@ body {
   background-color: #234080; }
   body:before {
     background-image: url("%%rangerstown%%");
-    height: 500px;
+    height: 340px;
     background-size: cover;
     background-position: center center; }
 
 body > .content {
-  margin: 550px 332px 0 16px; }
+  margin: 390px 345px 0 25px; }
 
 #header .pagename a {
   color: #fff; }
@@ -3114,7 +3124,7 @@ body > .content {
     color: #fff; }
 
 #header-bottom-left {
-  top: 498px; }
+  top: 338px; }
 
 #header-img.default-header, #header-img {
   z-index: 99;
@@ -3821,16 +3831,23 @@ body > .content {
 
 /*------------------END FLAIR OLD-----------------------*/
 .comments-page .side, .res.comments-page .side {
-  margin-top: 735px; }
+  margin-top: 575px; }
   .comments-page .side .linkinfo, .res.comments-page .side .linkinfo {
-    top: 610px; }
+    top: 450px; }
+
+.submit-page .content {
+  margin-top: 355px;
+  margin-bottom: 10px; }
+  .submit-page .content #newlink.submit.content .btn {
+    font-size: 20px;
+    height: 62px; }
 
 .link.stickied:before {
-  content: url("%%toaststicky%%");
+  content: url("%%stickytoast%%");
   float: left;
   top: 18px;
   position: relative;
-  left: 2px; }
+  left: 8px; }
 
 .top-bar {
   position: fixed;
@@ -3841,7 +3858,7 @@ body > .content {
 .side {
   background-color: #fff;
   box-shadow: 2px 4px 3px transparent;
-  margin: 610px 16px 0 0;
+  margin: 450px 16px 0 0;
   width: 300px; }
   .side:before {
     background-image: url("%%sidebar1%%");
@@ -3862,14 +3879,21 @@ body > .content {
   margin-top: 5px; }
 
 #search {
-  top: 510px;
+  top: 350px;
   z-index: 555; }
+  #search:before {
+    content: "";
+    position: absolute;
+    left: -80px;
+    background: #234080;
+    height: 35px;
+    width: 80px; }
 
 #search input[type="text"]:-ms-input-placeholder::after {
   content: "Search reddit.."; }
 
 .morelink {
-  top: 560px;
+  top: 400px;
   color: #fff;
   background-color: #D60642;
   text-transform: uppercase;
@@ -3880,13 +3904,36 @@ body > .content {
     height: 45px;
     background-color: #234080;
     border-top: 5px solid #D60642;
-    border-bottom: 5px solid #D60642; }
+    border-bottom: 5px solid #D60642;
+    margin-top: -5px; }
   .morelink a {
     letter-spacing: 5px;
     color: #fff; }
 
 .disabled .morelink:after {
   content: "You must be approved by the moderators in order to submit."; }
+
+.arrow.arrow.upmod {
+  margin-top: 0px;
+  background-image: url("%%sidebar-nhl-rangers%%") !important;
+  opacity: 0.8;
+  width: 76px;
+  height: 29px;
+  background-position: 2px 0px;
+  background-size: 40%; }
+
+.arrow.downmod {
+  margin-top: 2px;
+  background-image: url("%%sticky%%") !important;
+  opacity: 0.8;
+  width: 35px;
+  height: 34px;
+  background-position: 0px 1px; }
+
+.midcol {
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  transition: all 0.7s ease; }
 
 .link {
   background-color: #fff;
@@ -3936,7 +3983,8 @@ html:not([lang="ns"]) .footer-parent {
   position: relative;
   padding-bottom: 100px; }
   html:not([lang="ns"]) .footer-parent:after {
-    content: "home";
+    content: "current r/rangers theme: home";
+    font-size: 10px;
     color: #fff;
     position: absolute;
     z-index: -1;
@@ -3960,8 +4008,20 @@ p.bottommenu {
   height: auto;
   float: left; }
 
+ul#image-preview-list li {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  vertical-align: top;
+  width: 50%;
+  height: 100px;
+  float: left;
+  position: relative;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0; }
+
 body > .content {
-  margin: 550px 332px 0 16px;
+  margin: 390px 345px 0 25px;
   animation-duration: 0.55s;
   animation-iteration-count: 1;
   -webkit-animation-name: fadein;
@@ -3970,6 +4030,9 @@ body > .content {
 
 .titlebox .fancy-toggle-button .remove:after {
   content: "Unsubscribe =("; }
+
+.sheets .btn {
+  height: 40px; }
 
 .btn, button.btn {
   padding: 9px 20px;

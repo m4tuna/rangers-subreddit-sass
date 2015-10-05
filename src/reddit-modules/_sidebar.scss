@@ -9,7 +9,7 @@
   float: left;
   top: 18px;
   position: relative;
-  left: 2px;
+  left: 8px;
 }
 
 .top-bar {
@@ -53,6 +53,14 @@
 #search {
   top: $search-top;
   z-index: 555;
+  &:before {
+    content: "";
+    position: absolute;
+    left: -80px;
+    background: $body-bg-color;
+    height: 35px;
+    width: 80px;
+  }
 }
 
 #search input[type="text"]:-ms-input-placeholder::after{
@@ -72,6 +80,7 @@
     background-color:$rangers-blue;
     border-top: 5px solid $rangers-red;
     border-bottom: 5px solid $rangers-red;
+    margin-top:-5px;
   }
   a {
     letter-spacing:5px;

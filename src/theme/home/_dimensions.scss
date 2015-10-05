@@ -7,10 +7,10 @@
   $grid-columns: 12;
   $grid-max-width: 100em;
 
-  $header-height: 340px;
+  $header-height: 500px;
 
   //-calc position from top based on header height
-  $body-margin: $header-height+50 345px 0 25px;
+  $body-margin: $header-height+50 332px 0 16px;
   $search-top: $header-height + 10;
   $tabmenu-top: $header-height - 2;
   $submit-top: $header-height+60;
