@@ -7,17 +7,17 @@
   $grid-columns: 12;
   $grid-max-width: 100em;
 
-  $header-height: 340px;
+  $header-height: 560px;
 
   //-calc position from top based on header height
   $body-margin: $header-height+50 345px 0 25px;
-  $search-top: $header-height + 10;
+  $search-top: $header-height + 50;
   $tabmenu-top: $header-height - 2;
-  $submit-top: $header-height+60;
-  $sidebar-margin: $header-height + 110 16px 0 0;
+  $submit-top: $header-height+100;
+  $sidebar-margin: $header-height + 150 16px 0 0;
 
-  $single-linkinfo-top: $header-height + 110;
-  $single-sidebar-top: $header-height + 235;
+  $single-linkinfo-top: $header-height + 150;
+  $single-sidebar-top: $header-height + 275;
 
 
   //-buttons

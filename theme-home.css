@@ -3100,12 +3100,12 @@ body {
   background-color: #234080; }
   body:before {
     background-image: url("%%rangerstown%%");
-    height: 340px;
+    height: 560px;
     background-size: cover;
     background-position: center center; }
 
 body > .content {
-  margin: 390px 345px 0 25px; }
+  margin: 610px 345px 0 25px; }
 
 #header .pagename a {
   color: #fff; }
@@ -3124,7 +3124,7 @@ body > .content {
     color: #fff; }
 
 #header-bottom-left {
-  top: 338px; }
+  top: 558px; }
 
 #header-img.default-header, #header-img {
   z-index: 99;
@@ -3831,12 +3831,12 @@ body > .content {
 
 /*------------------END FLAIR OLD-----------------------*/
 .comments-page .side, .res.comments-page .side {
-  margin-top: 575px; }
+  margin-top: 835px; }
   .comments-page .side .linkinfo, .res.comments-page .side .linkinfo {
-    top: 450px; }
+    top: 710px; }
 
 .submit-page .content {
-  margin-top: 355px;
+  margin-top: 575px;
   margin-bottom: 10px; }
   .submit-page .content #newlink.submit.content .btn {
     font-size: 20px;
@@ -3858,7 +3858,7 @@ body > .content {
 .side {
   background-color: #fff;
   box-shadow: 2px 4px 3px transparent;
-  margin: 450px 16px 0 0;
+  margin: 710px 16px 0 0;
   width: 300px; }
   .side:before {
     background-image: url("%%sidebar1%%");
@@ -3879,21 +3879,22 @@ body > .content {
   margin-top: 5px; }
 
 #search {
-  top: 350px;
-  z-index: 555; }
-  #search:before {
+  top: 610px;
+  z-index: 555;
+  /*   &:before { Could be used to cover the menu text on small screens if the search bar is inline
     content: "";
     position: absolute;
     left: -80px;
-    background: #234080;
+    background: $body-bg-color;
     height: 35px;
-    width: 80px; }
+    width: 80px;
+  } */ }
 
 #search input[type="text"]:-ms-input-placeholder::after {
   content: "Search reddit.."; }
 
 .morelink {
-  top: 400px;
+  top: 660px;
   color: #fff;
   background-color: #D60642;
   text-transform: uppercase;
@@ -4021,7 +4022,7 @@ ul#image-preview-list li {
   padding-right: 0; }
 
 body > .content {
-  margin: 390px 345px 0 25px;
+  margin: 610px 345px 0 25px;
   animation-duration: 0.55s;
   animation-iteration-count: 1;
   -webkit-animation-name: fadein;

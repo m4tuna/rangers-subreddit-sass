@@ -64,6 +64,7 @@ $tablet-portrait: "only screen and (min-width: 30em) and (orientation : portrait
 //-desktop bp
 $desktop-sm: "only screen and (min-width: 800px) and (max-width: 1028px)";
 $desktop: "only screen and (min-width: 1029px)";
+$desktop-lg: "only screen and (min-width: 1650px)";
 
 //-ie mq
 $ie9-only: "only screen and (min-width:0\0)";

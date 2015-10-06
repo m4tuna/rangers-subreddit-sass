@@ -53,14 +53,14 @@
 #search {
   top: $search-top;
   z-index: 555;
-  &:before {
-    content: "";
-    position: absolute;
-    left: -80px;
-    background: $body-bg-color;
-    height: 35px;
-    width: 80px;
-  }
+/*   &:before { Could be used to cover the menu text on small screens if the search bar is inline
+  content: "";
+  position: absolute;
+  left: -80px;
+  background: $body-bg-color;
+  height: 35px;
+  width: 80px;
+} */
 }
 
 #search input[type="text"]:-ms-input-placeholder::after{
