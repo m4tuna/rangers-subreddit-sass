@@ -2,7 +2,7 @@
 /*
 
 // ==========================================================================
-// R Rangers Style Base
+// R Rangers Theme Engine
 // Author: Mike Fortuna
 // ==========================================================================
 
@@ -3864,7 +3864,7 @@ body > .content {
   margin: 550px 16px 0 0;
   width: 300px; }
   .side:before {
-    background-image: url("%%sidebar1%%");
+    background-image: url("%%kleiner%%");
     content: ' ';
     height: 350px;
     width: 100%;

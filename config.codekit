@@ -22,24 +22,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/footers\/footer2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 166289,
-		"inputAbbreviatedPath": "\/Images\/footers\/footer2.png",
-		"outputAbbreviatedPath": "\/Images\/footers\/footer2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/Images\/footers\/footerbg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 228080,
+		"initialSize": 166289,
 		"inputAbbreviatedPath": "\/Images\/footers\/footerbg.png",
 		"outputAbbreviatedPath": "\/Images\/footers\/footerbg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/footers\/footerbg1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 228080,
+		"inputAbbreviatedPath": "\/Images\/footers\/footerbg1.png",
+		"outputAbbreviatedPath": "\/Images\/footers\/footerbg1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -110,17 +110,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/headers\/rangersbanner.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74753,
-		"inputAbbreviatedPath": "\/Images\/headers\/rangersbanner.png",
-		"outputAbbreviatedPath": "\/Images\/headers\/rangersbanner.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/Images\/headers\/rangerstown-lg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -161,6 +150,17 @@
 		"initialSize": 7792,
 		"inputAbbreviatedPath": "\/Images\/link-imgs\/noresults1.png",
 		"outputAbbreviatedPath": "\/Images\/link-imgs\/noresults1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/link-imgs\/sidebar-nhl-rangers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24658,
+		"inputAbbreviatedPath": "\/Images\/link-imgs\/sidebar-nhl-rangers.png",
+		"outputAbbreviatedPath": "\/Images\/link-imgs\/sidebar-nhl-rangers.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
