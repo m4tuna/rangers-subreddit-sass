@@ -12,31 +12,33 @@
 //-naut 3.2
 @import "naut/naut";
 
-//-themes
+//-home theme
 @import "themes/home/colors";
 @import "themes/home/fonts";
 @import "themes/home/images";
 @import "themes/home/dimensions";
 @import "themes/home/settings";
 
+//-away theme
 @import "themes/away/colors";
 @import "themes/away/fonts";
 @import "themes/away/images";
 @import "themes/away/dimensions";
 @import "themes/away/settings";
 
+//-thid theme
 @import "themes/third/colors";
 @import "themes/third/fonts";
 @import "themes/third/images";
 @import "themes/third/dimensions";
 @import "themes/third/settings";
 
+//-2016 playoff theme
 @import "themes/playoffs/colors";
 @import "themes/playoffs/fonts";
 @import "themes/playoffs/images";
 @import "themes/playoffs/dimensions";
 @import "themes/playoffs/settings";
-
 
 //-mg-core
 @import "mg-core/base/helpers";

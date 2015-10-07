@@ -2,11 +2,19 @@
 // Define Vars for @if
 // ==========================================================================
 
-//-defining all variables within theme @if scopes
+//-defining all variables
+// for use within theme @if scopes
+
 $sidebar-color: null;
 $pagename-hover: null;
 $pagename-color: null;
 $body-bg-color: null;
+
+//-banners
+$header-img: null;
+$rangerstown-banner: null;
+$rangers-banner: null;
+$current-header-img: null;
 
 //-primary-colors
 $active-post-border: null;
@@ -153,10 +161,6 @@ $body-bg-position: null;
 $body-bg-repeat: null;
 $body-bg-size: null;
 
-//-header
-$header-img: null;
-$rangerstown-banner: null;
-
 //-sprite
 $naut-sprite: null;
 
@@ -188,3 +192,18 @@ $footer-img-attachment: null;
 $footer-img-position: null;
 $footer-img-repeat: null;
 $footer-img-size: null;
+
+
+//-body
+$body-fsz: null;
+$body-fw: null;
+$body-font: null;
+
+//-sidebar
+$button1-fsz: null;
+$button2-fsz: null;
+$button3-fsz: null;
+$button4-fsz: null;
+
+$pagename-fsz: null;
+$pagename-lh: null;

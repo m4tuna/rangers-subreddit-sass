@@ -3097,20 +3097,23 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
   border-color: #D60642; }
 
 body {
-  background-color: #234080; }
+  background-color: #1B447F; }
   body:before {
-    background-image: url("%%rangerstown%%");
-    height: 560px;
+    background-image: url("%%rangersbanner%%");
+    height: 400px;
     background-size: cover;
     background-position: center center; }
 
 body > .content {
-  margin: 610px 345px 0 25px; }
+  margin: 450px 345px 0 25px; }
 
 #header .pagename a {
-  color: #fff; }
+  color: #fff;
+  font-size: 22px; }
   #header .pagename a:before {
-    content: "/r/"; }
+    content: "/r/";
+    font-size: 22px;
+    letter-spacing: 1px; }
   #header .pagename a:hover {
     color: #D60642; }
 
@@ -3124,7 +3127,7 @@ body > .content {
     color: #fff; }
 
 #header-bottom-left {
-  top: 558px; }
+  top: 398px; }
 
 #header-img.default-header, #header-img {
   z-index: 99;
@@ -3831,12 +3834,12 @@ body > .content {
 
 /*------------------END FLAIR OLD-----------------------*/
 .comments-page .side, .res.comments-page .side {
-  margin-top: 835px; }
+  margin-top: 675px; }
   .comments-page .side .linkinfo, .res.comments-page .side .linkinfo {
-    top: 710px; }
+    top: 550px; }
 
 .submit-page .content {
-  margin-top: 575px;
+  margin-top: 415px;
   margin-bottom: 10px; }
   .submit-page .content #newlink.submit.content .btn {
     font-size: 20px;
@@ -3852,13 +3855,13 @@ body > .content {
 .top-bar {
   position: fixed;
   width: 100%;
-  background: #234080;
+  background: #1B447F;
   height: 50px; }
 
 .side {
   background-color: #fff;
   box-shadow: 2px 4px 3px transparent;
-  margin: 710px 16px 0 0;
+  margin: 550px 16px 0 0;
   width: 300px; }
   .side:before {
     background-image: url("%%sidebar1%%");
@@ -3879,7 +3882,7 @@ body > .content {
   margin-top: 5px; }
 
 #search {
-  top: 610px;
+  top: 450px;
   z-index: 555;
   /*   &:before { Could be used to cover the menu text on small screens if the search bar is inline
     content: "";
@@ -3894,7 +3897,7 @@ body > .content {
   content: "Search reddit.."; }
 
 .morelink {
-  top: 660px;
+  top: 500px;
   color: #fff;
   background-color: #D60642;
   text-transform: uppercase;
@@ -3903,7 +3906,7 @@ body > .content {
   transition: all 0.3s ease; }
   .morelink:hover {
     height: 45px;
-    background-color: #234080;
+    background-color: #1B447F;
     border-top: 5px solid #D60642;
     border-bottom: 5px solid #D60642;
     margin-top: -5px; }
@@ -3951,7 +3954,7 @@ body > .content {
   background-color: #E7E5DA; }
 
 .thing.stickied {
-  border: 2px solid #D60642; }
+  /* border:2px solid $main-link-stickied-border-color; */ }
   .thing.stickied a.title, .thing.stickied .thing.stickied a, .thing.stickied .entry li .comments {
     color: #2F5594 !important; }
 
@@ -4022,7 +4025,7 @@ ul#image-preview-list li {
   padding-right: 0; }
 
 body > .content {
-  margin: 610px 345px 0 25px;
+  margin: 450px 345px 0 25px;
   animation-duration: 0.55s;
   animation-iteration-count: 1;
   -webkit-animation-name: fadein;

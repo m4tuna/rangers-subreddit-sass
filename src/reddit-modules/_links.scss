@@ -43,7 +43,7 @@
 
 
 .thing.stickied {
-  border:2px solid $main-link-stickied-border-color;
+  /* border:2px solid $main-link-stickied-border-color; */
   a.title, .thing.stickied a, .entry li .comments {
     color:$main-link-stickied-txt-color;
   }

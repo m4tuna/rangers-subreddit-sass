@@ -5,7 +5,7 @@
 body {
   background-color: $body-bg-color;
   &:before {
-    background-image: url($rangerstown-banner);
+    background-image: url($current-header-img);
     height: $header-height;
     background-size: $header-bg-size;
     background-position: $header-bg-position;
@@ -18,8 +18,11 @@ body>.content {
 
 #header .pagename a {
   color:$pagename-color;
+  font-size: $pagename-fsz;
   &:before {
     content:$pagename-prefix-copy;
+    font-size: $pagename-fsz;
+    letter-spacing: $pagename-lh;
   }
   &:hover {
     color:$pagename-hover;

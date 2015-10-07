@@ -1,5 +1,6 @@
 // ==========================================================================
 // Fonts
+// Note: Vars used here need to be defined in global/_define.scss
 // ==========================================================================
 @if $current-theme == "home" {
   //-body
@@ -12,5 +13,8 @@
   $button2-fsz: 20px;
   $button3-fsz: 20px;
   $button4-fsz: 20px;
+
+  $pagename-fsz: 22px;
+  $pagename-lh: 1px;
 
 }

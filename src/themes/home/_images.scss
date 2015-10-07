@@ -1,5 +1,6 @@
 // ==========================================================================
 // Images
+// Note: Vars used here need to be defined in global/_define.scss
 // ==========================================================================
 @if $current-theme == "home" {
   //-body
@@ -9,9 +10,11 @@
   $body-bg-repeat: no-repeat;
   $body-bg-size: cover;
 
-  //-header
-  $header-img: '%%headerimg%%';
+  //-banners
   $rangerstown-banner: '%%rangerstown%%';
+  $rangers-banner: '%%rangersbanner%%';
+
+  $current-header-img: $rangers-banner;
 
   $header-bg-size: cover;
   $header-bg-position: center center;

@@ -2,11 +2,11 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19051",
 "files": {
-	"\/Fonts\/nhl-fonts\/ffonts.net.htm": {
+	"\/fonts\/nhl-fonts\/ffonts.net.htm": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Fonts\/nhl-fonts\/ffonts.net.htm",
+		"inputAbbreviatedPath": "\/fonts\/nhl-fonts\/ffonts.net.htm",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -99,13 +99,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Images\/headers\/rangerstown-header.jpg": {
+	"\/Images\/headers\/rangersbanner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74753,
+		"inputAbbreviatedPath": "\/Images\/headers\/rangersbanner.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangersbanner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/headers\/rangerstown-lg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 284187,
-		"inputAbbreviatedPath": "\/Images\/headers\/rangerstown-header.jpg",
-		"outputAbbreviatedPath": "\/Images\/headers\/rangerstown-header.jpg",
+		"inputAbbreviatedPath": "\/Images\/headers\/rangerstown-lg.jpg",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangerstown-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/headers\/rangerstown-md.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 417339,
+		"inputAbbreviatedPath": "\/Images\/headers\/rangerstown-md.jpg",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangerstown-md.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -150,6 +172,17 @@
 		"initialSize": 22148,
 		"inputAbbreviatedPath": "\/Images\/link-imgs\/stickytoast.png",
 		"outputAbbreviatedPath": "\/Images\/link-imgs\/stickytoast.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/other\/nhl-allstar2016.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87269,
+		"inputAbbreviatedPath": "\/Images\/other\/nhl-allstar2016.jpg",
+		"outputAbbreviatedPath": "\/Images\/other\/nhl-allstar2016.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
