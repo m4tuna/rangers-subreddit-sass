@@ -3949,6 +3949,10 @@ body > .content {
     border: 1px solid #c7c7c7; }
   .link .score.likes {
     color: #F5092A; }
+  .link .entry .buttons li a {
+    font-size: 11px; }
+  .link .entry .buttons li .redditSingleClick {
+    font-size: 9px; }
 
 .link.last-clicked {
   background-color: #E7E5DA; }

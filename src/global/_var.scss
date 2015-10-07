@@ -2,9 +2,11 @@
 // Variable Config
 // ==========================================================================
 
-//-primary color options
+//-ranger colors
 $rangers-red: #D60642;
 $rangers-blue: #1B447F;
+$rangers-third-white: #dbd5b8;
+$rangers-third-red: #822;
 
 //-standard colors
 $var-black: #000;
@@ -18,6 +20,7 @@ $var-green: #4ebd45;
 $var-orange: #ff9e04;
 $var-grey: #a6a6a6;
 
+//-dark colors
 $dark-grey: #a6a6a7;
 
 //-light colors
@@ -31,8 +34,6 @@ $light-green: #E3FFE6;
 $light-orange: #f8d148;
 
 //-other colors
-$two-orange: #f8d148;
-$off-white: #f4f6f8;
 $fb-blue: #495699;
 $tw-blue: #99bef3;
 $yt-red: #a8462a;
@@ -40,15 +41,6 @@ $insta-blue: #455b84;
 
 //-font family
 $sans: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-
-//-font sizes
-$fsz-smaller: 10px !default;
-$fsz-small: 12px !default;
-$fsz-base: 14px !default;
-$fsz-large: 18px !default;
-$fsz-larger: 22px !default;
-$fsz-lg-btn: 28px !default;
-$fsz-huge: 58px !default;
 
 //-mobile bp
 $mobile: "only screen and (max-width : 737px)";

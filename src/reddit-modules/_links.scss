@@ -35,6 +35,18 @@
   .score.likes {
     color: $like-score;
   }
+  .entry {
+    .buttons {
+      li {
+        a {
+          font-size:$entry-link-fsz;
+        }
+        .redditSingleClick {
+          font-size: 9px;
+        }
+      }
+    }
+  }
 }
 
 .link.last-clicked {
