@@ -4,6 +4,11 @@
 
 // side
 
+// name of users
+div.titlebox span.number:after {
+    content: $user-word;
+}
+
 .link.stickied:before {
   content: url($sticky-img);
   float: left;
