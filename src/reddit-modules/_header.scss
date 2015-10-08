@@ -29,6 +29,9 @@ body>.content {
   }
 }
 
-#mail.havemail:before {
-  content:$have-mail-copy;
+#mail {
+  top:2px;
+  &.havemail:before {
+    content:$have-mail-copy;
+  }
 }

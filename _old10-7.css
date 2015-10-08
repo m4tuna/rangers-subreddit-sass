@@ -1,0 +1,2363 @@
+#baconBit {
+    background: url(%%glass%%) !important;
+    width: 300px;
+    height: 200px;
+    -webkit-transition:all 15s linear;
+    -moz-transition:all 15s linear;
+    -o-transition:all 15s linear;
+    -ms-transition:all 15s linear;
+    transition:all 15s linear;
+    position:fixed;
+}
+
+#baconBit.makeitrain {
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg);
+    top:100%
+}
+
+.usertext-edit textarea, .sidecontentbox .title h1 { /* text-transform:lowercase !important; */ }
+
+/* Team Logo Styling */
+
+a[href="/r/anaheimducks"]:before, a[href="/r/bostonbruins"]:before, a[href="/r/sabres"]:before, a[href="/r/calgaryflames"]:before, a[href="/r/canes"]:before, a[href="/r/hawks"]:before, a[href="/r/coloradoavalanche"]:before, a[href="/r/bluejackets"]:before, a[href="/r/dallasstars"]:before, a[href="/r/detroitredwings"]:before, a[href="/r/edmontonoilers"]:before, a[href="/r/floridapanthers"]:before, a[href="/r/losangeleskings"]:before, a[href="/r/wildhockey"]:before, a[href="/r/habs"]:before, a[href="/r/predators"]:before, a[href="/r/devils"]:before, a[href="/r/newyorkislanders"]:before, a[href="/r/rangers"]:before, a[href="/r/ottawasenators"]:before, a[href="/r/flyers"]:before, a[href="/r/coyotes"]:before, a[href="/r/penguins"]:before, a[href="/r/sanjosesharks"]:before, a[href="/r/stlouisblues"]:before, a[href="/r/tampabaylightning"]:before, a[href="/r/leafs"]:before, a[href="/r/canucks"]:before, a[href="/r/caps"]:before, a[href="/r/winnipegjets"]:before, a[href="/r/hockey"]:before, a[href="/r/USAHockey"]:before, a[href="/r/TeamCanada"]:before {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(%%allteamflair%%);
+    background-position: -9999px -9999px;
+    vertical-align: middle;
+    content: "";
+    }
+a[href="/r/hockey"]:before {
+    width: 20px;
+    height: 20px;
+    background-position:0 0;
+    background-image: url(%%nhl%%);
+    }
+a[href="/r/anaheimducks"]:before {
+    background-position: 0 -1701px !important
+    }
+a[href="/r/bostonbruins"]:before {
+    background-position: 0 -1785px !important
+    }
+a[href="/r/sabres"]:before {
+    background-position: 0 -1932px !important
+    }
+a[href="/r/calgaryflames"]:before {
+    background-position: 0 -1995px !important
+    }
+a[href="/r/canes"]:before {
+    background-position: -21px -42px !important
+    }
+a[href="/r/hawks"]:before {
+    background-position: -21px -84px !important
+    }
+a[href="/r/coloradoavalanche"]:before {
+    background-position: -21px -168px !important
+    }
+a[href="/r/bluejackets"]:before {
+    background-position: -21px -210px !important
+    }
+a[href="/r/dallasstars"]:before {
+    background-position: -83px -712px !important
+    }
+a[href="/r/detroitredwings"]:before {
+    background-position: -21px -357px !important
+    }
+a[href="/r/edmontonoilers"]:before {
+    background-position: -21px -441px !important
+    }
+a[href="/r/floridapanthers"]:before {
+    background-position: -21px -546px !important
+    }
+a[href="/r/losangeleskings"]:before {
+    background-position: -21px -567px !important
+    }
+a[href="/r/wildhockey"]:before {
+    background-position: -21px -735px !important
+    }
+a[href="/r/habs"]:before {
+    background-position: -21px -798px !important
+    }
+a[href="/r/predators"]:before {
+    background-position: -21px -987px !important
+    }
+a[href="/r/devils"]:before {
+    background-position: -21px -1050px !important
+    }
+a[href="/r/newyorkislanders"]:before {
+    background-position: -21px -1092px !important
+    }
+a[href="/r/rangers"]:before {
+    background-position: -21px -1155px !important
+    }
+a[href="/r/ottawasenators"]:before {
+    background-position: -21px -1491px !important
+    }
+a[href="/r/flyers"]:before {
+    background-position: -21px -1575px !important
+    }
+a[href="/r/coyotes"]:before {
+    background-position: -21px -1596px !important
+    }
+a[href="/r/penguins"]:before {
+    background-position: -21px -1722px !important
+    }
+a[href="/r/sanjosesharks"]:before {
+    background-position: -21px -1827px !important
+    }
+a[href="/r/stlouisblues"]:before {
+    background-position: -21px -1911px !important
+    }
+a[href="/r/tampabaylightning"]:before {
+    background-position: -42px 0 !important
+    }
+a[href="/r/leafs"]:before {
+    background-position: -42px -105px !important
+    }
+a[href="/r/canucks"]:before {
+    background-position: -42px -210px !important
+    }
+a[href="/r/caps"]:before {
+    background-position: -42px -336px !important
+    }
+a[href="/r/winnipegjets"]:before {
+    background-position: -42px -420px !important
+    }
+a[href="/r/USAHockey"]:before {
+    background-position: -85px -690px !important
+    }
+a[href="/r/TeamCanada"]:before {
+    background-position: -85px -463px !important
+    }
+
+/* NWHL Team Logo Styling */
+
+a[href="/r/bostonpride"]:before, a[href="/r/buffalobeauts"]:before, a[href="/r/connecticutwhale"]:before, a[href="/r/nyriveters"]:before {
+    width: 24px;
+    height: 21px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(%%nwhl-flair%%);
+    background-position: -9999px -9999px;
+    vertical-align: middle;
+    content: "";
+    }
+a[href="/r/bostonpride"]:before {
+    background-position: -425px -15px !important
+    }
+a[href="/r/buffalobeauts"]:before {
+    background-position: -5px -49px !important
+    }
+a[href="/r/connecticutwhale"]:before {
+    background-position: -42px -44px !important
+    }
+a[href="/r/nyriveters"]:before {
+    background-position: -77px -46px !important
+    }
+
+/* hides the subreddit creator in the sidebar */
+
+.create {
+    display: none
+    }
+
+
+    /* HOVER MESSAGES */
+
+
+
+    /* hover text for the report button */
+    .report-button:hover:before {
+      color: #041E42;
+      background-color: #fff;
+      border: 1px solid #041E42;
+      border-radius: 4px;
+      content: "Please message the moderators if you click report, otherwise we may not know why this was reported. Thank you!";
+      display: block;
+      font-size: 11px;
+      font-weight: bold;
+      margin-left: 75px;
+      margin-top: 7px;
+      padding: 5px;
+      position: absolute;
+      text-align: center;
+      z-index: 1000
+      width:250px;
+    }
+
+    /* LINK FLAIR */
+
+  .flair, .linkflairlabel {
+    display: inline-block;
+    margin-right: .5em;
+    padding: 0 2px; /* text-transform:lowercase !important; */ }
+
+    /* GAMEDAY */
+
+    .linkflair-gameday .linkflairlabel {
+    background-color: #224D88;
+    font-size: 12px;
+    font-weight: bold;
+    color:#fff;
+    border-color: #822;
+    border-width: 1px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+
+    .linkflair-lucky .linkflairlabel {
+    background-color: #6E8B57;
+    font-size: 12px;
+    font-weight: bold;
+    color:#fff;
+    border-color: #248822;
+    border-width: 1px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+
+    .linkflair-lucky.link { background-color: #E3F8D2 !important; }
+
+    .linkflair-post .linkflairlabel {
+    background-color: #286;
+    font-size: 12px;
+    font-weight: bold;
+    color:#fff;
+    border-color: #822;
+    border-width: 1px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+
+    .linkflair-post.link { background-color: #D2EFF8!important; }
+
+    .linkflair-morning .linkflairlabel {
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    color:#000;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+
+    .linkflair-morning.link { background-color: #fff!important; }
+
+    .linkflair-wolf .linkflairlabel {
+    background-color: #676767;
+    font-size: 12px;
+    font-weight: bold;
+    color:#fff;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+
+    .linkflair-wolf.link { background-color: #E2E2E2 !important; }
+
+    .linkflair-transfer .linkflairlabel {
+    background-color: #736B32;
+    font-size: 12px;
+    font-weight: bold;
+    color:#fff;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+
+    .linkflair-transfer.link { background-color: #F2EAAC !important; }
+
+    .linkflair-injury .linkflairlabel {
+    background-color: #822;
+    font-size: 12px;
+    font-weight: bold;
+    color:#fff;
+    border-color: #822;
+    border-width: 1px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    }
+
+    .linkflair-injury.link { background-color: #F8D2D2 !important; }
+
+
+    .linkflairlabel { float: left; margin-top: 3px; padding:2px 8px !important; }
+
+    .flairselector ul { max-width:400px; width:400px; }
+    .flairselector ul li { float: left; clear: both;}
+
+/*Change MODERATORS in sidebar*/
+
+
+.sidecontentbox .helplink + .title h1 { font-size: 0 !important }
+
+.sidecontentbox .helplink + .title h1:before { font-size: 10pt !important; content: "Captains" }
+
+/* Sidebar settings */
+.side .md table {
+    border: 2px solid #c2c2c2;
+    width: 100%;
+    padding: 2px;
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+.side .md table th {
+    background-color: #041e42;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+    /* border: 1px solid #EEE; */
+    }
+.side .md table td {
+    border: 1px dotted gray;
+    }
+.side .md table a {
+    color: #7f7f7f;
+    text-decoration: underline;
+    }
+.side .md table a:hover {
+    color: black !important;
+    text-decoration: underline;
+    font-style: italic;
+    }
+.side .md table a:selected {
+    color: #7f7f7f;
+    text-decoration: underline;
+    }
+.side .md table a:visited {
+    color: #7f7f7f;
+    text-decoration: underline;
+    }
+
+/*
+tbody tr:nth-of-type(10) td:nth-of-type(3),
+tbody tr:nth-of-type(11) td:nth-of-type(3) {
+    background: #F44336;
+    color: #fff
+}
+
+.md table:first-child tbody,
+tbody tr:nth-of-type(2) td:nth-of-type(3),
+tbody tr:nth-of-type(4) td:nth-of-type(3),
+tbody tr:nth-of-type(7) td:nth-of-type(3),
+tbody tr:nth-of-type(12) td:nth-of-type(3) {
+    background: #4CAF50;
+    color: #fff
+}
+*/
+
+/* .side table td:nth-child(7)  { background-color: #d3d3d3; }*/
+
+/* Modified Headers - H1 */
+
+.usertext-body a { color:#D31C65; }
+.comment .md p > a:visited { color:#6629B4 !important;}
+.expando form .usertext-body .md h1 {
+  font-size: 10px;
+  color: #302217;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 4px
+  /* text-transform:lowercase */
+   }
+.commentarea .usertext-body .md h1 {
+font-weight:bold;
+
+}
+/* Modified Headers - H2 */
+.expando form .usertext-body .md h2 {
+  font-size: 12px;
+  color: #302217;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 4px
+  /* text-transform:lowercase */
+    }
+/* Modified Headers - H3 */
+.expando form .usertext-body .md h3 {
+  font-size: 16px;
+  color: #302217;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 4px
+  /* text-transform:lowercase */
+}
+/* Modified Headers - H4 */
+.expando form .usertext-body .md h4 {
+  font-size: 20px;
+  color: #302217;
+  text-align: center;
+  font-variant: small-caps;
+  padding-top: 4px
+  /* text-transform:lowercase */
+}
+/* Modified Headers - H5 */
+.expando form .usertext-body .md h5 {
+  font-size: 25px;
+  color: #302217;
+  text-align: center;
+  padding-top: 8px
+  /* text-transform:lowercase */
+}
+/* Modified Headers - H6 */
+.expando form .usertext-body .md h6 {
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #302217;
+  text-align: center;
+  padding-top: 4px
+  /* text-transform:lowercase */
+}
+
+.md table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border-left: 2px solid #302217;
+  border-right: 2px solid #302217;
+  border-top: 2px solid #302217;
+  border-bottom: 2px solid #302217;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.md table th {
+  background-color: #041e42;
+  /* border-top: 1px solid #323232; */
+  /* border-left: 1px solid #323232; */
+  border-bottom: 2px solid #323232;
+  border-right: 1px solid #000000;
+  color: #ffffff;
+  font-size: 100%;
+  font-weight: bold;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle !important
+}
+
+/* Table Data */
+
+.md table td {
+  /* border-top: 1px solid #d4d4d4; */
+  /* border-left: 1px solid #d4d4d4; */
+  /* border-bottom: 1px solid #d4d4d4; */
+  /* border-right: 1px solid #d4d4d4; */
+  color: #000;
+  font-size: 100%;
+  height: 23px;
+  vertical-align: middle !important
+}
+
+/* Responsive stuffs */
+
+@media only screen and (max-device-width: 1080px) {
+  #header-bottom-right { display:none !important;}
+  #header .redditname a { display:none !important;}
+  #header-img {margin: 0 auto !important; text-align: center !important; display: block !important;}
+}
+
+@media only screen and (max-device-width: 520px) {
+  #header .redditname a { display:none !important;}
+   body { width:100% !important; min-width:0px !important;}
+   #header-bottom-right { display:none !important;}
+
+   html:not([lang="ns"]) .commentarea .thing:hover { border: 2px rgba(0,0,0,0.08) solid!important; }
+
+   .tabmenu li {
+    -moz-transition: all .2s linear;
+     -webkit-transition: all .2s linear;
+     transition: all .2s linear; }
+     .tabmenu:hover .tabmenu li{ opacity:1;  }
+   .content {
+        float: left;
+    }
+
+    .side {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      overflow: auto;
+      -moz-transition: all .2s linear;
+     -webkit-transition: all .2s linear;
+     transition: all .2s linear;
+     }
+     .side:hover, .side:focus, .side:active { height: 1640px; width: 30%; overflow-y: auto; float: right; }
+     .side .usertext-body { width: 100%; }
+}
+
+
+.comment .md p>a:visited { color: #AC9332!important; }
+
+
+body {
+  margin: 0px auto;
+  font-family: 'Segoe UI' , Arial, Sans-Serif;
+  background-color:#fff !important;
+  width:100%;
+  min-width:1100px;
+  /* text-transform: lowercase; */
+
+}
+
+
+body p::selection {
+  background: #822; /* WebKit/Blink Browsers */
+  color:#fff;
+}
+body p::-moz-selection {
+  background: #822; /* Gecko Browsers */
+  color:#fff;
+}
+
+
+/*font resets */
+#sr-header-area { background-color:#111b42; z-index:999; position: fixed; top:0; left:0;}
+#sr-header-area a { color:#faf9f5; text-transform:lowercase; }
+#sr-header-area a:hover { color:#000; }
+#sr-header-area, #header-bottom-right { font-family: verdana, arial, helvetica, sans-serif; }
+#sr-header-area, #srLeftContainer { background-color: #111b41; color: #fff; margin: 0px; padding: 0px; line-height: 16px; border: 0px; height:22px; }
+.dropdown.srdrop .selected { background-color: #ffffff; color: #041e42; height: 16px; padding-top: 3px; padding-bottom: 3px; }
+.sr-bar a { color: #444; height: 16px; padding: 3px; display: inline-block; }
+.sr-bar a:hover { text-decoration: none; background-color: #dddddd; color: #041e42; }
+.sr-bar .separator { display: none; }
+#sr-header-area .flat-list li { padding-right: 4px; margin-left: 4px; border-right: 1px Solid #777; }
+#sr-header-area .flat-list li:last-child { border-right: 0px; }
+#sr-header-area .separator { display: none; }
+
+/* RES stuff... */
+
+.newComments { color: #DC2E2E !important; }
+.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment { background-color: rgb(255, 255, 255); }
+#REScommentNavToggle { margin: 0px !important; border-radius: 0px !important; -moz-border-radius: 0px !important; -webkit-border-radius: 0px !important; border: 0px !important; background-color: #eaeaea !important; color: #444 !important; padding: 5px 20px !important; display: inline-block !important; width: 96% !important; }
+.commentNavSortType { color: #444; }
+#RESShortcuts, #RESStaticShortcuts, #srDropdown { background: #ffffff; }
+#RESStaticShortcuts { margin-right: 12px; }
+#RESShortcuts a, #srDropdownContainer a, #RESStaticShortcuts a { padding: 3px 4px; display: inline-block; margin-left: 4px; line-height: 16px; height: 16px;}
+#srDropdownContainer a { margin-left: 0px; }
+#RESShortcuts a:hover, #srDropdownContainer a:hover, #RESStaticShortcuts a:hover { background-color:#21217E !important; color: #fff !important; }
+#RESShortcutsViewport { height: 22px; max-height: 22px !important; }
+ #srDropdownContainer { background-color: #ffffff; padding-right: 21px; background-repeat: no-repeat; }
+#sr-header-area #srDropdownContainer  a { color: #041e42 !important; }
+/* #header-bottom-right .flat-list { float: left; }  */
+.header-bottom-right .user { line-height: 19px; }
+#sr-header-area div.dropdown span { border-left: 4px Solid #000000; text-transform: lowercase !important; }
+/* #srLeftContainer, #RESStaticShortcuts, #RESShortcuts, #srDropdown { background-color: #ffffff !important; } */
+#RESShortcuts .separator, #RESStaticShortcuts .separator { display: inline-block; width: 1px; border-right: 1px Solid #484848; text-indent: -100px; overflow: hidden; }
+
+#RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash { text-indent: -100px; overflow: hidden; }
+
+/*
+#RESStaticShortcuts .separator:nth-child(1) { display: none; }
+#RESShortcutsEditContainer { margin-top: 3px; margin-right: 3px; }
+#RESShortcutsEditContainer, #RESShortcutsEditContainer div { background-color: #ffffff !important; }
+#RESShortcutsEditContainer #RESShortcutsAdd { margin-top: 1px; width: 12px; height: 12px; background-image: url(%%sprite-plus-minus%%); background-repeat: no-repeat; background-position: 0px 0px; }
+#RESShortcutsEditContainer #RESShortcutsAdd:hover { background-position: -12px 0px; }
+#RESShortcutsEditContainer #RESShortcutsRight, #userbarToggle.userbarHide { width: 12px; height: 13px; background-image: url(%%sprite-arrows-1%%); background-repeat: no-repeat; background-position: -12px 0px; }
+#RESShortcutsEditContainer #RESShortcutsLeft, #userbarToggle.userbarShow { width: 12px; height: 13px; background-image: url(%%sprite-arrows-1%%); background-repeat: no-repeat; background-position: 0px 0px; }
+#RESShortcutsEditContainer #RESShortcutsRight:hover, #userbarToggle.userbarHide:hover { background-position: -12px -13px; }
+#RESShortcutsEditContainer #RESShortcutsLeft:hover, #userbarToggle.userbarShow:hover { background-position: 0px -13px; }
+#userbarToggle { display: block; /*margin-left: -19px !important; top: 5px !important; border: 0px !important; background-color: #eee !important; color: #ffffff !important; text-indent: -1000px; overflow: hidden; left: 0px; min-height: 13px !important; margin-top: 2px !important; }
+.srSep { display: none; }
+*/
+
+/* MOBILE */
+
+@media only screen and (max-device-width: 480px) {
+  body>.content { width: 100% !important; padding:0px !important;
+    padding: 0px!important;
+    border-right: none !important;
+  }
+  .link { width: 97% !important;}
+  .link .title { font-size: 35px !important; }
+  #header-img { margin: 0 auto !important; }
+  .tabmenu li a { font-size: 23px !important; }
+
+  .linkflairlabel { font-size: 40px !important; }
+
+  .link .rank { font-size: 70px !important; margin-top: 5% !important; padding-right: 40px !important;}
+  .link .midcol { margin-top: 5% !important; }
+  .comment .midcol {margin-top: 24px !important; }
+  .tabmenu { margin-left: 0px !important; }
+  .domain { display:none !important; }
+  .tagline { font-size:30px !important; margin-top: 16px!important; margin-bottom: 20px !important;}
+  .entry .buttons li a{ font-size:40px !important; }
+  .entry .buttons li { margin-top: 20px; }
+  .link .flat-list li.first a, .link .flat-list li.share a.option  { font-size:40px !important; }
+  .link .title { font-size: 55px !important; }
+  .comment .author { line-height: 100px !important; font-size: 55px; }
+  .md p, .md h1 {
+    padding: 19px 0;
+    font-size: 40px;
+    background: #FFF;
+    margin: 0;
+  }
+  .side { padding-top: 170px !important; }
+  .md { margin-top:80px !important; }
+  .morecomments a {
+    font-size: 45px !important;
+  }
+
+}
+
+body { width:100%; min-width: 1230px;}
+
+body>.content {
+  background: none !important;
+  border: none !important;
+  padding:12px 0!important;
+  min-height:2825px;
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+  }
+
+.drop-choices { background-color: #464646; color: #fff; border: 0px; padding: 6px; }
+.drop-choices a { color: #fff; padding: 2px 4px; }
+.drop-choices a.choice:hover { background-color: #ffffff; color: #041e42; }
+.drop-choices a.choice.bottom-option { margin-top: 5px; border: 0px; }
+#header-bottom-right { background: rgba(13, 30, 73, 0.47); color: #fff; top: 200px !important; height: 20px !important; right:2.8% !important; background-color: #navy; color: #cb957b; bottom: inherit; border-radius: 4px; border: none; }
+#header-bottom-right a { color: #fff; padding: 4px 2px; font-size:12px; }
+#header-bottom-right .user { color:#fff; }
+#header-bottom-right .separator { display: none; }
+#header-bottom-right  form { padding-left: 12px; }
+#header-bottom-right  form, #header-bottom-right .flat-list { text-align: right; }
+#header-bottom-right .user { margin-right: 6px; }
+#header-bottom-right .user a { color: #041e42; }
+#header-bottom-right .user a:hover { color: #fff; background-color: #822; }
+#header-bottom-right a:hover { text-decoration: none; background-color: #822; color: #fff; }
+#header-bottom-left { z-index:888; background: #fff no-repeat center bottom; border-bottom: 40px Solid #041e42; height:173px; margin-top:22px; }
+#mail, #modmail, #mail.nohavemail, #mail.yeshavemail, #mail.havemail, #modmail.nohavemail, #modmail.yeshavemail, #modmail.havemail { padding: 0px; margin-right: 6px; color:#fff; }
+a#mail:hover, a#modmail:hover { background-color: #ffffff; }
+
+.thing.stickied a.title { color:#882222 !important; line-height: 27px; }
+.thing.stickied a.title:visited, .thing.stickied a.title.visited { color:#692323!important; }
+
+
+
+#header { border: 0px; border-bottom: 0px; position: static; }
+.tabmenu { margin-left:10px; background-color: #041e42; /*#464646;*/ text-align: left; z-index: 30; height: 40px; margin-top: 11px; display: block; padding: 0px 50px;
+background-image:url(%%snoo%%);
+background-position: -40px 3px;
+background-repeat: no-repeat; }
+#header-bottom-left .tabmenu  { clear: both; margin-bottom: -60px; }
+
+
+.menuarea { border-top: 1px Solid #D3D3D3; border-bottom: 0px; }
+.menuarea .flat-list a { padding: 10px 3px; text-transform: uppercase; }
+.menuarea .flat-list a:hover { text-decoration: none; }
+.menuarea .flat-list .selected a { color: #000; font-weight: bold; text-decoration: none; }
+
+.tabmenu li { height: 40px; border: 0px; display: inline-block; }
+.tabmenu li a { font-family: 'Segoe UI' , Arial, Sans-Serif; font-size: 13px; display: inline-block; line-height: 38px; padding: 0px 20px; color: #faf9f5 !important; background: #041e42; font-weight: normal;
+-moz-transition: all .2s linear;
+     -webkit-transition: all .2s linear;
+     transition: all .2s linear;}
+.tabmenu li a:hover, .tabmenu  li.selected a { border: 0px; background: #c8102e; color: #ffffff; }
+
+.tabpane-content { padding: 0px; border: 0px; }
+.side { float:right; border: 2px solid rgba(211, 211, 211, 1); background: #efede3; padding: 12px; padding-top: 0px; margin-top: 12px; z-index: 101; margin-right: 12px; }
+.side .spacer:first-child { background: #fff; margin: 10px auto; padding: 7px; width:280px; }
+.side  >.spacer { clear: both; display:inline-block; margin: 4px;}
+body > .content { background: #ffffff; margin: 0px; padding: 12px !important; border-right: 324px Solid #eaeaea}
+#search input[type="text"]::-webkit-input-placeholder {
+   color: #C3C3C3;
+}
+
+#search input[type="text"]:-moz-placeholder { /* Firefox 18- */
+   color: #C3C3C3;
+}
+
+#search input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+   color: #C3C3C3;
+}
+
+#search input[type="text"]:-ms-input-placeholder {
+   color: #C3C3C3;
+}
+#search input[type="text"] {
+  margin: 0px;
+  color: #041e42;
+  font-size: 12px;
+  font-family: 'Segoe UI', Arial, Sans-Serif;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #ECECEC;
+  padding: 0px;
+  padding-left: 5px;
+  background-color: transparent;
+  background-image: url(%%search%%);
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 243px;
+  padding-right: 33px;
+}
+/* .thumbnail { height: 60px; overflow: hidden; min-width: 70px; text-align: center; margin-top: 0px; background: #ffffff; } */
+.thumbnail.self { height:70px !important; background-position: center !important; background-repeat: no-repeat !important; background-size: contain !important; background:url(%%ladyliberty%%); }
+.midcol { height: 70px; padding: 0px; margin: 0px; }
+.link .rank {
+padding: 0px;
+margin: 0px;
+line-height: 70px;
+text-align: center;
+width: 35px!important;
+font-size: 20px;
+}
+.link .score.unvoted { color:#801717; font-weight: 100; }
+.link .score.dislikes, .link .score.likes, .link .score.unvoted { font-size:17px !important; }
+.link .score.likes { color:#DC2E2E !important;
+  font-weight: 400 !important;
+  font-family: Helvetica !important;
+  padding-bottom: 4px;
+  height: 22px;
+  margin-top: -4px;
+}
+.link .score.dislikes {
+color: #4F4BD4;
+font-weight:100 !important;
+}
+.score.unvoted, .score.likes, .score.dislikes { line-height: 27px; }
+.titlebox form.toggle { background: transparent; }
+
+.expando-button, .tagline .expand, .collapsed .expand:nth-child(1) { margin-top: 0px; }
+
+
+/* RES CHROME HEADER OVERRIDES */
+#srDropdownContainer { background-color: #111b41 !important; }
+#sr-header-area #srDropdownContainer a { color:#fff !important;}
+
+#RESShortcutsEditContainer { display:none; }
+
+#srLeftContainer, #RESStaticShortcuts, #RESShortcuts, #srDropdown {
+background-color: #111b41 !important;
+}
+
+.RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+background-color: #ECE6DA !important;
+}
+
+.submit, .create { height: 50px; }
+.login-form .submit { height: auto; }
+.login-form-side { border: 0px; padding: 0px; }
+form.submit, form.create { height: auto; float: left; margin-top: -97px;}
+.morelink { width: 110px; height: 50px; float: left; color: #ffffff; font-weight: bold; border: 0px; padding: 0px; position: relative; border-bottom-left-radius: 0px; border-top-left-radius: 0px;}
+/*.morelink:hover .morelink a:before
+{content: "--"
+}*/
+
+/* Wobble Horizontal */
+@-webkit-keyframes wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.morelink {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.morelink:hover, .morelink:focus, .morelink:active {
+  -webkit-animation-name: wobble-horizontal;
+  animation-name: wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+ul.tabmenu.formtab { padding-left: 50px !important; }
+.morelink a {
+  text-transform: lowercase;
+  margin: 0;
+  display: block;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 0;
+  color: #ffffff;
+  font-weight: normal;
+  height: 27px;
+  padding-top: 18px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align:center;
+  font-family: 'Segoe UI Light','Segoe UI',Tahoma,Arial,Verdana,sans-serif;
+  border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.submit-text .morelink a {
+  padding-top: 18px;
+  height: 47px;
+}
+.create .morelink a {
+  padding-top: 43px;
+  height: 67px;
+}
+
+#header-bottom-right .user a { color:#FFFFFF; }
+/*
+.create .morelink:hover, .submit .morelink:hover {
+  background-image: url(%%sprite-next%%);
+  background-repeat: no-repeat;
+  background-position: top right;
+background-position: 10px 0;
+
+}
+.pref-lang { margin-right: 6px; }
+*/
+body .keyHighlight { border: 0px; background: #eee; outline: none; }
+
+.side>.spacer  { margin:10px auto 0 !important;}
+
+.morelink a { color: #FFFFFF; margin:0 auto !important; letter-spacing: -0.3px !important; font-size:13px !important;}
+.morelink  { background-image:none; width: 295px!important;}
+.submit-link .morelink { background: #041e42; }
+.submit-link .morelink:hover { border: 5px; background-image:none !important;}
+.submit-text .morelink { background-color:#882222; }
+.submit-text .morelink:hover {color: #0072BC; background-image:none !important; }
+.create .morelink { background: #c8102e; }
+.morelink:hover { opacity:0.9;}
+.create .morelink a { padding-top: 44px; }
+.submit .spacer, .create .spacer { float: right; background: none; width: 160px; padding: 0px; margin: 0px; }
+form.submit .spacer, form.create .spacer { float: none; width: auto; }
+.sidebox .subtitle { font-size: 19px; }
+.sidebox.submit .spacer a, .sidebox.create .spacer a { display: none; }
+.submit .spacer .status .a { display: inline; }
+.morelink .nub { display: none; }
+
+/*------------------Sidebar Banners-----------------*/
+
+/*------------------SIDEBAR IMAGE----------------*/
+
+div.side div.spacer:nth-of-type(1){
+  padding:411px 10px 0!important;
+  background:url(%%gameday%%) top center no-repeat;
+}
+
+a[href="https://www.facebook.com/nyrangers"]:after { content: url(%%sidebar-facebook%%); margin:0 5px; }
+a[href="https://www.facebook.com/nyrangers"]:hover { opacity:0.8;}
+
+a[href="https://www.twitter.com/nyrangers"]:after { content: url(%%sidebar-twitter%%); margin:0 5px; }
+a[href="https://www.twitter.com/nyrangers"]:hover { opacity:0.8;}
+
+a[href="https://www.instagram.com/nyrangers"]:after { content: url(%%sidebar-instagram%%); margin:0 5px; }
+a[href="https://www.instagram.com/nyrangers"]:hover { opacity:0.8;}
+
+a[href="http://rangers.nhl.com/"]:after { content: url(%%sidebar-nhl-rangers%%); margin:0 5px; }
+a[href="http://rangers.nhl.com/"]:hover { opacity:0.8;}
+
+/*a[href="http://www.howmanydaysuntilhockey.com/index.php?Team=NYR"]:after { content: url(%%sidebar-offseason%%); }*/
+
+
+/*a[href="/message/unread/"]:after { content: url(%%sidebar-offseason%%); }*/
+
+
+
+
+.side blockquote, .help blockquote {
+background: #041e42;
+color: #FFFFFF;
+margin: 0px;
+padding: 10px;
+border: none;
+font-size: 14px;
+}
+
+.side blockquote h2 {
+font-size: 16px;
+color: #fff;
+padding: 0px;
+}
+
+.side blockquote h2 {
+font-size: 16px;
+color: #fff;
+margin-top: 8px;
+font-weight: 700;
+}
+
+div.titlebox .md h2 {
+background-color: #041e42;
+color: #FFFFFF;
+padding: 4px 6px;
+}
+
+.linkflair-gameday.link {
+    background-color: #D2E1F8 !important;
+
+  }
+
+.popup .submit button { color:#fff !important; }
+.popup { background-color:#041E42; color:#FFF; }
+.popup .login-form-section>h3, .popup .login-form-section p, .popup .login-form-section.register .registration-info, .popup label { color:#FFF; }
+
+
+.pretty-form { margin-top: 0px;
+border: 1px solid rgba(211,211,211,1); }
+.pretty-form input[type="text"], .pretty-form input[type="file"], .pretty-form input[type="password"], .pretty-form select, .pretty-form b, .pretty-form textarea, .linefield textarea, .linefield input[type="text"], .linefield input[type="password"], .roundfield textarea, .roundfield input[type="text"], .roundfield input[type="password"] { font-size:14px !important; border:1px Solid #C5C5C5 !important; padding:8px 0 0px 8px!important;}
+
+.res-commentBoxes .comment .comment, .res-commentBoxes .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color:#F8F7F4 !important; }
+.res-commentBoxes .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color:#F1EEE0 !important; }
+#siteTable .RES-keyNav-activeElement { background:transparent !important; border:2px dashed #D4D4C1 !important;}
+ .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background:#F8F6EC;}
+#NREFloat { top:26px !important;}
+
+
+.comment .arrow.arrow.upmod { background-position: -2px 0px !important; }
+.comments-page .arrow.arrow.upmod { background-position: 1px 0px !important; }
+
+.entry .buttons li a { color: #812424 !important; font-size: 12px !important; font-weight: normal !important; }
+
+#siteTable .entry { border:2px dashed transparent; }
+.link.last-clicked { border:2px solid rgba(211,211,211,1) !important;}
+
+.link.stickied { background:#F8EED2; border:2px solid rgba(136, 34, 34, 0.38); border-radius:15px 0; box-shadow:1px 1px 1px rgba(0, 0, 0, 0.22);}
+.link.stickied .entry { margin-left:60px; }
+.link.stickied .midcol.likes, .link.stickied .midcol.dislikes  { margin-left:4px !important; margin-right:10px; }
+.link.stickied:before { content:url(%%sticky%%);
+float: left;
+top: 18px;
+position: relative;
+left: 2px; }
+
+.sidecontentbox  { margin-top: 12px; clear: both; width:300px; }
+#searchexpando select { background-color:#fff; border: 1px solid #A6A6A6; height:30px; }
+#searchexpando {
+margin: 0 auto;
+margin-top: 0px;
+padding: 0px;
+width: 260px;
+padding: 12px;
+border-radius: 0px;
+color: #000;
+border: 1px dashed #E3E2CF;
+}
+
+#search input::-webkit-input-placeholder::before {
+    content:url(%%arrow-upvote-mod%%);
+    position:relative;
+    top:5px;
+    left:-2px;
+}
+#searchexpando a { color: #041E42; text-decoration: underline; }
+#searchexpando input, #searchexpando p { margin-top:6px; }
+#search input[type="submit"] { outline: none; background:transparent; background-image:none; padding:6px 15px; color:#041e42; border:none; font-size:16px; }
+#search input[type="submit"]:focus { outline:1px solid #C4D0F1; }
+#search input[type="submit"]:hover { opacity:0.8;}
+#searchexpando a:hover { color: #23569C; }
+.entry { min-height: 60px; padding: 0px; padding-left: 12px; }
+.comment .entry { min-height: inherit; padding: 3px !important; margin: 0px !important; }
+.res_post_ups, .res_post_downs { padding: 2px; }
+.commentarea { background-color: #F6F6F6; }
+.commentarea .sitetable { padding: 0; }
+.commentarea .child .sitetable { padding: 0px 12px; }
+.commentarea > .usertext { margin: 12px 0; background: #F5F4EF; border: 1px solid #ECE5CE; }
+.commentarea .usertext-edit { padding: 12px; margin: 30px 20px 10px; }
+.commentarea .menuarea { margin: 0px; background-color: #efede3; }
+.commentarea .menuarea > .spacer { line-height: 25px; margin-bottom: 0px; margin-left: 12px; }
+.md { max-width: 100% !important; }
+.link .usertext .md { border-radius: 0px; background-color:#f9f9f9 !important; }
+.child .commentingAs { padding: 4px 21px; }
+.child .markdownEditor { padding: 0px 21px; }
+.child .usertext-edit { padding: 0px 21px; }
+fieldset.liveComment, fieldset.liveComment legend { border: 0px !important; padding: 12px; border-radius: 0px !important; -webkit-border-radius: 0px !important; -moz-border-radius: 0px !important; margin: 0px !important; }
+fieldset.liveComment { border: 1px Solid #666 !important; margin-left: 21px !important; margin-bottom: 12px !important; }
+.thing .tagline .author.submitter { padding: 3px 5px !important; background-color: #822 !important; color:#fff !important;}
+.thing .tagline .author.submitter:after { content:" [OP]" ;}
+.thing { background: #efede3; color:#1F455F; }
+.thing p { color:#374955; }
+.thing .title:visited, .thing.visited .title { color:#3F1919 !important; }
+.thing .title { color:#C93535 !important;}
+.comment .author { color:#882222 !important; }
+
+html:not([lang="ns"]) .commentarea .thing:hover { border: 3px rgba(0, 0, 0, 0.08) solid!important;  }
+html:not([lang="ns"]) .commentarea .thing { border: 3px transparent solid!important; }
+.link { padding: 5px; margin: 0px; margin-bottom: 5px; width:100%;  border: 2px solid rgba(211, 211, 211, 1);}
+.link:hover { border-color:rgba(0, 0, 0, 0.4); background-color: #fff; }
+
+html:not([lang="ns"]) .listing-page .linklisting .thing:hover { border-left: 2px #5E99CF solid; }
+
+.link:hover .rank { color:rgba(0, 0, 0, 0.4); }
+.link:hover .thing.stickied a.title:visited, .link:hover .thing.stickied a.title.visited { border-color:#A73333 !important;}
+.link, .link .title {  -moz-transition: all .4s linear;
+     -webkit-transition: all .4s linear;
+     transition: all .4s linear; }
+.link:hover .title { color:#316DBE !important; }
+form .spacer + .spacer { margin: 12px 0px; }
+
+.usertext button {
+margin: 5px 5px 10px 0;
+padding: 10px 30px;
+font-size: 19px; }
+
+.expando-button { float: left; }
+p.title { min-height: 30px;  }
+.domain { padding-left: 0px; font-size:7px !important; }
+.tagline  { height: 20px; line-height: 12px; font-size: small; }
+.link .flat-list { clear: both; font-size: small; }
+.comment .midcol { height: 55px; padding: 3px !important; }
+
+.expando-button, .tagline .expand, .collapsed .expand:nth-child(1)  { width: 12px !important; height: 12px !important; max-width: 12px !important; max-height: 12px !important; background-image: url(%%sprite-plus-minus%%) !important; background-repeat: no-repeat !important; overflow: hidden; display: inline-block; text-indent: -100px; padding: 0px !important; }
+.expando-button.expanded, .tagline .expand:nth-child(1)       { background-position: 0px -12px !important; }
+.expando-button.collapsed, .collapsed .expand:nth-child(1)        { background-position: 0 0 !important; }
+.expando-button.expanded:hover, .tagline .expand:nth-child(1):hover { background-position: -12px -12px !important; cursor: pointer !important; text-decoration: none !important; background-color: #fff !important; }
+.expando-button.collapsed:hover, .collapsed .expand:nth-child(1):hover  { background-position: -12px 0px !important; cursor: pointer !important; background-color: #fff !important; }
+.comment .collapsed { padding-left: 21px !important; padding-bottom: 0px !important; line-height: 12px; }
+.comment .collapsed.expando-button { padding-left: 0px !important; }
+.comment div.child { margin: 0px; }
+
+.link .title { margin-bottom: 0px;
+  font-weight: 400 !important;
+  font-family: Helvetica !important;
+  font-size: 18px;
+}
+.icon-menu a { background: none; }
+div.comment { padding: 0px !important; border-radius: 0px !important; -moz-border-radius: 0px !important; -webkit-border-radius: 0px !important; margin-left: 0px !important; }
+.comment .child { margin: 12px; }
+
+.tabmenu li a:hover, .tabmenu li.selected a { background: #882222 !important; border-top:1px solid #FFF;}
+
+.formtabs-content { padding-top: 70px; border: 0px; width: auto; }
+button { display: inline-block; border: 0px; color: #fff; padding: 5px 20px; text-align: left; vertical-align: bottom; background: #882222; margin: 0px 3px; }
+button[name="save"], button[name="submit"] { background-color: #041e42; }
+
+.tabmenu.viewimages { margin-left: -260px; margin-bottom: -50px !important;}
+.tabmenu.formtab { margin-top:4px;}
+.tabmenu.formtab .selected a { background: #041e42; color: #FFFFFF; font-size: 13px; }
+.tabmenu.formtab a { border: 0px;}
+.infobar { width: 99%; padding: 12px; border: 1px solid #712727;
+font-size: small;
+color: #000;
+padding: 20px 10px !important;
+background-color:#fff !important;}
+.content.submit .info-notice {
+background-color: #FFFFFF; }
+#userbarToggle { left:0px !important;}
+#userbarToggle.userbarHide {
+    background-color: transparent;
+    border:none;
+    color: #fff;
+}
+#userbarToggle.userbarShow {
+    background-color: transparent !important;
+    border:none !important;
+    color: #fff !important;
+    width:10px;
+}
+
+html:not([lang="ns"]) .footer-parent {
+background: url("%%footerbg%%") no-repeat;
+height: 660px;
+background-position: bottom 0px center;
+background-size: 50%;
+}
+
+.roundfield, .linefield, #images, #subreddit_stylesheet { background: #F4F4F4; border-radius: 0px; padding: 12px; margin: 0px; }
+.roundfield .title, .linefield .title, #images h2, #subreddit_stylesheet h2, .panestack-title { width:100%; color: #464646; background: #efede4; margin: -12px; padding: 10px; display: block; margin-bottom: 12px; font-family: 'Segoe UI Light','Segoe UI',Tahoma,Arial,Verdana,sans-serif; border-bottom: 0px; }
+.panestack-title { margin: 0px; width:95.2%; overflow:hidden;  max-width: 690px; background: none;}
+#images h2 a, #subreddit_stylesheet h2 { font-size: 20px; font-weight: normal; color: #686464; }
+#images h2 a:hover { text-decoration: none; }
+.titlebox h1 { font-family: 'Segoe UI',Tahoma,Arial,Verdana,sans-serif; font-weight: normal; }
+.roundfield .gray { float: right; margin-top: -45px; }
+.pretty-form input[type="text"], .pretty-form input[type="file"], .pretty-form input[type="password"], .pretty-form select, .pretty-form b, .pretty-form textarea,
+.linefield textarea, .linefield input[type="text"], .linefield input[type="password"],
+.roundfield textarea, .roundfield input[type="text"], .roundfield input[type="password"] {
+  color: #333132;
+  font-size: 12px;
+  font-family: "Segoe UI", Arial, Sans-Serif;
+  min-height: 24px;
+  line-height: 24px;
+  border: 1px Solid #464646;
+  padding: 0px;
+  padding-left: 5px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin: 0px;
+}
+.flair-jump button { font-size: 13px; }
+.pretty-form button { margin: 0px 3px; }
+.submit button { font-size:20px !important; padding:10px 25px !important;}
+textarea { line-height: inherit !important; }
+.sheets .buttons{ margin-top: 3px; }
+.usertable { padding: 0px; margin: 0px; }
+#images > #upload-iframe { display: block !important; clear: both; height: 1px; border: 0px; }
+#image-upload { margin-top: -20px; }
+#image-upload label[for="file"], #image-upload label[for="img_type"], #image-upload label[for="img-name"] { display: block; font-size: 16px; text-transform: lowercase; }
+label[for="img-name"] { margin-top: 12px; }
+#image-upload label[for="file"] { display: none; }
+#file { margin-top: 6px; }
+ul#image-preview-list  { margin: 0px; }
+ul#image-preview-list li { background: #fff; margin-right: 12px; margin-bottom: 12px; padding: 6px; width: 300px; }
+#images .error { margin-bottom: 12px; }
+.error { color:#803C3C !important;}
+
+.footer { background:#efede3; }
+
+.panestack-title .title { margin:10px 5px !important;}
+
+.side .usertext-body .md hr { margin: 12px; height: 1px; border: 0px;  }
+
+
+.side .usertext-body { margin: 0px -12px; padding: 12px; width:310px; }
+
+/*-------------Header Stickies-------------*/
+/*--top: 135px; left 605px; FOR ONE ITEM--*/
+/*--top: 130px; left: 605px; FOR 2+ ITEMS--*/
+
+
+.side .usertext-body .md ul:nth-child(1) { position: absolute; top: 130px; left: 605px; padding: 0px; margin: 0px; width: 700px; }
+.side .usertext-body .md p:nth-child(2) { font-weight: bold; font-size: 12px; text-align:center;}
+
+
+
+.side .usertext-body .md ul:nth-child(1) > li {
+  list-style: none;
+  float: left;
+  display: inline-block;
+  margin-right: 25px;
+  position:relative;
+}
+.side .usertext-body .md ul:nth-child(1) li ul {
+  display: none;
+  top: 23px;
+  left: -10px;
+  position:absolute;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 0px 0px 10px #000;
+}
+.side .usertext-body .md ul:nth-child(1) li ul li a {padding: 10px; background: #fff; min-width: 200px; display: block;}
+.side .usertext-body .md ul:nth-child(1) li ul li a:hover { color: #000; background: #eee; }
+.side .usertext-body .md ul:nth-child(1) > li:hover ul { display: block; }
+.side .usertext-body .md ul:nth-child(1) > li a,
+.side .usertext-body .md ul:nth-child(1) > li strong {
+  font-size: 18px;
+  font-weight: normal;
+  color: #848589;
+  cursor: pointer;
+}
+
+.side .usertext-body .md ul:nth-child(1) > li strong {
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  background-position: 0px 10px;
+}
+
+.side .usertext-body .md ul:nth-child(1) > li a:hover,
+.side .usertext-body .md ul:nth-child(1) > li strong:hover { color: #484848; }
+
+
+
+
+.titlebox .bottom { border-top: 0px; }
+
+.thumbnail img[height="39"] { margin-top: 18px; }
+.thumbnail img[height="42"] { margin-top: 9px; }
+.thumbnail img[height="47"] { margin-top: 7px; }
+.thumbnail img[height="48"] { margin-top: 7px; }
+.thumbnail img[height="50"] { margin-top: 5px; }
+.thumbnail img[height="52"] { margin-top: 4px; }
+.thumbnail img[height="56"] { margin-top: 2px; }
+
+.thumbnail { margin:0 10px; }
+
+.linkinfo {
+  border-radius: 0px;
+  background-color: #F1F1F1;
+  border: 1px Solid #041e42;
+  width:281px;
+  text-align: center;
+}
+#moresearchinfo { color: #fff; }
+#mail.nohavemail { background-image: url(%%mail-icon%%); width: 16px; height: 11px; background-position: 0px 0px; }
+#mail.havemail { background-image: url(%%mail-icon%%); width: 16px; height: 11px; background-position: -16px 0px; }
+label + #moresearchinfo { border: 0px; }
+#moresearchinfo { color: #fff; }
+
+.flair-gamertag {
+
+}
+.linkflair .linkflairlabel {
+    padding: 2px;
+    border-radius: 0px;
+    max-width: none;
+    font-weight: 400;
+    }
+.linkflair-flair-yellow .linkflairlabel {
+background-color: #ff0;
+color: #444;
+border: 1px Solid #E2E200;
+}
+.linkflair-flair-blue .linkflairlabel {
+background-color: #0072BC;
+color: #fff;
+border: 1px Solid #1D009B;
+}
+.linkflair-flair-green .linkflairlabel {
+background-color: #041e42;
+color: #fff;
+border: 1px Solid #2CA243;
+}
+.linkflair-flair-orange .linkflairlabel {
+background-color: #FF7F00;
+color: #fff;
+border: 1px Solid #C45E00;
+}
+.linkflair-flair-red .linkflairlabel {
+background-color: #f00;
+color: #fff;
+border: 1px Solid #C20000;
+}
+.linkflair-flair-blank .linkflairlabel {
+
+}
+
+.flairselector {
+padding: 0px 0px 4px !important;
+background: #eee !important;
+}
+.flairselector.drop-choices a {
+color: #369;
+}
+.flairselector h2 {
+background: #041e42;
+color: #fff;
+font-weight: bold;
+}
+.flairsample-right, .flairsample-left {
+margin-bottom: 5px;
+}
+
+.id-t3_1eq569 { background-color: #B3D39A; }
+.id-t3_1eq569 .rank { color: #444; }
+
+
+
+/*------------------IceBreak Tweaks--------------------*/
+
+
+/*------------------Header----------------*/
+#header-bottom-left {
+    font-size: 0px;
+    line-height: 0px
+    }
+#header-img-a {
+    display: inline;
+    overflow:hidden;
+    width: 1400px;
+    height: 180px;
+    margin-top: 12px !important;
+
+    }
+
+#header-img { margin-top:12px !important; opacity:0.9;}
+#header-img:hover { opacity:1; }
+
+
+
+/*---------------Redditname logo----------------*/
+
+/*---------------Redditname logo----------------*/
+
+/* #header .redditname a:hover { opacity:1;} */
+#header .redditname a {
+
+    background: url(%%headerFinal%%);
+    background-position: 0 0px;
+    background-repeat: repeat-x;
+    /* opacity:0.78; */
+    display:block;
+    position: absolute;
+    overflow:hidden;
+    margin-left: -400px;
+    top: 22px !important;
+    left: 40px;
+    width: 2052px;
+    height: 173px;
+    z-index:555;
+    text-indent: 100%;
+     -moz-transition: all .7s linear;
+     -webkit-transition: all .7s linear;
+     transition: all .7s linear
+    }
+
+
+
+
+/* Push */
+@-webkit-keyframes push {
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes push {
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+#header-img {
+  display: inline-block;
+  position: relative;
+  z-index: 777;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#header-img:hover, #header-img:focus, #header-img:active {
+  -webkit-animation-name: push;
+  animation-name: push;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+
+
+/*------------------End Header----------------*/
+
+
+
+/*------------------Spoilers--------------------*/
+
+
+
+/*Amazing spoiler code from listen2 (iOS compatible)*/
+a[href="#s"],
+a[href="#spoiler"],
+a[href="/s"],
+a[href="/spoiler"] {
+    display: inline-block;
+    background: black;
+    color: white;
+    border-radius: 3px;
+    cursor: default;
+    -moz-border-radius: 3px;
+    padding: 0 2px;
+    }
+a[href="/s"],
+a[href="/spoiler"] {
+    color: black
+    }
+a[href="#s"]::after,
+a[href="#spoiler"]::after,
+a[href="/s"]::after,
+a[href="/spoiler"]::after {
+    content: attr(title);
+    background: black;
+    color: black;
+    visibility: visible;
+    padding: 0px 8px;
+    }
+a[href="#s"]:hover,
+a[href="#spoiler"]:hover,
+a[href="/s"]:hover,
+a[href="/spoiler"]:hover {
+    color: #e69162;
+    cursor: default;
+    }
+a[href="#s"]:hover::after,
+a[href="#s"]:active::after,
+a[href="#spoiler"]:hover::after,
+a[href="#spoiler"]:active::after,
+a[href="/s"]:hover::after,
+a[href="/s"]:active::after,
+a[href="/spoiler"]:hover::after,
+a[href="/spoiler"]:active::after {
+    color: white;
+    }
+
+
+
+/*------------------End Spoilers--------------------*/
+
+
+
+/*-----------------Sidebar-------------------*/
+
+
+
+/*Replace "readers"*/
+div.titlebox span.word {
+    display: none;
+    }
+div.titlebox .subscribers span.number:after {
+    content: " users";
+    }
+
+
+
+/*Remove 15 minute check*/
+/*div.titlebox .users-online {
+    display: none;
+    }*/
+
+
+
+/*Active users position and text tweak*/
+.side .titlebox .leavemoderator,
+.side .titlebox .toggle .flairtoggle,
+.side .titlebox .tagline,
+.side .titlebox .usertext {
+    clear: both !important;
+    }
+.side .titlebox .users-online {
+    padding-left: 2px;
+    }
+.side .titlebox .users-online .number:before {
+    content: "(" !important;
+    background: transparent !important
+    }
+.side .titlebox .users-online .number:after {
+    content: " active)" !important;
+    }
+.fancy-toggle-button, .side .titlebox .users-online, .side .titlebox .subscribers {
+    display:inline;
+    }
+.users-online::before {
+    display:none !important;
+    }
+
+
+
+/*Remove the You are a mod/approve submitter text*/
+.side .leavemoderator,
+.side .leavesubmitter {
+    display: none;
+    }
+
+/*Sidebar Table Modifications*/
+.side .titlebox table {
+    min-width: 85%;
+    margin: 0 0;
+    margin-top: 5px;
+    font-family: 'Segoe UI' , Arial, Sans-Serif;
+    border:2px solid #091F60 !important;
+    }
+.side .titlebox th {
+    border: 1px solid black;
+    background-color: #041e42;
+    font-size: 11px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #ffffff;
+    }
+.side .titlebox td {
+    border: 1px solid gray;
+    background-color: #F4F4F4;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    }
+.side .titlebox td a:hover {
+    color: #041e42;
+    }
+
+
+
+/*-----------------End Sidebar-------------------*/
+
+
+
+
+
+
+/*------------------------FLAIR OLD---------------------------*/
+
+#siteTable span.flair, .sidecontentbox .flair {
+    display: none !important
+    }
+
+.flair {
+    cursor: default;
+    display: inline;
+    border: 0;
+    border-radius: 0;
+    width: 23px;
+    height: 20px;
+    }
+.flair:before {
+    cursor:default;
+    display:inline-block;
+    vertical-align: middle;
+    border: 0;
+    border-radius: 0;
+    background: transparent url(%%redNumbers%%) no-repeat;
+    width: 38px;
+    height: 20px;
+    margin-right: 5px;
+    }
+.res-nightmode span.flair {
+    background-color: transparent !important;
+    }
+
+/* Current Rangers Roster */
+
+/* (05) Dan Girardi - Number Five (5) */
+.flair-Girardi:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -261px -44px;
+    width: 13px;
+    height: 21px;
+    }
+/* (08) Kevin Klein - Number Eight (8) */
+.flair-Klein:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -402px -44px;
+    width: 13px;
+    height: 21px;
+    }
+/* (10) JT Miller - Number Ten (10) */
+.flair-Miller:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -11px -82px;
+    }
+/* (13) Kevin Hayes - Number Thirteen (13) */
+.flair-Hayes:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -140px -82px;
+    }
+/* (15) Tanner Glass - Number Fifteen (15) */
+.flair-Glass:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -229px -82px;
+    }
+/* (16) Derick Brassard - Number Sixteen (16) */
+.flair-Brassard:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -272px -82px;
+    }
+/* (18) Marc Staal - Number Eighteen (18) */
+.flair-Staal:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -361px -82px;
+    }
+/* (19) Brad Richards - Number Nineteen (19) */
+.flair-Richards:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -405px -82px;
+    }
+/* (20) Chris Kreider - Number Twenty (20)        */
+.flair-Kreider:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -448px -82px;
+    }
+/* (21) Derek Stepan - Number Twenty-One (21) */
+.flair-Stepan:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -11px -120px;
+    }
+/* (22) Brian Boyle - Number Twenty-Two (22) */
+.flair-Boyle:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -55px -120px;
+    }
+/* (26) Martin St. Louis - Number Twenty-Six (26) */
+.flair-StLouis:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -244px -120px;
+    }
+/* (27) Ryan McDonagh - Number Twenty-Seven (27) */
+.flair-McDonagh:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -291px -120px;
+    }
+/* (28) Dominic Moore - Number Twenty-Eight (28) */
+.flair-DMoore:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -338px -120px;
+    }
+/* (30) Henrik Lundqvist - Number Thirty (30) */
+.flair-Lundqvist:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -432px -120px;
+    }
+/* (33) Cam Talbot - Number Thirty-Three (33) */
+.flair-Talbot:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -102px -158px;
+    }
+/* (36) Matt Zuccarello - Number Twenty-Four (36) */
+.flair-Zuccarello:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -244px -158px;
+    }
+/* (39) Ryan Haggerty - Number Thirty-Nine (39) */
+.flair-Haggerty:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -385px -158px;
+    }
+/* (44) Matt Hunwick - Number Forty-Four (44) */
+.flair-Hunwick:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -152px -196px;
+    }
+/* (45) James Sheppard - Number Forty-Five (45) */
+.flair-Sheppard:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -200px -196px;
+    }
+/* (61) Rick Nash - Number Sixty-One (61) */
+.flair-Nash:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -10px -272px;
+    }
+/* (62) Carl Hagelin - Number Sixty-Two (62) */
+.flair-Hagelin:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -55px -272px;
+    }
+/* (70) Mackenzie Skapski - Number Seventy (70) */
+.flair-Skapski:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -430px -272px;
+    }
+/* (93) Keith Yandle - Number Ninety Three (93) */
+.flair-Yandle:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    background-position: -102px -386px;
+    }
+
+/* Retired Numbers */
+
+/* (1) Eddie Giacomin - Number One (1) */
+.flair-Giacomin:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 10px;
+    height: 21px;
+    background-position: -75px -44px;
+    }
+/* (2) Brian Leetch - Number Two (2) */
+.flair-Leetch:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 13px;
+    height: 21px;
+    background-position: -119px -44px;
+    }
+/* (3) Harry Howell - Number Three (3) */
+.flair-Howell:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 13px;
+    height: 21px;
+    background-position: -166px -44px;
+    }
+/* (7) Rod Gilbert - Number Seven (7) */
+.flair-Gilbert:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 13px;
+    height: 21px;
+    background-position: -355px -44px;
+    }
+/* (9) Andy Bathgate/Adam Graves - Number Nine (9) */
+.flair-Bathgate:before, .flair-Graves:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 13px;
+    height: 21px;
+    background-position: -449px -44px;
+    }
+/* (11) Mark Messier - Number Eleven (11) */
+.flair-Messier:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 24px;
+    height: 21px;
+    background-position: -55px -82px;
+    }
+/* (35) Mike Richter - Number Thirty-Five (35) */
+.flair-Richter:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 30px;
+    height: 21px;
+    background-position: -197px -158px;
+    }
+/* (99) Wayne Gretzky - Number Ninety-Nine (99) */
+.flair-Gretzky:before {
+    display: inline-block;
+    content: "";
+    margin-right: 3px;
+    width: 30px;
+    height: 21px;
+    background-position: -385px -386px;
+    }
+
+/* Rangers Logos */
+
+.flair-NHLNewYorkRangers:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1155px;
+    }
+.flair-NHLNewYorkRangersLady:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:18px;
+    height:18px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1177px;
+    }
+.flair-NHLNewYorkRangersOld1:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:18px;
+    height:17px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1199px;
+    }
+.flair-NHLNewYorkRangersOld2:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:18px;
+    height:17px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1221px;
+    }
+.flair-NHLNewYorkRangersOld3:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -20px -1241px;
+    }
+
+/* Other team logos */
+
+.flair-Toast:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -84px -735px;
+    }
+
+.flair-NHLLeagueLogo:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%nhl%%);
+    vertical-align: middle;
+    background-position: 0px 0px;
+    }
+.flair-NHLAnaheimDucks:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: 0px -1701px;
+    }
+.flair-NHLBostonBruins:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: 0px -1785px;
+    }
+.flair-NHLBuffaloSabres:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: 0px -1932px;
+    }
+.flair-NHLCalgaryFlames:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: 0px -1995px;
+    }
+.flair-NHLCarolinaHurricanes:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -42px;
+    }
+.flair-NHLChicagoBlackhawks:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -84px;
+    }
+.flair-NHLColoradoAvalanche:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -168px;
+    }
+.flair-NHLColumbusBlueJackets:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -210px;
+    }
+.flair-NHLDallasStars:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -83px -712px;
+    }
+.flair-NHLDetroitRedWings:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -357px;
+    }
+.flair-NHLEdmontonOilers:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -441px;
+    }
+.flair-NHLFloridaPanthers:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -546px;
+    }
+.flair-NHLLosAngelesKings:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -567px;
+    }
+.flair-NHLMinnesotaWild:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -735px;
+    }
+.flair-NHLMontrealCanadiens:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -798px;
+    }
+.flair-NHLNashvillePredators:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -987px;
+    }
+.flair-NHLNewJerseyDevils:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1050px;
+    }
+.flair-NHLNewYorkIslanders:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1092px;
+    }
+.flair-NHLOttawaSenators:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1491px;
+    }
+.flair-NHLPhiladelphiaFlyers:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1575px;
+    }
+.flair-NHLPhoenixCoyotes:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1596px;
+    }
+.flair-NHLPittsburghPenguins:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1721px;
+    }
+.flair-NHLSanJoseSharks:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1827px;
+    }
+.flair-NHLStLouisBlues:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -21px -1911px;
+    }
+.flair-NHLTampaBayLightning:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px 0px;
+    }
+.flair-NHLTorontoMapleLeafs:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px -105px;
+    }
+.flair-NHLVancouverCanucks:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px -210px;
+    }
+.flair-NHLWashingtonCapitals:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px -336px;
+    }
+.flair-NHLWinnipegJets:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%allteamflair%%);
+    vertical-align: middle;
+    background-position: -42px -420px;
+    }
+.flair-NWHLBostonPride:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:24px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%nwhl-flair%%);
+    vertical-align: middle;
+    background-position: -425px -15px;
+    }
+.flair-NWHLBuffaloBeauts:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:24px;
+    height:19px;
+    background-repeat:no-repeat;
+    background-image: url(%%nwhl-flair%%);
+    vertical-align: middle;
+    background-position: -5px -49px;
+    }
+.flair-NWHLConnecticutWhale:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:21px;
+    background-repeat:no-repeat;
+    background-image: url(%%nwhl-flair%%);
+    vertical-align: middle;
+    background-position: -42px -44px;
+    }
+.flair-NWHLNewYorkRiveters:before {
+    display: inline-block;
+    content: "";
+    margin-right:3px;
+    width:19px;
+    height:21px;
+    background-repeat:no-repeat;
+    background-image: url(%%nwhl-flair%%);
+    vertical-align: middle;
+    background-position: -77px -46px;
+    }
+
+/*------------------END FLAIR OLD-----------------------*/
+
+/*------------------End Icebreak Tweaks--------------------*/
+
+/*------------------OpTic_Niko's Tweaks--------------------*/
+
+/*---Reply Reminder---*/
+.commentarea .usertext .bottom-area {
+    position: static;
+    }
+.commentarea .usertext .usertext-edit .bottom-area:before {
+    margin-top: 3px;
+    content: 'Please remain civil and on-topic';
+    display: block;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #2c3337;
+    font-size: 12px;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    }
+
+/*---Reply Tip---*/
+/*.arrow.up { background-image:url(%%arrow-upvote-mod%%); opacity:0.8;width: 36px; height: 19px; background-position: 0px -2px;}*/
+.arrow.arrow.upmod { margin-top:10px; background-image:url(%%arrow-upvote-mod%%); opacity:0.8; width: 36px; height: 19px; background-position: 5px 0px; }
+
+.arrow.up { margin-top:10px; }
+.comment .arrow.down:hover::after,
+.comment .arrow.downmod:hover::after {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #a70000;
+    background-color: #fff;
+    color: #555555;
+    content: "Help keep community morale high by only downvoting if this comment adds nothing of value. This is not a 'disagree' button.";
+    text-align: center;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 2px;
+    margin-top: 22px;
+    box-shadow: 1px 1px 3px #eee;
+    }
+
+/*---Helpful threads section ---*/
+.side .usertext-body .md ul:nth-child(4){
+position: absolute;
+top: 56px;
+right: 9px;
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+
+.drop-choices { background-color: #041e42 !important;}
+.flairselector.drop-choices { background-color: #fff !important; }
+
+.side .redditname {
+    font-size: 0px;
+    color: #f0f0f0;
+    }
+
+.side .usertext-body .md ul:nth-child(4) li a
+{
+background: #c8102e;
+padding: 7px 30px 7px 13px;
+display: block;
+position: relative;
+z-index: 777;
+/*
+background-image: url(%%arrow-right-small%%);
+*/
+background-repeat: no-repeat;
+background-position: 170px 7px;
+color: #fff;
+font-weight: bold;
+margin-bottom: 5px;

@@ -91,3 +91,7 @@
 .disabled .morelink:after{
   content:$disabled-copy;
 }
+
+.md pre, .md .-cells, .md th, .md td {
+  padding: 4px;
+}

@@ -1,0 +1,2085 @@
+html:not([lang="ns"]) body {
+    background: #f0f0f0 no-repeat;
+}
+html:not([lang="ns"]) body.res-nightmode {
+    background: #111;
+}
+html:not([lang="ns"]) #sr-header-area {
+    background: #cee3fa;
+    opacity: .6;
+}
+html:not([lang="ns"]) #header-img {
+    margin-top: 0;
+}
+html:not([lang="ns"]) #sr-header-area:hover {
+    opacity: 1;
+}
+html:not([lang="ns"]) #sr-header-area a {
+    color: #000;
+}
+html:not([lang="ns"]) #sr-header-area a:hover {
+    color: #000;
+}
+html:not([lang="ns"]) .dropdown.srdrop .selected {
+    color: #000;
+}
+html:not([lang="ns"]) #sr-header-area .drop-choices {
+    background: #cee3fa;
+}
+html:not([lang="ns"]) #sr-header-area .drop-choices a.choice {
+    color: #000;
+}
+html:not([lang="ns"]) #sr-header-area .drop-choices a.choice:hover {
+    color: #000;
+}
+html:not([lang="ns"]) #header-bottom-left {
+    padding-left: 0;
+    background: none;
+    padding-bottom: 15px;
+}
+html:not([lang="ns"]) #header-bottom-left:before {
+    height: 175px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: transparent url("//a.thumbs.redditmedia.com/ORVH4z9cOJbEGsmfNIGmTx17E7b71iDuY3HgsMUCjZ8.png") 0 -30px repeat-x;
+    content: "";
+    text-indent: -9999px;
+    z-index: -2;
+}
+html:not([lang="ns"]) #header {
+    border-bottom: 0;
+    position: inherit;
+    background: none;
+}
+html:not([lang="ns"]) #header .redditname {
+    display: inline-block;
+    text-indent: -9999px;
+}
+html:not([lang="ns"]) #header #header-img-a {
+    background: url("//b.thumbs.redditmedia.com/RxP5A8T_asI21Gp4MgoGuO0TE1-vGnyAt-PI1jDFJ0E.png") no-repeat 0 -46px;
+    width: 155px;
+    height: 105px;
+    display: block;
+}
+html:not([lang="ns"]) #header a#header-img-a:hover:after {
+    content: "";
+    position: absolute;
+    background: url("//b.thumbs.redditmedia.com/RxP5A8T_asI21Gp4MgoGuO0TE1-vGnyAt-PI1jDFJ0E.png") no-repeat -155px -257px;
+    z-index: 1;
+    width: 155px;
+    height: 105px;
+    top: 19px;
+    left: 0;
+}
+html:not([lang="ns"]) #header .redditname a {
+    display: block;
+    padding: 0 0 0 10px;
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 0;
+    top: 78px;
+    text-indent: -9999px;
+    z-index: 1;
+}
+html:not([lang="ns"]) #header .redditname a:hover {
+    background: url("//b.thumbs.redditmedia.com/RxP5A8T_asI21Gp4MgoGuO0TE1-vGnyAt-PI1jDFJ0E.png") 0 -305px;
+    width: 155px;
+    height: 57px;
+    top: 67px;
+    left: 0;
+    border-bottom: 1px solid #5f99cf;
+}
+html:not([lang="ns"]) #header ul.tabmenu {
+    position: absolute;
+    top: 121px;
+    left: 0;
+    padding: 10px 0 10px 15px;
+}
+html:not([lang="ns"]) #header-bottom-left .tabmenu li a {
+    background: none;
+    padding: 5px 10px;
+}
+html:not([lang="ns"]) body.res-nightmode #header-bottom-left .tabmenu li a {
+    padding: 5px 10px;
+    color: #ccc;
+}
+html:not([lang="ns"]) body.res-nightmode #header-bottom-left .tabmenu li a:hover {
+    background: #222!important;
+}
+html:not([lang="ns"]) #header-bottom-left .tabmenu li a {
+    font-size: 13px;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+    color: #999;
+}
+html:not([lang="ns"]) #header-bottom-left .tabmenu li a:hover {
+    color: #4f91cf;
+}
+html:not([lang="ns"]) #header-bottom-left .tabmenu li.selected a {
+    color: #ff4500;
+    background: #fff;
+    border: 0;
+}
+html:not([lang="ns"]) #header-bottom-left .tabmenu li:nth-of-type(8) a[href="http://www.reddit.com/promoted/"] {
+    display: none;
+}
+html:not([lang="ns"]) #header-bottom-right {
+    position: absolute!important;
+    border: 0 solid #D2D2D2;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+    top: 133px!important;
+    -webkit-border-top-left-radius: 0!important;
+    -moz-border-radius-topleft: 0!important;
+    -webkit-border-bottom-left-radius: 0!important;
+    -moz-border-radius-bottomleft: 0!important;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    z-index: 999;
+    line-height: 18px!important;
+    background: none;
+    height: 20px;
+    background: #fff;
+}
+html:not([lang="ns"]) #RESShortcutsEditContainer {
+    color: #000!important;
+    background-color: transparent!important;
+}
+html:not([lang="ns"]) #RESShortcutsViewport {
+    color: #999;
+}
+html:not([lang="ns"]) #RESShortcutsLeft {
+    width: 16px;
+    background-color: transparent!important;
+    color: #FFF;
+}
+html:not([lang="ns"]) #RESShortcutsAdd {
+    content: "+"!important;
+    width: 16px;
+    background-color: transparent!important;
+}
+html:not([lang="ns"]) #RESShortcutsRight {
+    background-color: transparent!important;
+    content: ">";
+    width: 16px;
+}
+html:not([lang="ns"]) #RESShortcutsRight, html:not([lang="ns"]) #RESShortcutsSort, html:not([lang="ns"]) #RESShortcutsLeft, html:not([lang="ns"]) #RESShortcutsAdd, #RESShortcutsTrash {
+    background-color: transparent!important;
+    color: #999!important;
+    font-size: 15px!important;
+}
+#mail.nohavemail {
+    background-image: url("//b.thumbs.redditmedia.com/z2CJjwkGwVXV6KbO.png");
+    background-position: 0 0;
+}
+#mail.havemail {
+    background-image: url("//b.thumbs.redditmedia.com/z2CJjwkGwVXV6KbO.png");
+    background-position: 0 -10px;
+}
+html:not([lang="ns"]) div.content {
+    padding: 15px;
+    background: #fff;
+    margin: 37px 383px 25px 25px;
+}
+html:not([lang="ns"]) div.content:before {
+    height: 124px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    content: "";
+    text-indent: -9999px;
+    z-index: -1;
+}
+html:not([lang="ns"]) .comments-page div.content, html:not([lang="ns"]) .related-page div.content, html:not([lang="ns"]) .search-page div.content {
+    padding: 0;
+}
+.comment h1 {
+    font-size: 1em;
+    line-height: auto;
+}
+html:not([lang="ns"]) .listing-page div.content {
+    padding: 0;
+    background: #f9f9f9;
+}
+html:not([lang="ns"]) div.content>h2 {
+    padding-top: 20px;
+}
+html:not([lang="ns"]) .footer-parent {
+    background: url("//b.thumbs.redditmedia.com/JE8HUbpgQifKhJ1Eq1D_1DZNwiVFurWp2NTZEI8aeUw.png") no-repeat bottom center;
+    height: 545px;
+}
+html:not([lang="ns"]) .footer.rounded {
+    background: url("//a.thumbs.redditmedia.com/ABi9SIxwhAFalHkN.png");
+}
+.organic-listing {
+    border: 0;
+    margin: 0;
+}
+.content .spacer {
+    margin: 0;
+}
+html:not([lang="ns"]) .entry .buttons li a.comments {
+    color: #555;
+}
+html:not([lang="ns"]) .thumbnail {
+    margin: 0 10px;
+}
+html:not([lang="ns"]) .nextprev {
+    width: auto;
+    display: inline-block;
+    border: 0;
+    border-left: 0;
+    padding: 10px;
+    font-variant: small-caps;
+}
+html:not([lang="ns"]) .nextprev, html:not([lang="ns"]) .next-suggestions {
+    margin-top: 0;
+}
+html:not([lang="ns"]) .nextprev a {
+    font-variant: normal;
+    background: #fff;
+    font-family: Arial, Verdana;
+    color: #333;
+}
+.linklisting .thing {
+    border-left: 3px solid #fff;
+}
+html:not([lang="ns"]) .linklisting .thing {
+    border-left: 3px #fff solid;
+    padding: 10px;
+    background: #fff;
+}
+html:not([lang="ns"]) #siteTable_promoted.linklisting .thing {
+    padding: 5px;
+    border: solid 1px #ddd;
+    border-top: 0;
+}
+html:not([lang="ns"]) .linklisting .thing.spam {
+    background: #FA8072;
+}
+html:not([lang="ns"]) .commentarea .thing.spam form {
+    max-height: 100px;
+    overflow: hidden;
+}
+html:not([lang="ns"]) .commentarea .thing.spam form:hover {
+    height: auto;
+    overflow: auto;
+}
+html:not([lang="ns"]) .link.last-clicked {
+    border-top: dotted 1px #5d9acb;
+    border-bottom: dotted 1px #5d9acb;
+    border-right: 0;
+}
+html:not([lang="ns"]) .link .rank {
+    text-align: center;
+}
+html:not([lang="ns"]) .listing-page .linklisting .thing:hover {
+    background-color: #fff;
+    border-left: 3px #5e99cf solid;
+}
+html:not([lang="ns"]) .link {
+    margin: 0;
+}
+html:not([lang="ns"]) body>.content .link .midcol {
+    margin-right: 15px;
+}
+html:not([lang="ns"]) .side .usertext-body .md {
+    overflow: visible;
+}
+html:not([lang="ns"]) .commentarea .md blockquote {
+    background: url("//d.thumbs.redditmedia.com/UOs_ryeQlgU2rwBc.png") 2px 0 no-repeat #f9f9f9;
+    font-style: oblique;
+    color: #666;
+    padding: 1px 1px 1px 25px;
+    margin-left: -2px;
+}
+html:not([lang="ns"]) .commentarea .md blockquote:hover {
+    color: #000;
+    background: url("//d.thumbs.redditmedia.com/UOs_ryeQlgU2rwBc.png") 2px 0 no-repeat #fff;
+}
+html:not([lang="ns"]) .res .commentarea .thing {
+    border-top: 0!important;
+    border-bottom: 0!important;
+    border-right: 0!important;
+}
+html:not([lang="ns"]) .commentarea .thing {
+    background: #fff;
+    border-left: 3px #e3e3e3 solid!important;
+    padding: 10px 10px 8px 5px;
+    margin: 0 0 2px;
+}
+html:not([lang="ns"]) .commentarea .thing.spam {
+    background: #FA8072;
+}
+html:not([lang="ns"]) .commentarea .thing:hover {
+    border-left: 3px #5e99cf solid!important;
+}
+html:not([lang="ns"]) .commentarea .child .thing:hover {
+    border-left: 2px #83afd7 solid!important;
+}
+html:not([lang="ns"]) .commentarea .child .thing .child .thing:hover {
+    border-left: 1px #9fc2e2 solid!important;
+}
+html:not([lang="ns"]) .commentarea .child .thing {
+    border: none;
+    border-left: 2px #e3e3e3 solid!important;
+    padding: 3px 10px 3px 4px;
+    margin: 0 0 3px;
+}
+html:not([lang="ns"]) .commentarea .child .thing .child .thing {
+    border: none;
+    border-left: 1px #e3e3e3 solid!important;
+}
+html:not([lang="ns"]) .link .usertext-body div.md {
+    border: none;
+    background: none;
+    padding: 0;
+}
+html:not([lang="ns"]) .link .usertext-body div.md p {
+    margin: 10px 0;
+}
+.side a[href="http://www.reddit.com/r/hockey/wiki/faq#toc_3"] {
+    color: #FF4800;
+    font-weight: 700;
+}
+html:not([lang="ns"]) .side {
+    margin: 37px 25px 0 0;
+    width: 300px;
+    padding: 225px 15px 15px;
+    background: url("//b.thumbs.redditmedia.com/MjrpyGxXrx9-gJ0YKYBEXylpQSKGm_AM-CFwKJFnYmU.png") #fff no-repeat 15px 15px;
+}
+html:not([lang="ns"]) a[href="http://bit.ly/1HbMvTT"] {
+    display: block;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 204px;
+    right: 30px;
+    z-index: 1000;
+}
+html:not([lang="ns"]) .side .submit-link {
+    font-style: oblique;
+    text-transform: uppercase;
+    width: 300px;
+}
+html:not([lang="ns"]) .morelink {
+    font-weight: 700;
+    background: #5f99cf;
+    border: 0;
+    padding: 5px 0;
+    letter-spacing: 1px;
+}
+html:not([lang="ns"]) .morelink:hover {
+    background: #73a9dc;
+}
+html:not([lang="ns"]) .morelink a {
+    color: #fff;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+html:not([lang="ns"]) .side .submit-text {
+    display: none;
+}
+html:not([lang="ns"]) .morelink .nub, .morelink:hover .nub {
+    background: none;
+}
+html:not([lang="ns"]) #searchexpando {
+    position: relative;
+    z-index: 500;
+}
+html:not([lang="ns"]) .side .leavemoderator, html:not([lang="ns"]) .side .leavecontributor-button, html:not([lang="ns"]) .sidebox.create, .bottom {
+    display: none;
+}
+.side .md ul {
+    padding-left: 20px;
+}
+.side .md ul li {
+    margin-bottom: 5px;
+}
+html:not([lang="ns"]) .titlebox form.flairtoggle {
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    background: #f6f6f6;
+    padding: 15px 10px 40px;
+    margin-top: 15px;
+    color: #000;
+    font-style: oblique;
+}
+html:not([lang="ns"]) .titlebox .tagline {
+    width: 300px;
+    margin: -30px 0 0;
+    text-align: center;
+}
+.flairselector div.error {
+    visibility: hidden;
+}
+.flairselector div.error:before {
+    content: "Get flair from /r/hockeybot.";
+    visibility: visible;
+    color: #ff4800;
+}
+html:not([lang="ns"]) .side .md table {
+    width: 100%}
+html:not([lang="ns"]) .side .md table td {
+    text-align: center;
+    padding: 0;
+}
+html:not([lang="ns"]) .titlebox h3 {
+    padding: 15px 15px 0;
+    color: #5f99cf;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-weight: 400;
+    border-top: solid 13px #f0f0f0;
+    font-style: oblique;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: -15px;
+    width: 300px;
+}
+html:not([lang="ns"]) .titlebox h1 {
+    display: none;
+}
+html:not([lang="ns"]) .titlebox .usertext .usertext-body p {
+    margin: 1em 0;
+}
+html:not([lang="ns"]) .titlebox .usertext .usertext-body p:first-child {
+    font-size: larger;
+}
+html:not([lang="ns"]) .titlebox .usertext .usertext-body p {
+    font-size: inherit;
+}
+html:not([lang="ns"]) div.titlebox span.word {
+    display: none;
+}
+div.titlebox .subscribers span.number:after {
+    content: " Hockey fans"}
+div.titlebox .users-online span.number:after {
+    content: " fanatics online"}
+html:not([lang="ns"]) .sidecontentbox .title h1 {
+    padding: 15px 15px 0;
+    color: #5f99cf;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-weight: 400;
+    border-top: solid 13px #f0f0f0;
+    font-style: oblique;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: -15px;
+    width: 300px;
+    display: block;
+}
+html:not([lang="ns"]) .sidecontentbox .collapse-button {
+    display: none;
+}
+html:not([lang="ns"]) .sidecontentbox a.helplink {
+    margin-top: 27px;
+}
+html:not([lang="ns"]) .spacer #ad_main {
+    border-top: solid 13px #f0f0f0;
+    padding: 15px 15px 0;
+    width: 300px;
+    margin-left: -15px;
+}
+html:not([lang="ns"]) .sidecontentbox ul.content {
+    border: 0;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    background: #f6f6f6;
+}
+html:not([lang="ns"]) .icon-menu a {
+    background: none;
+}
+html:not([lang="ns"]) .linkinfo {
+    text-align: center;
+    font-size: 11px;
+    padding: 10px 0 15px;
+    border-radius: 0!important;
+    border: none;
+    border-top: solid 1px #5e99cf;
+    border-bottom: solid 1px #5e99cf;
+}
+html:not([lang="ns"]) .linkinfo .totalvotes {
+    display: none;
+}
+html:not([lang="ns"]) .linkinfo .downvotes .number, html:not([lang="ns"]) .linkinfo .upvotes .number, html:not([lang="ns"]) .linkinfo .score .number {
+    font-size: 20px!important;
+    display: block;
+    font-weight: 400!important;
+}
+html:not([lang="ns"]) .linkinfo .score .word {
+    display: none;
+}
+html:not([lang="ns"]) .linkinfo .score {
+    font-size: 11px;
+    display: block;
+    min-width: 80px;
+    margin-left: 30px!important;
+}
+html:not([lang="ns"]) .linkinfo .downvotes .word, html:not([lang="ns"]) .linkinfo .upvotes .word {
+    font-size: 11px;
+}
+html:not([lang="ns"]) .linkinfo .upvotes, html:not([lang="ns"]) .linkinfo .downvotes, html:not([lang="ns"]) .linkinfo .score {
+    padding: 0 10px 0 0;
+    margin: 0 10px 5px 0;
+    text-align: center;
+}
+html:not([lang="ns"]) .linkinfo .shortlink {
+    clear: both!important;
+    font-size: 10px;
+    margin: 0 20px;
+    border: 1px solid #b5d0eb;
+    text-align: center;
+}
+html:not([lang="ns"]) .linkinfo .shortlink input {
+    background: transparent;
+    border: 0;
+    padding-left: 8px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+html:not([lang="ns"]) .linkinfo .date {
+    padding: 8px;
+    margin-top: -10px;
+    margin-bottom: 7px;
+    color: #369;
+    background-color: #dae7f3;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+html:not([lang="ns"]) .side h4 {
+    display: none;
+}
+html:not([lang="ns"]) .side h4+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 26px;
+    right: 85px;
+    z-index: 9999;
+    margin: 0;
+}
+html:not([lang="ns"]) .side h4+ul li {
+    display: block;
+}
+html:not([lang="ns"]) .side h4+ul li ~ li {
+    display: none;
+    background-color: #fff;
+    border-bottom: solid 1px #eee;
+}
+html:not([lang="ns"]) .side h4+ul li:first-child {
+    position: absolute;
+    margin-top: 28px;
+    padding: 0 5px;
+    right: -50px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+html:not([lang="ns"]) .side h4+ul li:first-child:hover, html:not([lang="ns"]) .side h4+ul li:first-child:focus, html:not([lang="ns"]) .side h4+ul li:first-child:active {
+    background-position: 0 -40px;
+    cursor: pointer;
+}
+html:not([lang="ns"]) .side h4+ul li:first-child:hover ~ li, .side .md ul:hover li:not(:first-child), html:not([lang="ns"]) .side h4+ul li:first-child:focus ~ li, .side .md ul:focus li:not(:first-child), html:not([lang="ns"]) .side h4+ul li:first-child:active ~ li, .side .md ul:active li:not(:first-child) {
+    display: block;
+    cursor: pointer;
+}
+html:not([lang="ns"]) .side h4+ul li a {
+    display: inline-block;
+    height: 22px;
+    line-height: 20px;
+    margin: 0 5px;
+}
+html:not([lang="ns"]) .side h4+ul li a:first-child {
+    width: 50px;
+    height: 15px;
+    overflow: hidden;
+}
+.side a[href="http://bit.ly/10IWqP4"], .side a[href="http://bit.ly/115CB5r"], .side a[href="http://bit.ly/1xPM23X"] {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 5px 20px 10px;
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    margin: 0;
+}
+.side a[href="http://bit.ly/115CB5r"], .side a[href="http://bit.ly/1xPM23X"] {
+    margin-top: -12px;
+}
+.side a[href="http://bit.ly/10IWqP4"] {
+    border-top: 1px solid #ddd;
+}
+.side a[href="http://bit.ly/10IWqP4"]:before, .side a[href="http://bit.ly/115CB5r"]:before, .side a[href="http://bit.ly/1xPM23X"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/RxP5A8T_asI21Gp4MgoGuO0TE1-vGnyAt-PI1jDFJ0E.png");
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    content: "";
+    margin-right: 15px;
+    position: relative;
+    bottom: -6px;
+}
+.side a[href="http://bit.ly/10IWqP4"]:before {
+    background-position: -241px -25px;
+}
+.side a[href="http://bit.ly/115CB5r"]:before {
+    background-position: -266px -25px;
+}
+.side a[href="http://bit.ly/1xPM23X"]:before {
+    background-position: -216px -25px;
+}
+.side a[href="http://bit.ly/115CB5r"]:hover, .side a[href="http://bit.ly/10IWqP4"]:hover, .side a[href="http://bit.ly/1xPM23X"]:hover {
+    background: #f0f0f0;
+    z-index: 1;
+}
+.side a[href$="http://bit.ly/115CB5r"]:hover:after, .side a[href$="http://bit.ly/10IWqP4"]:hover:after, .side a[href="http://bit.ly/1xPM23X"]:hover:after {
+    box-shadow: 1px 1px 15px #999;
+    cursor: pointer;
+    padding: 2px;
+    position: absolute;
+    right: 300px;
+    background: #fff;
+}
+.side a[href$="http://bit.ly/115CB5r"]:hover:after {
+    content: url("//b.thumbs.redditmedia.com/-S-lbaOsTsHnbEhy6DDqVtsgWe2HfA5sE0BR7dJlDno.png");
+    top: -63px;
+}
+.side a[href$="http://bit.ly/10IWqP4"]:hover:after {
+    content: url("//b.thumbs.redditmedia.com/ypqufxZl2DNl5knXgWgfZdmZUcLamlt75YfzfDuHB4M.png");
+    top: 0;
+}
+.side a[href="http://bit.ly/1xPM23X"]:hover:after {
+    content: url("//b.thumbs.redditmedia.com/I09sld1-DihZVlkmmLEhPaPOl0pV6p7JxwYq1udKxAM.png");
+    top: -126px;
+}
+html:not([lang="ns"]) .titlebox blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+html:not([lang="ns"]) .titlebox blockquote:hover, html:not([lang="ns"]) .titlebox blockquote:focus {
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+html:not([lang="ns"]) .titlebox blockquote ul {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+html:not([lang="ns"]) .titlebox blockquote ul li {
+    display: none;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF;
+    color: #5B6064;
+    border-bottom: 1px solid #ddd;
+    border-left: 3px solid #fff;
+}
+html:not([lang="ns"]) .titlebox blockquote ul li:first-child {
+    border-top: 1px solid #ddd;
+}
+html:not([lang="ns"]) .titlebox blockquote ul ul {
+    display: none;
+}
+html:not([lang="ns"]) .titlebox blockquote:hover>ul, html:not([lang="ns"]) .titlebox blockquote:focus>ul, html:not([lang="ns"]) .titlebox blockquote:focus>ul {
+    display: block;
+    cursor: pointer;
+}
+html:not([lang="ns"]) .titlebox blockquote ul>li, .titlebox blockquote ul li:hover>ul {
+    display: block;
+    text-indent: 0;
+    cursor: pointer;
+}
+html:not([lang="ns"]) .titlebox blockquote li a, html:not([lang="ns"]) .titlebox blockquote li>strong {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    padding: 15px 0;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:first-child>a {
+    margin: 0 0 0 15px;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:not(:first-child)>a {
+    padding: 25px 0 15px 25px;
+}
+html:not([lang="ns"]) .titlebox blockquote li a:hover {
+    background: #f0f0f0;
+}
+html:not([lang="ns"]) .titlebox blockquote ul:hover li>ul, html:not([lang="ns"]) .titlebox blockquote ul:focus li>ul {
+    position: absolute;
+    margin-top: -44px;
+    right: 340px;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px #999;
+    width: 275px;
+}
+html:not([lang="ns"]) .titlebox blockquote ul:hover li>ul ul, html:not([lang="ns"]) .titlebox blockquote ul:focus li>ul ul {
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    right: 275px;
+    cursor: pointer;
+}
+html:not([lang="ns"]) .titlebox blockquote ul li>ul a, html:not([lang="ns"]) .titlebox blockquote ul li>ul li>strong {
+    padding: 19px 0 19px 10px;
+    background: #f6f6f6;
+}
+html:not([lang="ns"]) .titlebox blockquote ul li>ul li {
+    border-bottom: 1px solid #ccc;
+    border-left: 3px solid #ccc;
+}
+html:not([lang="ns"]) .titlebox blockquote ul li>ul a:hover, html:not([lang="ns"]) .titlebox blockquote ul li>ul li>strong:hover {
+    background: #e6e6e6;
+}
+html:not([lang="ns"]) .titlebox blockquote ul li>ul li:hover {
+    border-left: 3px solid #666;
+}
+html:not([lang="ns"]) .titlebox blockquote ul li ul>li:last-child {
+    background: #f6f6f6;
+}
+html:not([lang="ns"]) .titlebox blockquote li a[href="http://www.reddit.com"] {
+    background: #999;
+    color: #000;
+    padding: 50px 0;
+}
+html:not([lang="ns"]) .titlebox blockquote li:hover a[href="http://www.reddit.com"] {
+    background: #000;
+    color: #fff;
+}
+html:not([lang="ns"]) .titlebox blockquote li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+html:not([lang="ns"]) .titlebox blockquote li a:before {
+    background: transparent url("//b.thumbs.redditmedia.com/RxP5A8T_asI21Gp4MgoGuO0TE1-vGnyAt-PI1jDFJ0E.png") no-repeat;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:before {
+    background-image: url("//b.thumbs.redditmedia.com/RxP5A8T_asI21Gp4MgoGuO0TE1-vGnyAt-PI1jDFJ0E.png");
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    content: "";
+    margin-right: 15px;
+    position: relative;
+    bottom: -6px;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li {
+    padding: 15px 5px 20px 10px;
+    font-size: 14px;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:hover {
+    background: #f0f0f0;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(5):before {
+    background-position: -191px -0;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(5) a {
+    display: inline-block;
+    padding: 0;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(4):before {
+    background-position: -216px -0;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(3):before {
+    background-position: -241px -0;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(1):before {
+    background-position: -266px -0;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(2):before {
+    background-position: -291px -0;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(2)>ul {
+    margin-top: -108px;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(3)>ul {
+    margin-top: -172px;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(4)>ul {
+    margin-top: -236px;
+}
+html:not([lang="ns"]) .titlebox blockquote>ul>li:nth-of-type(5)>ul {
+    margin-top: -290px;
+}
+html:not([lang="ns"]) .side a[href="http://nhl.com/playoffs#reddit"] {
+    background: url("//f.thumbs.redditmedia.com/cb77i-PFYcg6iom_.png") no-repeat 0 110px;
+    width: 127px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    margin-left: -63px;
+    top: 38px;
+    z-index: 999;
+    text-indent: -9999px;
+}
+html:not([lang="ns"]) .side a[href="http://nhl.com/playoffs#reddit"]:hover {
+    background-position: -331px 5px;
+}
+html:not([lang="ns"]) .side a[href="http://nhl.com/playoffs#reddit"]:hover:after {
+    content: "";
+    width: 789px;
+    height: 480px;
+    background: url("//a.thumbs.redditmedia.com/BibZNeEoUvade7gBX3OKI8aU5Q_B3bNlNpbhpz-ycj8.png") #eee no-repeat 0 0;
+    left: -341px;
+    box-shadow: 4px 4px 15px #444;
+    position: absolute;
+    top: 86px;
+    z-index: 1000;
+    text-indent: -9999px;
+}
+.wiki-page .wiki-page-content {
+    margin-right: 0;
+}
+.wiki-page .wiki-page-content .md {
+    max-width: 60em;
+}
+p.title .linkflairlabel {
+    max-width: 60em;
+}
+body .linklisting .thing.linkflair-gdt, body .linklisting .thing.linkflair-gdt-belt, body .linklisting .thing.linkflair-gdt-ss, body .linklisting .thing.linkflair-gdt-hc, body .linklisting .thing.linkflair-gdt-wc {
+    border-left: solid 3px #ff4500;
+}
+html:not([lang="ns"]) .listing-page .linklisting .thing.linkflair-gdt:hover, html:not([lang="ns"]) .listing-page .linklisting .thing.linkflair-gdt-belt:hover {
+    border-left: solid 3px #ff4500;
+}
+body .linklisting .thing.linkflair-gdt-olympics {
+    border-left: solid 3px #ff4500;
+}
+html:not([lang="ns"]) .listing-page .linklisting .thing.linkflair-gdt-olympics:hover {
+    border-left: solid 3px #ff4500;
+}
+body .linklisting .thing.linkflair-gdt-playoffs {
+    border-left: solid 3px #ec6400;
+}
+html:not([lang="ns"]) .listing-page .linklisting .thing.linkflair-gdt-playoffs:hover {
+    border-left: solid 3px #ec6400;
+}
+body .linklisting .thing.linkflair-pgt-playoffs {
+    border-left: solid 3px #000;
+}
+html:not([lang="ns"]) .listing-page .linklisting .thing.linkflair-pdt-playoffs:hover {
+    border-left: solid 3px #000;
+}
+.linkflair-gdt a.title:before {
+    background-image: url("//b.thumbs.redditmedia.com/C2uAnu7UBHkjDCta.png");
+    width: 20px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    vertical-align: middle;
+}
+.linkflair-gdt-ss a.title:before {
+    background-image: url("//a.thumbs.redditmedia.com/ecBopzXbwnNlqrsB.png");
+    width: 20px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    vertical-align: middle;
+}
+.linkflair-gdt-hc a.title:before {
+    background-image: url("//a.thumbs.redditmedia.com/sqnIsCSd-zfCgt6x.png");
+    width: 20px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    vertical-align: middle;
+}
+.linkflair-gdt-wc a.title:before {
+    width: 20px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    vertical-align: middle;
+}
+.linkflair-ncaa60days a.title:before {
+    background-image: url("//b.thumbs.redditmedia.com/VYKIn4Aom9FeklRjGZUV7xBCMlW6N_4HfTZZ2bI5hVE.png");
+    width: 26px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    vertical-align: middle;
+}
+.linkflair-gdt-belt a.title:before, a[href="/r/NHLChampionshipBelt"]:before {
+    background-image: url("//e.thumbs.redditmedia.com/THCbQdhduWrndLw4.png");
+    width: 22px;
+    height: 18px;
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.linkflair-gdt-playoffs a.title:before {
+    background-image: url("//e.thumbs.redditmedia.com/llcIylpwxgc2SsSj.png");
+    width: 15px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    vertical-align: middle;
+}
+.linkflair-pgt-playoffs a.title:before {
+    background-image: url("//b.thumbs.redditmedia.com/txo3_4LLKkgpM2odc0TFG0RTYLeaFjdT0G-qaldZzHU.png");
+    width: 24px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    vertical-align: middle;
+}
+.linkflair-gdt-olympics a.title:before {
+    background-image: url("//e.thumbs.redditmedia.com/5wz3oPTpQN_BPP7p.png");
+    width: 20px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    vertical-align: middle;
+}
+.linkflair-dailystandings a.title:before {
+    background-image: url("//b.thumbs.redditmedia.com/sx5NIEYqW5GugyzG4uyvAAelt5GQsx2z0ISm2XYzqVo.png");
+    width: 20px;
+    height: 20px;
+    content: " ";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    vertical-align: top;
+}
+body .linklisting .thing.linkflair-weeklythreads {
+    border-left: solid 3px #f6a911;
+}
+body .linklisting .thing.linkflair-dailystandings, html:not([lang="ns"]) .listing-page .linklisting .thing.linkflair-dailystandings:hover {
+    border-left: solid 3px #000;
+}
+html:not([lang="ns"]) .listing-page .linklisting .thing.linkflair-weeklythreads:hover {
+    border-left: solid 3px #f6a911;
+}
+body .linklisting .thing.linkflair-modpost {
+    border-left: solid 3px #282;
+}
+.linkflair-modpost a.title:visited {
+    color: #282!important;
+}
+.linkflair-modpost a.title:link {
+    color: #282;
+}
+body .linklisting .thing a[href*="olympic_charity_challenge_donations_thread"] {
+    color: #282;
+}
+.linkflair-gdt .title .linkflairlabel, .linkflair-gdt-belt .title .linkflairlabel, .linkflair-ncaa60days .title .linkflairlabel, .linkflair-gdt-ss .title .linkflairlabel, .linkflair-gdt-hc .title .linkflairlabel, .linkflair-gdt-wc .title .linkflairlabel, .linkflair-gdt-playoffs .title .linkflairlabel, .linkflair-pgt-playoffs .title .linkflairlabel, .linkflair-college .title .linkflairlabel, .linkflair-weeklythreads .title .linkflairlabel, .linkflair-dailystandings .title .linkflairlabel, .linkflair-modpost .title .linkflairlabel, .linkflair-rall .title .linkflairlabel, .linkflair-gooddiscussion .title .linkflairlabel, .linkflair-gdt-olympics .title .linkflairlabel, .linkflair-keepcivil .title .linkflairlabel {
+    display: none;
+}
+html:not([lang="ns"]) .thing.stickied a.title.loggedin, html:not([lang="ns"]) .thing.stickied a.title.loggedin.click {
+    font-weight: 400;
+}
+html:not([lang="ns"]) body .linklisting .thing.stickied {
+    border-left: solid 3px #282;
+}
+.comments-page #siteTable .thing.stickied form[action="/post/hide"]:before {
+    position: absolute;
+    background: #FF4800;
+    color: #fff;
+    padding: 2px;
+    content: "^^ Done with the sticky? Click 'hide' above";
+    margin-top: 20px;
+}
+.linkflair-rall a.title:before {
+    background-image: url("//b.thumbs.redditmedia.com/ssyjYINQxcBE8BEg.png");
+    width: 53px;
+    height: 14px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    vertical-align: middle;
+}
+body.post-under-6h-old.post-linkflair-gooddiscussion .sitetable.linklisting>div.clearleft:before {
+    font-weight: 700;
+    padding: 5px 5px 5px 25px;
+    content: "Remember to upvote posts that encourage great discussion!";
+    background: url("//c.thumbs.redditmedia.com/nTtbQT0RS8pO_zYz.png") no-repeat #e8f4ff 4px 4px;
+    border: 1px dotted #e56255;
+    color: #ff4800;
+}
+body.post-under-6h-old.post-linkflair-gooddiscussion .sitetable.linklisting>div.clearleft {
+    height: auto;
+    margin-top: 20px;
+}
+body.post-under-6h-old.post-linkflair-keepcivil .sitetable.linklisting>div.clearleft:before {
+    font-weight: 700;
+    padding: 15px 5px 15px 45px;
+    font-size: 16px;
+    content: "Remember the human. Please keep conversation civil and respectful to each other.";
+    background: url("//a.thumbs.redditmedia.com/QdWN3BHuCMYBi6UQbbj8EziOKqo3oNhIH_FHT0OO8N4.png") no-repeat #e8f4ff 4px 4px;
+    border: 1px dotted #e56255;
+    color: #ff4800;
+}
+body.post-under-6h-old.post-linkflair-keepcivil .sitetable.linklisting>div.clearleft {
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+body.post-linkflair-hockeyfandom .sitetable.linklisting>div.clearleft:before {
+    font-weight: 700;
+    padding: 20px;
+    font-size: 16px;
+    content: "Your post was removed. Please post it to /r/hockeyfandom as it is more suitable there.";
+    background: #e8f4ff;
+    border: 1px dotted #e56255;
+    color: #ff4800;
+}
+body.post-linkflair-hockeyfandom .sitetable.linklisting>div.clearleft {
+    height: auto;
+    margin-top: 20px;
+}
+.sidecontentbox h1:not(:first-child) {
+    font-size: 0!important;
+}
+.sidecontentbox a.author {
+    width: 130px!important;
+}
+.side a[href="/message/compose?to=%2Fr%2Fhockey"]:hover:after {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    width: 260px;
+    padding: 5px;
+    font-size: 10px;
+    color: #2867a2;
+    font-weight: 700;
+    background: #cee3f8;
+    border-bottom: solid 1px #5f99cf;
+    content: "Looking for flair? Other questions? Read the sidebar and hover over the POSTING bar at the top.";
+    font-size: 12px;
+    margin-left: -145px;
+    margin-top: 0;
+    text-align: left;
+}
+.commentarea .arrow.downmod {
+    margin-top: 15px;
+}
+.commentarea .dislikes {
+    opacity: 0.2;
+}
+.commentarea .dislikes a[onclick="return reply(this)"] {
+    display: none;
+}
+.commentarea .arrow.down {
+    margin-top: 15px;
+    background: url("//b.thumbs.redditmedia.com/RxP5A8T_asI21Gp4MgoGuO0TE1-vGnyAt-PI1jDFJ0E.png") no-repeat -300px -50px;
+}
+.comments-page .arrow.down:after {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 12px;
+    background-color: #b22222;
+    border: none;
+    border-radius: 2px;
+    width: 220px;
+    color: #ffffff;
+    content: "Please do not downvote based on team fandom or because you don't agree.";
+    font-weight: normal;
+    font-size: 13px;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+.comments-page .arrow.down:hover:after {
+    visibility: visible;
+    background-color: #b22222;
+    color: #FFF;
+    margin-left: 22px;
+}
+.comment button.save:after, .usertext-buttons button.save:after {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    width: 260px;
+    padding: 5px;
+    font-size: 10px;
+    color: #2867a2;
+    font-weight: 700;
+    background: #cee3f8;
+    border-bottom: solid 1px #5f99cf;
+    content: "Racist,  ethnic,  sexist or homophobic slurs of any kind will lead to a ban.";
+    font-size: 12px;
+    margin-left: -9px;
+    margin-top: -20px;
+    text-align: left;
+    transition: all 0.25s ease;
+}
+.comment button.save:hover:after, .usertext-buttons button.save:hover:after {
+    visibility: visible;
+    margin-left: -9px;
+    margin-top: 10px;
+}
+.comments-page .commentarea .report-button>span.option.error:before {
+    content: "This is not a hide/downvote button. Only use to report to the mods. "}
+.submit_text strong {
+    font-size: 24px;
+}
+.infobar {
+    border: 0;
+}
+#link-desc, #text-desc {
+    background: url("//d.thumbs.redditmedia.com/4GEXSOBvRnCInrKW.png") no-repeat;
+    padding-top: 255px;
+}
+#newlink .btn:hover:before, #newlink .btn:focus:before {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    width: 450px;
+    padding: 5px;
+    border: 0 solid #333;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: left;
+    background: #a00;
+    content: "STOP! Did you read the Posting Conduct/Guidelines in the sidebar? Did you check NEW to make sure this isn't already posted? NO EDITORIALIZED/VAGUE TITLES!";
+    font-size: 12px;
+    margin-left: 48px;
+    margin-top: -4px;
+}
+a[href$="/spoiler"], a[href$="/spoilers"] {
+    background: #cee3fa!important;
+    color: #cee3fa!important;
+}
+a[href$="/spoiler"]:hover, a[href$="/spoilers"]:hover {
+    color: #6098d3!important;
+    background: none;
+}
+.side table a {
+    background-color: #fff;
+}
+.flair {
+    background-color: transparent;
+    border: none;
+    font-size: 0px;
+    vertical-align: middle;
+    position: absolute;
+    padding: 1px;
+}
+.flair:before {
+    background-color: transparent;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    content: "";
+    padding-right: 4px;
+    position: absolute;
+}
+.flair[class*="sheet1"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/e5UqK6q0xE-kY9XtfKYJCohSjmuIlA4xI3uPtBCpPpI.png");
+}
+.flair[class*="sheet2"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/xnaxixXtV5WWLqGM0LWUJKtO-euRVCFsHqxsso8gjJE.png");
+}
+.flair[class*="sheet3"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/Eg5p7PE676f1H5GVt6g9K4kyZ1UWH7l8q5gfZPmnLnk.png");
+}
+.flair:hover:before {
+    left: 5px;
+    margin-top: -4px;
+}
+.flair:hover {
+    font-size: inherit;
+    width: auto;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 3px 5px 6px 35px;
+    margin-top: -7px!important;
+    margin-left: -1px;
+}
+.comment .tagline {
+    display: block!important;
+    height: 14px;
+    padding-top: 8px;
+}
+.comment .tagline .flair {
+    position: relative;
+    margin-right: 30px;
+    margin-top: -31px;
+    margin-left: 5px;
+}
+.comment .tagline .flair:hover {
+    margin-left: 0px;
+    margin-top: -8px!important;
+    margin-right: 8px;
+    overflow: hidden;
+}
+.titlebox .tagline {
+    display: block;
+    height: 14px;
+    padding-top: 10px;
+}
+.titlebox .tagline .flair {
+    position: relative;
+    margin-right: 33px;
+    margin-top: -29px;
+    left: 4px;
+}
+.titlebox .tagline .flair:hover {
+    margin-top: -8px!important;
+    margin-right: 5px;
+    left: 0px;
+}
+.linklisting .thing .entry .flair {
+    display: none;
+}
+.side span.age {
+    display: none;
+}
+div.bottom .flair {
+    display: none;
+}
+a[href*="/message/compose/?to=hockeylogos"]:before {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    content: "";
+    padding-right: 4px;
+    position: absolute;
+    left: 5px;
+}
+.wiki-page a[href*="/message/compose/?to=hockeylogos"] {
+    position: relative;
+    padding-left: 35px;
+}
+.wiki-page li {
+    line-height: 1.7!important;
+}
+.wiki-page div.md a[href*="sheet1"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/e5UqK6q0xE-kY9XtfKYJCohSjmuIlA4xI3uPtBCpPpI.png")!important;
+}
+.wiki-page div.md a[href*="sheet2"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/xnaxixXtV5WWLqGM0LWUJKtO-euRVCFsHqxsso8gjJE.png")!important;
+}
+.wiki-page div.md a[href*="sheet3"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/Eg5p7PE676f1H5GVt6g9K4kyZ1UWH7l8q5gfZPmnLnk.png")!important;
+}
+.link .usertext-body div.md p a[href*="/message/compose/?to=hockeylogos"]:before {
+    display: none!important;
+}
+.comment div.md p a[href*="/message/compose/?to=hockeylogos"]:before {
+    display: none!important;
+}
+.flair[class*="row01"]:before, a[href*="row01"]:before {
+    background-position: 0 -5px;
+}
+.flair[class*="row02"]:before, a[href*="row02"]:before {
+    background-position: 0 -40px;
+}
+.flair[class*="row03"]:before, a[href*="row03"]:before {
+    background-position: 0 -75px;
+}
+.flair[class*="row04"]:before, a[href*="row04"]:before {
+    background-position: 0 -110px;
+}
+.flair[class*="row05"]:before, a[href*="row05"]:before {
+    background-position: 0 -145px;
+}
+.flair[class*="row06"]:before, a[href*="row06"]:before {
+    background-position: 0 -180px;
+}
+.flair[class*="row07"]:before, a[href*="row07"]:before {
+    background-position: 0 -215px;
+}
+.flair[class*="row08"]:before, a[href*="row08"]:before {
+    background-position: 0 -250px;
+}
+.flair[class*="row09"]:before, a[href*="row09"]:before {
+    background-position: 0 -285px;
+}
+.flair[class*="row10"]:before, a[href*="row10"]:before {
+    background-position: 0 -320px;
+}
+.flair[class*="row11"]:before, a[href*="row11"]:before {
+    background-position: 0 -355px;
+}
+.flair[class*="row12"]:before, a[href*="row12"]:before {
+    background-position: 0 -390px;
+}
+.flair[class*="row13"]:before, a[href*="row13"]:before {
+    background-position: 0 -425px;
+}
+.flair[class*="row14"]:before, a[href*="row14"]:before {
+    background-position: 0 -460px;
+}
+.flair[class*="row15"]:before, a[href*="row15"]:before {
+    background-position: 0 -495px;
+}
+.flair[class*="row16"]:before, a[href*="row16"]:before {
+    background-position: 0 -530px;
+}
+.flair[class*="row17"]:before, a[href*="row17"]:before {
+    background-position: 0 -565px;
+}
+.flair[class*="row18"]:before, a[href*="row18"]:before {
+    background-position: 0 -600px;
+}
+.flair[class*="row19"]:before, a[href*="row19"]:before {
+    background-position: 0 -635px;
+}
+.flair[class*="row20"]:before, a[href*="row20"]:before {
+    background-position: 0 -670px;
+}
+.flair[class*="row21"]:before, a[href*="row21"]:before {
+    background-position: 0 -705px;
+}
+.flair[class*="col01"]:before, a[href*="col01"]:before {
+    width: 30px;
+    clip: rect(0px, 30px, 25px, 5px);
+    margin-left: -5px;
+}
+.flair[class*="col02"]:before, a[href*="col02"]:before {
+    width: 65px;
+    clip: rect(0px, 65px, 25px, 40px);
+    margin-left: -40px;
+}
+.flair[class*="col03"]:before, a[href*="col03"]:before {
+    width: 100px;
+    clip: rect(0px, 100px, 25px, 75px);
+    margin-left: -75px;
+}
+.flair[class*="col04"]:before, a[href*="col04"]:before {
+    width: 135px;
+    clip: rect(0px, 135px, 25px, 110px);
+    margin-left: -110px;
+}
+.flair[class*="col05"]:before, a[href*="col05"]:before {
+    width: 170px;
+    clip: rect(0px, 170px, 25px, 145px);
+    margin-left: -145px;
+}
+.flair[class*="col06"]:before, a[href*="col06"]:before {
+    width: 205px;
+    clip: rect(0px, 205px, 25px, 180px);
+    margin-left: -180px;
+}
+.flair[class*="col07"]:before, a[href*="col07"]:before {
+    width: 240px;
+    clip: rect(0px, 240px, 25px, 215px);
+    margin-left: -215px;
+}
+.flair[class*="col08"]:before, a[href*="col08"]:before {
+    width: 275px;
+    clip: rect(0px, 275px, 25px, 250px);
+    margin-left: -250px;
+}
+.flair[class*="col09"]:before, a[href*="col09"]:before {
+    width: 310px;
+    clip: rect(0px, 310px, 25px, 285px);
+    margin-left: -285px;
+}
+.flair[class*="col10"]:before, a[href*="col10"]:before {
+    width: 345px;
+    clip: rect(0px, 345px, 25px, 320px);
+    margin-left: -320px;
+}
+.flair[class*="col11"]:before, a[href*="col11"]:before {
+    width: 380px;
+    clip: rect(0px, 380px, 25px, 355px);
+    margin-left: -355px;
+}
+.flair[class*="col12"]:before, a[href*="col12"]:before {
+    width: 415px;
+    clip: rect(0px, 415px, 25px, 390px);
+    margin-left: -390px;
+}
+.flair[class*="col13"]:before, a[href*="col13"]:before {
+    width: 450px;
+    clip: rect(0px, 450px, 25px, 425px);
+    margin-left: -425px;
+}
+.flair[class*="col14"]:before, a[href*="col14"]:before {
+    width: 485px;
+    clip: rect(0px, 485px, 25px, 460px);
+    margin-left: -460px;
+}
+.flair[class*="col15"]:before, a[href*="col15"]:before {
+    width: 520px;
+    clip: rect(0px, 520px, 25px, 495px);
+    margin-left: -495px;
+}
+.flair[class*="col16"]:before, a[href*="col16"]:before {
+    width: 555px;
+    clip: rect(0px, 555px, 25px, 530px);
+    margin-left: -530px;
+}
+.flair[class*="col17"]:before, a[href*="col17"]:before {
+    width: 590px;
+    clip: rect(0px, 590px, 25px, 565px);
+    margin-left: -565px;
+}
+.flair[class*="col18"]:before, a[href*="col18"]:before {
+    width: 625px;
+    clip: rect(0px, 625px, 25px, 600px);
+    margin-left: -600px;
+}
+.flair[class*="col19"]:before, a[href*="col19"]:before {
+    width: 660px;
+    clip: rect(0px, 660px, 25px, 635px);
+    margin-left: -635px;
+}
+.flair[class*="col20"]:before, a[href*="col20"]:before {
+    width: 695px;
+    clip: rect(0px, 695px, 25px, 670px);
+    margin-left: -670px;
+}
+.flair[class*="col21"]:before, a[href*="col21"]:before {
+    width: 730px;
+    clip: rect(0px, 730px, 25px, 705px);
+    margin-left: -705px;
+}
+a[href="/r/anaheimducks"]:before, a[href="/r/bostonbruins"]:before, a[href="/r/sabres"]:before, a[href="/r/calgaryflames"]:before, a[href="/r/canes"]:before, a[href="/r/hawks"]:before, a[href="/r/coloradoavalanche"]:before, a[href="/r/bluejackets"]:before, a[href="/r/dallasstars"]:before, a[href="/r/detroitredwings"]:before, a[href="/r/edmontonoilers"]:before, a[href="/r/floridapanthers"]:before, a[href="/r/losangeleskings"]:before, a[href="/r/wildhockey"]:before, a[href="/r/habs"]:before, a[href="/r/predators"]:before, a[href="/r/devils"]:before, a[href="/r/newyorkislanders"]:before, a[href="/r/rangers"]:before, a[href="/r/ottawasenators"]:before, a[href="/r/flyers"]:before, a[href="/r/coyotes"]:before, a[href="/r/penguins"]:before, a[href="/r/sanjosesharks"]:before, a[href="/r/stlouisblues"]:before, a[href="/r/tampabaylightning"]:before, a[href="/r/leafs"]:before, a[href="/r/atlantathrashers"]:before, a[href="/r/canucks"]:before, a[href="/r/caps"]:before, a[href="/r/winnipegjets"]:before, a[href="/r/austria"]:before, a[href="/r/teamcanada"]:before, a[href="/r/czech"]:before, a[href="/r/denmark"]:before, a[href="/r/finland"]:before, a[href="/r/unitedkingdom"]:before, a[href="/r/japan"]:before, a[href="/r/norway"]:before, a[href="/r/latvia"]:before, a[href="/r/russia"]:before, a[href="/r/slovakia"]:before, a[href="/r/slovenia"]:before, a[href="/r/sweden"]:before, a[href="/r/switzerland"]:before, a[href="/r/usahockey"]:before, a[href="/r/france"]:before, a[href="/r/italy"]:before, a[href="/r/kazakhstan"]:before, a[href="/r/belgium"]:before, a[href="/r/belarus"]:before, a[href="/r/germany"]:before {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url("//b.thumbs.redditmedia.com/e5UqK6q0xE-kY9XtfKYJCohSjmuIlA4xI3uPtBCpPpI.png");
+    background-position: -9999px -9999px;
+    vertical-align: middle;
+    content: " "}
+a[href="/r/bostonbruins"]:before {
+    background-position: -670px -460px!important;
+}
+a[href="/r/sabres"]:before {
+    background-position: -180px -495px!important;
+}
+a[href="/r/flyers"]:before {
+    background-position: -250px -635px!important;
+}
+a[href="/r/losangeleskings"]:before {
+    background-position: -215px -565px!important;
+}
+a[href="/r/calgaryflames"]:before {
+    background-position: -600px -495px!important;
+}
+a[href="/r/tampabaylightning"]:before {
+    background-position: -75px -670px!important;
+}
+a[href="/r/devils"]:before {
+    background-position: -285px -600px!important;
+}
+a[href="/r/canes"]:before {
+    background-position: -355px -495px!important;
+}
+a[href="/r/leafs"]:before {
+    background-position: -250px -670px!important;
+}
+a[href="/r/predators"]:before {
+    background-position: -355px -600px!important;
+}
+a[href="/r/caps"]:before {
+    background-position: -40px -705px!important;
+}
+a[href="/r/dallasstars"]:before {
+    background-position: -250px -530px!important;
+}
+a[href="/r/coloradoavalanche"]:before {
+    background-position: -180px -530px!important;
+}
+a[href="/r/detroitredwings"]:before {
+    background-position: -495px -530px!important;
+}
+a[href="/r/habs"]:before {
+    background-position: -705px -565px!important;
+}
+a[href="/r/canucks"]:before {
+    background-position: -425px -670px!important;
+}
+a[href="/r/hawks"]:before {
+    background-position: -40px -530px!important;
+}
+a[href="/r/rangers"]:before {
+    background-position: -670px -600px!important;
+}
+a[href="/r/coyotes"]:before {
+    background-position: -460px -460px!important;
+}
+a[href="/r/newyorkislanders"]:before {
+    background-position: -530px -600px!important;
+}
+a[href="/r/floridapanthers"]:before {
+    background-position: -75px -565px!important;
+}
+a[href="/r/bluejackets"]:before {
+    background-position: -425px -495px!important;
+}
+a[href="/r/sanjosesharks"]:before {
+    background-position: -495px -635px!important;
+}
+a[href="/r/ottawasenators"]:before {
+    background-position: -110px -635px!important;
+}
+a[href="/r/anaheimducks"]:before {
+    background-position: -320px -460px!important;
+}
+a[href="/r/winnipegjets"]:before {
+    background-position: -635px -670px!important;
+}
+a[href="/r/wildhockey"]:before {
+    background-position: -565px -565px!important;
+}
+a[href="/r/edmontonoilers"]:before {
+    background-position: -635px -530px!important;
+}
+a[href="/r/stlouisblues"]:before {
+    background-position: -635px -635px!important;
+}
+a[href="/r/penguins"]:before {
+    background-position: -320px -635px!important;
+}
+a[href="/r/atlantathrashers"]:before {
+    background-position: -250px -705px!important;
+}
+a[href="/r/russia"]:before {
+    background-position: -390px -250px!important;
+}
+a[href="/r/latvia"]:before {
+    background-position: -250px -250px!important;
+}
+a[href="/r/slovakia"]:before {
+    background-position: -495px -250px!important;
+}
+a[href="/r/denmark"]:before {
+    background-position: -670px -215px!important;
+}
+a[href="/r/germany"]:before {
+    background-position: -110px -250px!important;
+}
+a[href="/r/teamcanada"]:before {
+    background-position: -530px -215px!important;
+}
+a[href="/r/sweden"]:before {
+    background-position: -565px -250px!important;
+}
+a[href="/r/belarus"]:before {
+    background-position: -460px -215px!important;
+}
+a[href="/r/slovenia"]:before {
+    background-position: -530px -250px!important;
+}
+a[href="/r/belgium"]:before {
+    background-position: -495px -215px!important;
+}
+a[href="/r/czech"]:before {
+    background-position: -635px -215px!important;
+}
+a[href="/r/switzerland"]:before {
+    background-position: -670px -250px!important;
+}
+a[href="/r/norway"]:before {
+    background-position: -320px -250px!important;
+}
+a[href="/r/finland"]:before {
+    background-position: -40px -250px!important;
+}
+a[href="/r/japan"]:before {
+    background-position: -180px -250px!important;
+}
+a[href="/r/usahockey"]:before {
+    background-position: -705px -250px!important;
+}
+a[href="/r/kazakhstan"]:before {
+    background-position: -215px -250px!important;
+}
+a[href="/r/unitedkingdom"]:before {
+    background-position: -145px -250px!important;
+}
+a[href="/r/austria"]:before {
+    background-position: -425px -215px!important;
+}
+a[href="/r/france"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/xnaxixXtV5WWLqGM0LWUJKtO-euRVCFsHqxsso8gjJE.png")!important;
+    background-position: -250px -355px!important;
+}
+a[href="/r/italy"]:before {
+    background-image: url("//b.thumbs.redditmedia.com/xnaxixXtV5WWLqGM0LWUJKtO-euRVCFsHqxsso8gjJE.png")!important;
+    background-position: -215px -355px!important;
+}
+.collapsed .flair {
+    opacity: 0.4;
+    display: inline-block;
+    margin-top: -20px!important;
+    margin-left: 8px!important;
+}
+.sitetable.linklisting .thing .flair, ul.content span.flair {
+    display: none;
+}
+.commentarea .author:after {
+    color: #333;
+}
+.commentarea .author[href$="BurkieYCP"]:after {
+    content: " [Department of Player Safety]"}
+.commentarea .author[href$="seKer82"]:after {
+    content: " [Pierre McGuire Fan Club Founder]"}
+.commentarea .author[href$="kmad"]:after {
+    content: " [Riot Survivor]"}
+.commentarea .author[href$="WoozleWuzzle"]:hover:after {
+    content: " [Evidence by Citation]"}
+.post-linkflair-modpost .commentarea .author[href$="ItsReallyOregano"] {
+    position: relative;
+}
+.post-linkflair-modpost .commentarea .author[href$="ItsReallyOregano"]:after {
+    content: " ";
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    z-index: 20;
+    left: 105px;
+}
+.post-linkflair-modpost.res .commentarea .author[href$="ItsReallyOregano"]:after {
+    left: 122px;
+}
+.commentarea .author[href$="gthank"]:after {
+    content: " [Hockey Refugee]"}
+.commentarea .author[href$="scp333"]:after {
+    content: " [Go Bolts Security]"}
+.commentarea .author[href$="ISISFieldAgent"]:after {
+    content: " [Chuck Fletcher is a Wizard]"}
+.commentarea .author[href$="Gonkulator"]:after {
+    content: " [That Guy]"}
+.commentarea .author[href$="LP99"]:after {
+    content: " [Bleeds Blue]"}
+.commentarea .author[href$="Johnald"]:after {
+    content: " [Commissioner of Trash Talk]"}
+.commentarea .author[href$="iezugod"]:after {
+    content: " [Carries the Flag]"}
+.commentarea .author[href$="preggit"]:after {
+    content: " [Latvian Locomotive]"}
+.commentarea .author[href$="noPENGSinALASKA"]:after {
+    content: " [Status Quo]"}
+.commentarea .author[href$="AbeFroman1986"]:after {
+    content: " [I <3 ari_raid]"}
+.commentarea .author[href$="bodavid"]:after {
+    content: " [Tenacious Fan]"}
+.commentarea .author[href$="PittPensPats"]:after {
+    content: " [BrittFromPitt]"}
+.commentarea .author[href$="ccarico"]:after {
+    content: " [Hockey's Shepherd]"}
+.commentarea .author[href$="7we4k"]:after {
+    content: " [GETZLAUGHS]"}
+.commentarea .author[href$="VasiliiZaytsev"]:after {
+    content: " [In Lou We Trusted]"}
+.commentarea .author[href$="ruggedshrimp"]:after {
+    content: " [Nifty Mittens]"}
+.commentarea .author[href$="Blobbles890"]:after {
+    content: " [LGRW]"}
+.commentarea .author[href$="golf4miami"]:after {
+    content: " [Fire the Cannon]"}
+.commentarea .author[href$="JakeCameraAction"]:after {
+    content: " [Fivehead]"}
+.commentarea .author[href$="sentry07"]:after {
+    content: " [One Before I Die]"}
+.commentarea .author[href$="TeroTheTerror"]:after {
+    content: " [Perkele]"}
+.commentarea .author[href$="crazy_canucklehead"]:after {
+    content: " [Really REMALDO]"}
+.commentarea .author[href$="LAKingsDave"]:after {
+    content: " [The Ducks Are Stupid.]"}
+.commentarea .author[href$="trex20"]:after {
+    content: " [Thanks Norm!]"}
+.commentarea .author[href$="lmoj1"]:after {
+    content: " [Stupid Sexy Karlsson]"}
+.commentarea .author[href$="vacuum2440"]:after {
+    content: " [I Am Score]"}
+.commentarea .author[href$="TimeToDoubleDip"]:after {
+    content: " [Baby Don't Hertl Me]"}
+.commentarea .author[href$="GRiZZY19"]:after {
+    content: " [At least I have the Jays]"}
+.expando form .usertext-body .md h1 {
+    padding: 10px;
+    color: #369;
+    font-weight: 400;
+    background: #e9f2fa;
+    border-top: solid 1px #5e99cf;
+    font-style: oblique;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #f4f8fb;
+    margin-top: 30px;
+}
+.content .expando form .usertext-body .md h1:first-child {
+    margin-top: 0;
+}
+.expando form .usertext-body .md h2 {
+    color: #369;
+    font-weight: 400;
+    border-bottom: solid 1px #5e99cf;
+    font-size: 1.2em;
+    margin-top: 35px;
+}
+.expando form .usertext-body .md h3 {
+    color: #000;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    border-bottom: dotted 1px #333;
+    margin-right: 40%}
+.expando form .usertext-body .md h4 {
+    color: #000;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 1em;
+    margin-top: 30px;
+}
+.expando form .usertext-body .md h5 {
+    color: #000;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: .9em;
+    margin-top: 30px;
+}
+.expando form .usertext-body .md h6 {
+    color: #000;
+    font-weight: 400;
+    font-style: oblique;
+    font-size: .9em;
+    margin-top: 30px;
+    text-align: center;
+}
+.md table {
+    background-color: #fff;
+    border-left: 2px solid #302217;
+    border-right: 2px solid #302217;
+    border-top: 2px solid #302217;
+    border-bottom: 2px solid #302217;
+    box-shadow: none;
+    margin: 10px auto;
+}
+.md table th {
+    background-color: #323232;
+    border-top: 1px solid #323232;
+    border-left: 1px solid #323232;
+    border-bottom: 2px solid #323232;
+    border-right: 1px solid #323232;
+    color: #fff;
+    font-size: 100%;
+    font-weight: 700;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle!important;
+}
+.md table td {
+    border-top: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    color: #000;
+    height: 23px;
+    vertical-align: middle!important;
+}
+a[href$="/team1stat"] {
+    background: #CD0000!important;
+    color: #CD0000!important;
+}
+a[href$="/team2stat"] {
+    background: #0000A0!important;
+    color: #0000A0!important;
+}
+html[lang="tk"] .thing.link {
+    display: none;
+}
+html[lang="tk"] .thing.self {
+    display: block;
+}
+html[lang="tk"] .linklisting .odd {
+    background: none;
+}
+html[lang="mt"] .thing.self {
+    display: none;
+}
+html[lang="mt"] .linklisting .odd {
+    background: none;
+}
+html[lang="gt"] div#siteTable div.thing {
+    display: none;
+}
+html[lang="gt"] div#siteTable div.thing.linkflair-gdt-playoffs, html[lang="gt"] div#siteTable div.thing.linkflair-pgt-playoffs {
+    display: block;
+}
+html[lang="gt"] div#siteTable div.thing.linkflair-gdt {
+    display: block;
+}
+html[lang="gt"] div#siteTable div.thing.linkflair-gdt-belt {
+    display: block;
+}
+html[lang="gt"] div#siteTable div.thing.linkflair-gdt-ss {
+    display: block;
+}
+html[lang="gt"] div#siteTable div.thing.linkflair-gdt-hc {
+    display: block;
+}
+html[lang="gt"] div#siteTable div.thing.linkflair-gdt-wc {
+    display: block;
+}
+html[lang="gt"] div#siteTable div.thing.linkflair-gdt-olympics {
+    display: block;
+}
+html[lang="ng"] div#siteTable div.thing.linkflair-gdt-playoffs, html[lang="ng"] div#siteTable div.thing.linkflair-pgt-playoffs {
+    display: none;
+}
+html[lang="ng"] div#siteTable div.thing.linkflair-gdt {
+    display: none;
+}
+html[lang="ng"] div#siteTable div.thing.linkflair-gdt-belt {
+    display: none;
+}
+html[lang="ng"] div#siteTable div.thing.linkflair-gdt-ss {
+    display: none;
+}
+html[lang="ng"] div#siteTable div.thing.linkflair-gdt-hc {
+    display: none;
+}
+html[lang="ng"] div#siteTable div.thing.linkflair-gdt-wc {
+    display: none;
+}
+html[lang="ng"] div#siteTable div.thing.linkflair-gdt-olympics {
+    display: none;
+}
+html[lang="wt"] div#siteTable div.thing {
+    display: none;
+}
+html[lang="wt"] div#siteTable div.thing.linkflair-weeklythreads, html[lang="wt"] div#siteTable div.thing.linkflair-college {
+    display: block;
+}
+html.res-commentBoxes .comment {
+    margin-left: 0!important;
+}
+html:not([lang="ns"]) .res-nightmode.listing-page .sitetable.linklisting .thing:hover {
+    background: #222;
+    border-left: 3px #666 solid;
+    border-color: #666!important;
+}
+html:not([lang="ns"]) .res-nightmode.listing-page .linklisting .thing, html:not([lang="ns"]) .res-nightmode.comments-page .linklisting .thing {
+    background-color: #222;
+}
+html:not([lang="ns"]) .res-nightmode #sr-header-area a {
+    color: #000;
+}
+html>body.res-nightmode.listing-page div.content, html:not([lang="ns"]) .res-nightmode .commentarea .thing, html:not([lang="ns"]) body.res-nightmode div.content {
+    background: #222!important;
+}
+html:not([lang="ns"]) .res-nightmode .titlebox h3, html:not([lang="ns"]) .res-nightmode .expando form .usertext-body .md h1, html:not([lang="ns"]) .res-nightmode .sidecontentbox .title h1, html:not([lang="ns"]) .res-nightmode .spacer #ad_main {
+    border-top: 13px solid #111;
+    color: #ccc;
+}
+html:not([lang="ns"]) .res-nightmode .sidecontentbox ul.content {
+    background: #222;
+}
+html:not([lang="ns"]) .res-nightmode .side {
+    background-color: #222;
+}
+html:not([lang="ns"]) .res-nightmode div.content .menuarea, html:not([lang="ns"]) .res-nightmode div.content .panestack-title {
+    background: none;
+}
+html:not([lang="ns"]) .res-nightmode .footer-parent {
+    background: url("//b.thumbs.redditmedia.com/1rWxRnESlO7q4tvpXYtOHCttm2H6A7pVC5UwFTTY1Bs.png") no-repeat bottom center;
+}
+html:not([lang="ns"]) .res-nightmode .footer.rounded {
+    background: #222;
+    border-color: #000;
+}
+html:not([lang="ns"]) .res-nightmode .titlebox blockquote ul li:first-child {
+    color: #ccc;
+    text-shadow: 1px 1px 0 #000;
+}
+html:not([lang="ns"]) .res-nightmode .titlebox blockquote ul li:first-child a {
+    color: #ccc;
+    text-shadow: 1px 1px 0 #000;
+}
+html:not([lang="ns"]) .res-nightmode #header-bottom-right {
+    background: #222;
+}
+html:not([lang="ns"]) .res-nightmode #userbarToggle {
+    background: #111;
+    border-right: 1px solid #111;
+    color: #333;
+}
+html:not([lang="ns"]) .res-nightmode .commentarea .thing {
+    border-left-color: #666!important;
+}
+html:not([lang="ns"]) .res-nightmode .commentarea .md blockquote {
+    background: none 2px 0 no-repeat #000;
+}
+html:not([lang="ns"]) .res-nightmode .commentarea .md blockquote:hover {
+    color: #fff;
+}
+html:not([lang="ns"]) .res-nightmode .side .titlebox .usertext-body blockquote>ul {
+    background: none;
+}
+html:not([lang="ns"]) .res-nightmode .linkinfo .date {
+    background-color: #111;
+}
+html:not([lang="ns"]) .res-nightmode #header-bottom-left:before {
+    background-position: 0 -245px;
+}
+html:not([lang="ns"]) .res-nightmode #header-bottom-left .tabmenu li.selected a {
+    background: none;
+    color: #ff4500;
+}
+html:not([lang="ns"]) .res-nightmode #sr-header-area {
+    background: #ccc;
+}
+html:not([lang="ns"]) .res-nightmode #header #header-img-a {
+    background: url("//b.thumbs.redditmedia.com/RxP5A8T_asI21Gp4MgoGuO0TE1-vGnyAt-PI1jDFJ0E.png") no-repeat 0 -152px;
+    width: 155px;
+    height: 105px;
+    display: block;
+}
+html:not([lang="ns"]) .res-nightmode .side h4+ul li ~ li {
+    background-color: #000;
+    border-bottom: solid 1px #333;
+}
+html:not([lang="ns"]) .res-nightmode .entry .buttons li a.comments {
+    color: #eee;
+}
+@media only screen and (max-device-width:1280px) {
+    .side a[href$="http: //bit.ly/10IWqP4"]:after, .side a[href$="http://bit.ly/115CB5r"]:after, .side a[href="http://bit.ly/1xPM23X"]:after {
+    margin-left: -8px;
+    position: relative;
+    top: 10px;
+}
+.side a[href$="http://bit.ly/10IWqP4"], .side a[href$="http://bit.ly/115CB5r"], .side a[href="http://bit.ly/1xPM23X"] {
+    padding-bottom: 20px;
+}
+.side a[href$="http://bit.ly/115CB5r"]:after {
+    content: url("//b.thumbs.redditmedia.com/-S-lbaOsTsHnbEhy6DDqVtsgWe2HfA5sE0BR7dJlDno.png");
+}
+.side a[href$="http://bit.ly/10IWqP4"]:after {
+    content: url("//b.thumbs.redditmedia.com/ypqufxZl2DNl5knXgWgfZdmZUcLamlt75YfzfDuHB4M.png");
+}
+.side a[href="http://bit.ly/1xPM23X"]:after {
+    content: url("//b.thumbs.redditmedia.com/I09sld1-DihZVlkmmLEhPaPOl0pV6p7JxwYq1udKxAM.png");
+}
+.side a[href$="http://bit.ly/115CB5r"]:hover:after, .side a[href$="http://bit.ly/10IWqP4"]:hover:after, .side a[href="http://bit.ly/1xPM23X"]:hover:after {
+    position: relative;
+    top: 10px;
+    margin-left: -8px;
+    right: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+}body:lang(np) .arrow {
+    visibility: hidden!important;
+}
+body:lang(np) .usertext-edit, body:lang(np) .sidebox.submit, body:lang(np) .commentingAs, body:lang(np) .markdownEditor, body:lang(np) a[onclick*="return reply(this)"], body:lang(np) .helplink, body:lang(np) .score {
+    display: none!important;
+}
+body:lang(np) #siteTable:before {
+    content: "You have been linked to a read-only version of this subreddit. Please respect the community by not voting.";
+    display: block;
+    max-width: 800px;
+    background-color: #F6E69F;
+    padding: 5px 10px;
+    margin: 5px 305px 5px 0;
+    border: 1px solid orange;
+    font-size: small;
+}
+body:lang(np) .entry.likes:not(.reddit-entry):before, body:lang(np) .entry.dislikes:not(.reddit-entry):before {
+    content: "Please do not vote or comment when you come from external subreddits.";
+    color: red;
+    font-size: large;
+    font-weight: 700;
+}
+body.wiki-page:lang(np) span.pageactions a.wikiaction-edit:not(.wikiaction-current), body.wiki-page:lang(np) div.wiki-page-content form#editform label[for="reason"], body.wiki-page:lang(np) div.wiki-page-content form#editform input#wiki_revision_reason, body.wiki-page:lang(np) div.wiki-page-content form#editform input[type="submit"] {
+    display: none!important;
+}
+html:not([lang="ns"]) body .side .usertext[id$="a"] h5, html:not([lang="ns"]) body .side .usertext[id$="b"] h5, html:not([lang="ns"]) body .side .usertext[id$="c"] h5, html:not([lang="ns"]) body .side .usertext[id$="d"] h5, html:not([lang="ns"]) body .side .usertext[id$="s"] h5, html:not([lang="ns"]) body .side .usertext[id$="t"] h5, html:not([lang="ns"]) body .side .usertext[id$="u"] h5, html:not([lang="ns"]) body .side .usertext[id$="v"] h5, html:not([lang="ns"]) body .side .usertext[id$="e"] h5, html:not([lang="ns"]) body .side .usertext[id$="f"] h5, html:not([lang="ns"]) body .side .usertext[id$="g"] h5, html:not([lang="ns"]) body .side .usertext[id$="h"] h5, html:not([lang="ns"]) body .side .usertext[id$="i"] h5, html:not([lang="ns"]) body .side .usertext[id$="w"] h5, html:not([lang="ns"]) body .side .usertext[id$="x"] h5, html:not([lang="ns"]) body .side .usertext[id$="y"] h5, html:not([lang="ns"]) body .side .usertext[id$="z"] h5, html:not([lang="ns"]) body .side .usertext[id$="0"] h5 {
+    background: transparent url("//b.thumbs.redditmedia.com/13tWrWwt0T1LKYMWec7I025zOIef0gxLHRtGLZlZsPU.png") no-repeat center top;
+}
+html:not([lang="ns"]) body .side .usertext[id$="j"] h5, html:not([lang="ns"]) body .side .usertext[id$="k"] h5, html:not([lang="ns"]) body .side .usertext[id$="l"] h5, html:not([lang="ns"]) body .side .usertext[id$="m"] h5, html:not([lang="ns"]) body .side .usertext[id$="1"] h5, html:not([lang="ns"]) body .side .usertext[id$="2"] h5, html:not([lang="ns"]) body .side .usertext[id$="3"] h5, html:not([lang="ns"]) body .side .usertext[id$="4"] h5, html:not([lang="ns"]) body .side .usertext[id$="n"] h5, html:not([lang="ns"]) body .side .usertext[id$="o"] h5, html:not([lang="ns"]) body .side .usertext[id$="p"] h5, html:not([lang="ns"]) body .side .usertext[id$="q"] h5, html:not([lang="ns"]) body .side .usertext[id$="r"] h5, html:not([lang="ns"]) body .side .usertext[id$="5"] h5, html:not([lang="ns"]) body .side .usertext[id$="6"] h5, html:not([lang="ns"]) body .side .usertext[id$="7"] h5, html:not([lang="ns"]) body .side .usertext[id$="8"] h5, html:not([lang="ns"]) body .side .usertext[id$="9"] h5 {
+    background: transparent url("//b.thumbs.redditmedia.com/13tWrWwt0T1LKYMWec7I025zOIef0gxLHRtGLZlZsPU.png") no-repeat center top;
+}
+html:not([lang="ns"]) body .side .usertext[id] .md h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id] .md h5 {
+    height: 124px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    content: "";
+    text-indent: -9999px;
+    z-index: -2;
+    margin: 0;
+    padding: 0;
+}
+html:not([lang="ns"]) body .side .tagline .flair:after {
+    content: "";
+    height: 124px;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-indent: -9999px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+html:not([lang="ns"]) body.res-nightmode .side .tagline span[class*="ANA"]:after, html:not([lang="ns"]) body.res-nightmode .side .tagline span[class*="CHI"]:after {
+    background: transparent url("//b.thumbs.redditmedia.com/13tWrWwt0T1LKYMWec7I025zOIef0gxLHRtGLZlZsPU.png") no-repeat center top;
+}
+html:not([lang="ns"]) body.res-nightmode .side .tagline span[class*="NYR"]:after, html:not([lang="ns"]) body.res-nightmode .side .tagline span[class*="TBL"]:after {
+    background: transparent url("//b.thumbs.redditmedia.com/13tWrWwt0T1LKYMWec7I025zOIef0gxLHRtGLZlZsPU.png") no-repeat center top;
+}
+html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="a"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="b"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="c"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="d"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="s"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="t"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="u"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="v"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="e"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="f"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="g"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="h"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="i"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="w"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="x"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="y"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="z"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="0"] h5 {
+    background: transparent url("//b.thumbs.redditmedia.com/13tWrWwt0T1LKYMWec7I025zOIef0gxLHRtGLZlZsPU.png") no-repeat center top;
+}
+html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="j"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="k"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="l"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="m"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="1"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="2"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="3"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="4"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="n"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="o"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="p"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="q"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="r"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="5"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="6"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="7"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="8"] h5, html:not([lang="ns"]) body.res-nightmode .side .usertext[id$="9"] h5 {
+    background: transparent url("//b.thumbs.redditmedia.com/13tWrWwt0T1LKYMWec7I025zOIef0gxLHRtGLZlZsPU.png") no-repeat center top;
+}
+html:not([lang="ns"]) body.res-nightmode #RESMainGearOverlay {
+    background-color: #444;
+}
