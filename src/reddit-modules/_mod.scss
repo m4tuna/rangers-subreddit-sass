@@ -19,3 +19,13 @@ ul#image-preview-list li {
   margin-left: 0;
   padding-right: 0;
 }
+
+.md {
+  textarea {
+    z-index: 5;
+  }
+}
+
+.RESDialogSmall.livePreview > h3 {
+  z-index: 5;
+}

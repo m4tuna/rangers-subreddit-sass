@@ -20,11 +20,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Fonts\/nhl-fonts\/ffonts.net.htm": {
+	"\/fonts\/nhl-fonts\/ffonts.net.htm": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Fonts\/nhl-fonts\/ffonts.net.htm",
+		"inputAbbreviatedPath": "\/fonts\/nhl-fonts\/ffonts.net.htm",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -227,13 +227,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Images\/other\/gd-foundation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8755,
+		"inputAbbreviatedPath": "\/Images\/other\/gd-foundation.png",
+		"outputAbbreviatedPath": "\/Images\/other\/gd-foundation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/other\/km-foundation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37026,
+		"inputAbbreviatedPath": "\/Images\/other\/km-foundation.png",
+		"outputAbbreviatedPath": "\/Images\/other\/km-foundation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/other\/nhl-allstar2016.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 87269,
+		"initialSize": 47465,
 		"inputAbbreviatedPath": "\/Images\/other\/nhl-allstar2016.jpg",
 		"outputAbbreviatedPath": "\/Images\/other\/nhl-allstar2016.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/other\/nyriveters.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24522,
+		"inputAbbreviatedPath": "\/Images\/other\/nyriveters.png",
+		"outputAbbreviatedPath": "\/Images\/other\/nyriveters.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/other\/r-hockey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2836,
+		"inputAbbreviatedPath": "\/Images\/other\/r-hockey.png",
+		"outputAbbreviatedPath": "\/Images\/other\/r-hockey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/other\/wolf-pack.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9308,
+		"inputAbbreviatedPath": "\/Images\/other\/wolf-pack.png",
+		"outputAbbreviatedPath": "\/Images\/other\/wolf-pack.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1028,6 +1083,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/reddit-modules\/_teams.scss",
 		"outputAbbreviatedPath": "\/src\/css\/_teams.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/reddit-modules\/_top-bar.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/reddit-modules\/_top-bar.scss",
+		"outputAbbreviatedPath": "\/src\/css\/_top-bar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

@@ -9,11 +9,13 @@ body {
     height: $header-height;
     background-size: $header-bg-size;
     background-position: $header-bg-position;
+    z-index: 8;
   }
 }
 
 body>.content {
   margin: $body-margin;
+  z-index: 5;
 }
 
 #header .pagename a {
@@ -34,4 +36,8 @@ body>.content {
   &.havemail:before {
     content:$have-mail-copy;
   }
+}
+
+#header {
+  z-index: 99;
 }

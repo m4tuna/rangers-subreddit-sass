@@ -47,6 +47,9 @@ div.titlebox span.number:after {
     width:$sidebar-width;
     box-shadow: $search-expando-box-shadow;
   }
+  textarea {
+    z-index: 5;
+  }
 }
 
 .res .titlebox .tagline {
@@ -57,7 +60,7 @@ div.titlebox span.number:after {
 
 #search {
   top: $search-top;
-  z-index: 555;
+  z-index: 5;
 /*   &:before { Could be used to cover the menu text on small screens if the search bar is inline
   content: "";
   position: absolute;
