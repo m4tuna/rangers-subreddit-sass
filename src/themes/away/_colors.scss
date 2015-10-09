@@ -9,16 +9,18 @@
   $pagename-hover: $rangers-red;
   $pagename-color: $rangers-blue;
   $body-bg-color: $rangers-blue;
+  $pagename-shadow: 0 1px 3px rgba(0,0,0,0.25);
 
   //-primary-colors
   $active-post-border: $rangers-red;
   $sidebar-color: $var-white;
   $link-bg: $rangers-red;
+  $link-visited: $rangers-dark-red;
 
   //-tabmenu
   $tabmenu-anchor-color: $rangers-blue;
   $tabmenu-anchor-hover: $rangers-blue;
-  $tabmenu-anchor-text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+  $tabmenu-anchor-text-shadow: 0 1px 2px rgba(0,0,0,0.25);
   $tabmenu-selected: $rangers-red;
 
   //-sidebar
@@ -28,9 +30,14 @@
 
   //-topbar
   $topbar-hover: $var-white;
+  $topbar-bg: rgba(255, 255, 255, 0.93);
 
   //-res-header
   $res-header-bg: $rangers-blue;
+
+  //-buttons
+  $button-bg-color: $rangers-red;
+  $button-bg-hover-color: $rangers-blue;
 
   //-custom buttons
   $button1-txt-color: $rangers-blue;

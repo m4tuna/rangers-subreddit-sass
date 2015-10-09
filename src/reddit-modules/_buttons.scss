@@ -6,12 +6,18 @@
 
 .btn, button.btn {
   padding:$btn-padding;
+}
+.btn, button.btn, button {
+  background-color: $button-bg-color;
   color:$var-black;
   text-decoration: none;
   border-radius:0px;
   border:2px solid transparent;
   text-align: center;
   cursor:pointer;
+  &:hover {
+    background-color: $button-bg-hover-color;
+  }
   &.complete {
     cursor:default;
     background:$dark-grey;

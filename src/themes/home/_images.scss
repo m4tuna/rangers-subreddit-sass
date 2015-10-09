@@ -10,6 +10,9 @@
   $body-bg-repeat: no-repeat;
   $body-bg-size: cover;
 
+  $rangers-logo-md: "%%sidebar-nhl-rangers%%";
+  $rangers-logo-1926: "%%footerbg%%";
+
   //-banners
   $rangerstown-banner: '%%rangerstown%%';
   $rangers-banner: '%%rangersbanner%%';
@@ -27,6 +30,9 @@
   $tab-menu-left-bg-position: -208px -48px;
   $tab-menu-left-padding: 48px;
   $tab-menu-left-height: 48px;
+  $tab-menu-left-width: 40px;
+  $tab-menu-left-bgsize: initial;
+  $tab-menu-left-hover-bp: -208px -96px;
 
   //-sidebar
   $all-teams-flair: '%%all-teams-flair%%';
@@ -47,11 +53,11 @@
 
   //-links
   $sticky-img: "%%stickytoast%%";
-  $upvote-img: "%%sidebar-nhl-rangers%%";
+  $upvote-img: $rangers-logo-md;
   $downvote-img: "%%sticky%%";
 
   //-footer
-  $footer-img: "%%footerbg%%";
+  $footer-img: $rangers-logo-1926;
   $footer-img-attachment: none;
   $footer-img-position: bottom 100px center;
   $footer-img-repeat: no-repeat;

@@ -7,7 +7,7 @@
  */
 /*
 // ==========================================================================
-// Current /r/rangers theme: home
+// Current /r/rangers theme: third
 // ==========================================================================
 */
 /*
@@ -3095,7 +3095,7 @@ input[type="submit"] {
   width: 100%; }
 
 #sr-header-area {
-  background-color: #1B447F; }
+  background-color: #1B213F; }
 
 div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
   border-color: #D60642; }
@@ -3107,6 +3107,9 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
   font-size: 11px;
   margin-right: 5px; }
 
+.RESCloseButton {
+  z-index: 5; }
+
 .side h6 {
   position: fixed;
   top: 0;
@@ -3114,7 +3117,7 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
   width: 100%;
   z-index: 7;
   height: 50px;
-  background: rgba(27, 68, 127, 0.93);
+  background: rgba(27, 33, 63, 0.93);
   margin: 0 !important;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.68);
   text-decoration: none;
@@ -3124,7 +3127,7 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
   -moz-transition: all 0.75s ease;
   transition: all 0.75s ease; }
   .side h6:hover {
-    background: #1B447F; }
+    background: #1B213F; }
   .side h6 a {
     opacity: 0.65;
     -webkit-transition: all 0.7s ease;
@@ -3198,7 +3201,7 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
       opacity: 1; }
 
 body {
-  background-color: #1B447F;
+  background-color: #1B213F;
   /*   &:after {
     background-image: url($current-header-img);
     height: $header-height;
@@ -3207,7 +3210,7 @@ body {
     z-index: 8;
   } */ }
   body:before {
-    background-image: url("%%rangersbanner%%");
+    background-image: url("%%rangersbanner-third%%");
     height: 250px;
     background-size: cover;
     background-position: center center;
@@ -3219,13 +3222,14 @@ body > .content {
 
 #header .pagename a {
   color: #fff;
-  font-size: 22px; }
+  font-size: 22px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); }
   #header .pagename a:before {
     content: "/r/";
     font-size: 22px;
     letter-spacing: 1px; }
   #header .pagename a:hover {
-    color: #D60642; }
+    color: #dbd5b8; }
 
 #mail {
   top: 2px; }
@@ -3236,19 +3240,20 @@ body > .content {
   z-index: 99; }
 
 #header .tabmenu li.selected a {
-  color: #fff; }
+  color: #822; }
 #header .tabmenu li a {
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   color: #fff; }
   #header .tabmenu li a:hover {
-    color: #fff; }
+    color: #dbd5b8; }
 
 #header-bottom-left {
   top: 248px; }
 
 #header-img.default-header, #header-img {
   z-index: 99;
-  width: 0;
+  width: 40px;
+  background-size: initial;
   padding-left: 48px;
   height: 48px;
   background-image: url("%%spritesheet%%");
@@ -3256,36 +3261,33 @@ body > .content {
   position: relative;
   top: 0;
   margin: 0; }
+  #header-img.default-header:hover, #header-img:hover {
+    background-position: -208px -96px; }
 
 .linkflair .linkflairlabel {
   padding: 2px;
   border-radius: 0px;
   max-width: none; }
-
-.linkflair-flair-yellow .linkflairlabel {
-  background-color: #ff0;
-  color: #444;
-  border: 1px Solid #E2E200; }
-
-.linkflair-flair-blue .linkflairlabel {
-  background-color: #0072BC;
-  color: #fff;
-  border: 1px Solid #1D009B; }
-
-.linkflair-flair-green .linkflairlabel {
-  background-color: #041e42;
-  color: #fff;
-  border: 1px Solid #2CA243; }
-
-.linkflair-flair-orange .linkflairlabel {
-  background-color: #FF7F00;
-  color: #fff;
-  border: 1px Solid #C45E00; }
-
-.linkflair-flair-red .linkflairlabel {
-  background-color: #f00;
-  color: #fff;
-  border: 1px Solid #C20000; }
+  .linkflair .linkflairlabel.linkflair-flair-yellow {
+    background-color: #ff0;
+    color: #444;
+    border: 1px Solid #E2E200; }
+  .linkflair .linkflairlabel.linkflair-flair-blue {
+    background-color: #0072BC;
+    color: #fff;
+    border: 1px Solid #1D009B; }
+  .linkflair .linkflairlabel.linkflair-flair-green {
+    background-color: #041e42;
+    color: #fff;
+    border: 1px Solid #2CA243; }
+  .linkflair .linkflairlabel.linkflair-flair-orange {
+    background-color: #FF7F00;
+    color: #fff;
+    border: 1px Solid #C45E00; }
+  .linkflair .linkflairlabel.linkflair-flair-red {
+    background-color: #f00;
+    color: #fff;
+    border: 1px Solid #C20000; }
 
 /* Current Rangers Roster */
 .flair {
@@ -3864,14 +3866,6 @@ a[href="/r/unitedkingdom"]:before {
 a[href="/r/austria"]:before {
   background-position: -425px -215px !important; }
 
-/* a[href="/r/france"]:before {
-    background-image: url("//b.thumbs.redditmedia.com/xnaxixXtV5WWLqGM0LWUJKtO-euRVCFsHqxsso8gjJE.png")!important;
-    background-position: -250px -355px!important;
-}
-a[href="/r/italy"]:before {
-    background-image: url("//b.thumbs.redditmedia.com/xnaxixXtV5WWLqGM0LWUJKtO-euRVCFsHqxsso8gjJE.png")!important;
-    background-position: -215px -355px!important;
-} */
 .comments-page .side, .res.comments-page .side {
   margin-top: 525px; }
   .comments-page .side .linkinfo, .res.comments-page .side .linkinfo {
@@ -3902,9 +3896,12 @@ div.titlebox span.number:after {
 
 .side {
   background-color: #fff;
-  box-shadow: 2px 4px 3px transparent;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
   margin: 400px 16px 0 0;
-  width: 300px; }
+  width: 300px;
+  /*   &:hover {
+    box-shadow:$sidebar-hover-box-shadow;
+  } */ }
   .side:before {
     background-image: url("%%win%%");
     content: ' ';
@@ -3914,8 +3911,6 @@ div.titlebox span.number:after {
     display: block;
     background-size: cover;
     margin-top: 10px; }
-  .side:hover {
-    box-shadow: 2px 4px 3px #fff; }
   .side .res #search #searchexpando {
     width: 300px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); }
@@ -3943,7 +3938,7 @@ div.titlebox span.number:after {
 .morelink {
   top: 350px;
   color: #fff;
-  background-color: #D60642;
+  background-color: #822;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -4020,6 +4015,12 @@ div.titlebox span.number:after {
 .commentarea .menuarea {
   margin: 0 0 10px 2px; }
 
+.content .thing .title:visited, .content .thing.visited .title {
+  color: #670F28; }
+
+.md a:visited {
+  color: #670F28; }
+
 .commentarea > .usertext {
   background-color: #EAF5FF; }
 
@@ -4037,13 +4038,13 @@ html:not([lang="ns"]) .footer-parent {
   clear: both;
   float: left;
   width: 100%;
-  border-bottom: 50px solid #D60642;
+  border-bottom: 40px solid #822;
   position: relative;
   padding-bottom: 100px; }
   html:not([lang="ns"]) .footer-parent:after {
-    content: "current r/rangers theme: home";
+    content: "current r/rangers theme: third";
     font-size: 10px;
-    color: #fff;
+    color: #1B447F;
     position: absolute;
     z-index: -1;
     height: 730px;
@@ -4051,16 +4052,16 @@ html:not([lang="ns"]) .footer-parent {
     left: 0;
     right: 0;
     bottom: 0;
-    border-bottom: 50px solid #fff;
-    box-shadow: 20px 160px 0px 20px #fff; }
+    border-bottom: 50px solid #dbd5b8;
+    box-shadow: 20px 160px 0px 20px #dbd5b8; }
 
 .footer .flat-vert.title {
-  color: #fff; }
+  color: #000; }
 .footer .flat-vert li a {
-  color: #fff; }
+  color: #000; }
 
 p.bottommenu {
-  color: #fff; }
+  color: #000; }
 
 #images {
   height: auto;
@@ -4099,30 +4100,35 @@ body > .content {
   height: 40px; }
 
 .btn, button.btn {
-  padding: 9px 20px;
+  padding: 9px 20px; }
+
+.btn, button.btn, button {
+  background-color: #822;
   color: #000;
   text-decoration: none;
   border-radius: 0px;
   border: 2px solid transparent;
   text-align: center;
   cursor: pointer; }
-  .btn.complete, button.btn.complete {
+  .btn:hover, button.btn:hover, button:hover {
+    background-color: #1B213F; }
+  .btn.complete, button.btn.complete, button.complete {
     cursor: default;
     background: #a6a6a7;
     border-color: #a6a6a7; }
-    .btn.complete:hover, button.btn.complete:hover {
+    .btn.complete:hover, button.btn.complete:hover, button.complete:hover {
       background: #a6a6a7;
       border-color: #a6a6a7; }
-  .btn.mobile, button.btn.mobile {
+  .btn.mobile, button.btn.mobile, button.mobile {
     display: none; }
-  .btn.block, .btn.submit, button.btn.submit, button.btn.block, button.btn.submit {
+  .btn.block, .btn.submit, button.btn.submit, button.btn.block, button.btn.submit, button.block, button.btn.submit, button.submit {
     display: block;
     clear: both;
     width: 100%; }
-  .btn.var-white, button.btn.var-white {
+  .btn.var-white, button.btn.var-white, button.var-white {
     color: #000; }
-    .btn.var-white:hover, button.btn.var-white:hover {
+    .btn.var-white:hover, button.btn.var-white:hover, button.var-white:hover {
       color: #000; }
-  .btn.submit, button.btn.submit {
+  .btn.submit, button.btn.submit, button.submit {
     width: 50%;
     margin: 15px auto 0; }

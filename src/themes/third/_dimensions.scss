@@ -1,23 +1,27 @@
 // ==========================================================================
 // Dimensions
+// Note: Vars used here need to be defined in global/_define.scss
 // ==========================================================================
-
 @if $current-theme == "third" {
+
   //-grid
   $grid-columns: 12;
   $grid-max-width: 100em;
 
-  $header-height: 500px;
+  $header-height: 250px;
 
   //-calc position from top based on header height
-  $body-margin: $header-height+50 332px 0 16px;
-  $search-top: $header-height + 10;
+  $body-margin: $header-height+50 345px 0 25px;
+  $search-top: $header-height + 50;
   $tabmenu-top: $header-height - 2;
-  $submit-top: $header-height+60;
-  $sidebar-margin: $header-height + 110 16px 0 0;
+  $submit-top: $header-height+100;
+  $sidebar-margin: $header-height + 150 16px 0 0;
 
-  $single-linkinfo-top: $header-height + 110;
-  $single-sidebar-top: $header-height + 235;
+  $single-linkinfo-top: $header-height + 150;
+  $single-sidebar-top: $header-height + 275;
+
+  //-main links
+  $main-link-margin: 4px 0;
 
 
   //-buttons
@@ -47,7 +51,7 @@
   $sidebar-width: 300px;
 
   $search-expando-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  $sidebar-box-shadow: 2px 4px 3px transparent;
+  $sidebar-box-shadow: 0 1px 5px rgba(0,0,0,0.16);
   $sidebar-hover-box-shadow: 2px 4px 3px $sidebar-color;
 
 

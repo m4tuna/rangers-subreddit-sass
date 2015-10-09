@@ -40,9 +40,9 @@ div.titlebox span.number:after {
     background-size: $sidebar-img-bg-size ;
     margin-top: 10px;
   }
-  &:hover {
-    box-shadow:$sidebar-hover-box-shadow;
-  }
+/*   &:hover {
+  box-shadow:$sidebar-hover-box-shadow;
+} */
   .res #search #searchexpando {
     width:$sidebar-width;
     box-shadow: $search-expando-box-shadow;

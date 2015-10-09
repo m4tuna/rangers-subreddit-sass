@@ -75,3 +75,11 @@
 .commentarea .menuarea {
   margin: 0 0 10px 2px;
 }
+
+.content .thing .title:visited, .content .thing.visited .title {
+  color: $link-visited;
+}
+
+.md a:visited {
+    color: $link-visited;;
+}

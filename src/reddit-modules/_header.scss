@@ -28,6 +28,7 @@ body>.content {
 #header .pagename a {
   color:$pagename-color;
   font-size: $pagename-fsz;
+  text-shadow: $pagename-shadow;
   &:before {
     content:$pagename-prefix-copy;
     font-size: $pagename-fsz;

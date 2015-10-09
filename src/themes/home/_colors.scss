@@ -9,9 +9,11 @@
   $pagename-hover: $rangers-red;
   $pagename-color: $var-white;
   $body-bg-color: $rangers-blue;
+  $pagename-shadow: 0 1px 8px rgba(0,0,0,0.5);
 
   //-topbar
   $topbar-hover: $rangers-blue;
+  $topbar-bg: rgba(27, 68, 127, 0.93);
 
   //-res-header
   $res-header-bg: $rangers-blue;
@@ -20,6 +22,7 @@
   $active-post-border: $rangers-red;
   $sidebar-color: $var-white;
   $link-bg: $var-white;
+  $link-visited: $rangers-dark-red;
 
   //-tabmenu
   $tabmenu-anchor-color: $var-white;
@@ -31,6 +34,10 @@
   $submit-txt-color: $var-white;
   $submit-bg: $rangers-red;
   $submit-bg-border-color: $rangers-red;
+
+  //-buttons
+  $button-bg-color: $rangers-blue;
+  $button-bg-hover-color: $rangers-red;
 
   //-custom buttons
   $button1-txt-color: $var-white;

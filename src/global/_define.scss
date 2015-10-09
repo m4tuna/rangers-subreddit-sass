@@ -22,17 +22,26 @@ $current-header-img: null;
 $active-post-border: null;
 $sidebar-color: null;
 $link-bg: null;
+$link-visited: null;
 
 //-tabmenu
 $tabmenu-anchor-color: null;
 $tabmenu-anchor-hover: null;
 $tabmenu-anchor-text-shadow: null;
 $tabmenu-selected: null;
+$tab-menu-left-width: null;
+$tab-menu-left-bgsize: null;
+$tab-menu-left-hover-bp: null;
 
 //-sidebar
 $submit-txt-color:null;
 $submit-bg: null;
 $submit-bg-border-color: null;
+
+
+//-buttons
+$button-bg-color: null;
+$button-bg-hover-color: null;
 
 //-custom buttons
 $button1-txt-color: null;
@@ -166,6 +175,7 @@ $body-bg-size: null;
 
 $win: null;
 $topbar-hover: null;
+$topbar-bg: null;
 
 //-sprite
 $naut-sprite: null;
@@ -214,6 +224,7 @@ $button4-fsz: null;
 
 $pagename-fsz: null;
 $pagename-lh: null;
+$pagename-shadow: null;
 
 $entry-link-fsz: null;
 

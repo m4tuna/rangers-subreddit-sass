@@ -1,35 +1,32 @@
-.flair-gamertag {
-
-}
 .linkflair .linkflairlabel {
 	padding: 2px;
 	border-radius: 0px;
 	max-width: none;
-}
-.linkflair-flair-yellow .linkflairlabel {
-	background-color: #ff0;
-	color: #444;
-	border: 1px Solid #E2E200;
-}
-.linkflair-flair-blue .linkflairlabel {
-	background-color: #0072BC;
-	color: #fff;
-	border: 1px Solid #1D009B;
-}
-.linkflair-flair-green .linkflairlabel {
-	background-color: #041e42;
-	color: #fff;
-	border: 1px Solid #2CA243;
-}
-.linkflair-flair-orange .linkflairlabel {
-	background-color: #FF7F00;
-	color: #fff;
-	border: 1px Solid #C45E00;
-}
-.linkflair-flair-red .linkflairlabel {
-	background-color: #f00;
-	color: #fff;
-	border: 1px Solid #C20000;
+	&.linkflair-flair-yellow {
+		background-color: #ff0;
+		color: #444;
+		border: 1px Solid #E2E200;
+	}
+	&.linkflair-flair-blue {
+		background-color: #0072BC;
+		color: #fff;
+		border: 1px Solid #1D009B;
+	}
+	&.linkflair-flair-green {
+		background-color: #041e42;
+		color: #fff;
+		border: 1px Solid #2CA243;
+	}
+	&.linkflair-flair-orange {
+		background-color: #FF7F00;
+		color: #fff;
+		border: 1px Solid #C45E00;
+	}
+	&.linkflair-flair-red {
+		background-color: #f00;
+		color: #fff;
+		border: 1px Solid #C20000;
+	}
 }
 
 /* Current Rangers Roster */
@@ -706,11 +703,3 @@ a[href="/r/unitedkingdom"]:before {
 a[href="/r/austria"]:before {
 	background-position: -425px -215px!important;
 }
-/* a[href="/r/france"]:before {
-    background-image: url("//b.thumbs.redditmedia.com/xnaxixXtV5WWLqGM0LWUJKtO-euRVCFsHqxsso8gjJE.png")!important;
-    background-position: -250px -355px!important;
-}
-a[href="/r/italy"]:before {
-    background-image: url("//b.thumbs.redditmedia.com/xnaxixXtV5WWLqGM0LWUJKtO-euRVCFsHqxsso8gjJE.png")!important;
-    background-position: -215px -355px!important;
-} */
