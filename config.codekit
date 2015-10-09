@@ -20,11 +20,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/fonts\/nhl-fonts\/ffonts.net.htm": {
+	"\/current-theme.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/current-theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Fonts\/nhl-fonts\/ffonts.net.htm": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/nhl-fonts\/ffonts.net.htm",
+		"inputAbbreviatedPath": "\/Fonts\/nhl-fonts\/ffonts.net.htm",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -132,7 +141,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 56343,
+		"initialSize": 13680,
 		"inputAbbreviatedPath": "\/images\/headers\/rangersbanner-away.png",
 		"outputAbbreviatedPath": "\/images\/headers\/rangersbanner-away.png",
 		"outputPathIsOutsideProject": 0,
@@ -143,7 +152,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 103793,
+		"initialSize": 26211,
 		"inputAbbreviatedPath": "\/images\/headers\/rangersbanner-third.png",
 		"outputAbbreviatedPath": "\/images\/headers\/rangersbanner-third.png",
 		"outputPathIsOutsideProject": 0,
@@ -154,7 +163,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 17688,
+		"initialSize": 12903,
 		"inputAbbreviatedPath": "\/images\/headers\/rangersbanner.png",
 		"outputAbbreviatedPath": "\/images\/headers\/rangersbanner.png",
 		"outputPathIsOutsideProject": 0,
@@ -395,7 +404,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/app.scss",
-		"outputAbbreviatedPath": "\/theme-home.css",
+		"outputAbbreviatedPath": "\/current-theme.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
@@ -1378,15 +1387,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/theme-home.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/theme-home.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

@@ -18,7 +18,8 @@ html:not([lang="ns"]) .footer-parent {
   padding-bottom: 100px;
   &:after {
     content: $current-theme-copy;
-    font-size:10px;
+    font-size:11px;
+    font-weight:700;
     color:$theme-name-color;
     position: absolute;
     z-index: -1;

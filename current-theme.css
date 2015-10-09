@@ -7,7 +7,7 @@
  */
 /*
 // ==========================================================================
-// Current /r/rangers theme: third
+// Current /r/rangers theme: away
 // ==========================================================================
 */
 /*
@@ -3095,7 +3095,7 @@ input[type="submit"] {
   width: 100%; }
 
 #sr-header-area {
-  background-color: #1B213F; }
+  background-color: #0161ab; }
 
 div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
   border-color: #D60642; }
@@ -3117,7 +3117,7 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
   width: 100%;
   z-index: 7;
   height: 50px;
-  background: rgba(27, 33, 63, 0.93);
+  background: rgba(255, 255, 255, 0.93);
   margin: 0 !important;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.68);
   text-decoration: none;
@@ -3127,7 +3127,7 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
   -moz-transition: all 0.75s ease;
   transition: all 0.75s ease; }
   .side h6:hover {
-    background: #1B213F; }
+    background: #fff; }
   .side h6 a {
     opacity: 0.65;
     -webkit-transition: all 0.7s ease;
@@ -3201,7 +3201,7 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
       opacity: 1; }
 
 body {
-  background-color: #1B213F;
+  background-color: #fff;
   /*   &:after {
     background-image: url($current-header-img);
     height: $header-height;
@@ -3210,7 +3210,7 @@ body {
     z-index: 8;
   } */ }
   body:before {
-    background-image: url("%%rangersbanner-third%%");
+    background-image: url("%%rangersbanner-away%%");
     height: 250px;
     background-size: cover;
     background-position: center center;
@@ -3221,7 +3221,7 @@ body > .content {
   z-index: 5; }
 
 #header .pagename a {
-  color: #fff;
+  color: #0161ab;
   font-size: 22px;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); }
   #header .pagename a:before {
@@ -3229,7 +3229,7 @@ body > .content {
     font-size: 22px;
     letter-spacing: 1px; }
   #header .pagename a:hover {
-    color: #dbd5b8; }
+    color: #D60642; }
 
 #mail {
   top: 2px; }
@@ -3240,12 +3240,12 @@ body > .content {
   z-index: 99; }
 
 #header .tabmenu li.selected a {
-  color: #822; }
+  color: #D60642; }
 #header .tabmenu li a {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-  color: #fff; }
+  color: #0161ab; }
   #header .tabmenu li a:hover {
-    color: #dbd5b8; }
+    color: #0161ab; }
 
 #header-bottom-left {
   top: 248px; }
@@ -3253,16 +3253,16 @@ body > .content {
 #header-img.default-header, #header-img {
   z-index: 99;
   width: 40px;
-  background-size: initial;
-  padding-left: 48px;
+  background-size: cover;
+  padding-left: 68px;
   height: 48px;
-  background-image: url("%%spritesheet%%");
-  background-position: -208px -48px;
+  background-image: url("%%footerbg%%");
+  background-position: 0 0;
   position: relative;
   top: 0;
   margin: 0; }
   #header-img.default-header:hover, #header-img:hover {
-    background-position: -208px -96px; }
+    background-position: 0 0; }
 
 .linkflair .linkflairlabel {
   padding: 2px;
@@ -3891,7 +3891,7 @@ div.titlebox span.number:after {
 .top-bar {
   position: fixed;
   width: 100%;
-  background: #1B447F;
+  background: #0161ab;
   height: 50px; }
 
 .side {
@@ -3938,19 +3938,19 @@ div.titlebox span.number:after {
 .morelink {
   top: 350px;
   color: #fff;
-  background-color: #822;
+  background-color: #D60642;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   .morelink:hover {
     height: 45px;
-    background-color: #1B447F;
+    background-color: #0161ab;
     border-top: 5px solid #D60642;
     border-bottom: 5px solid #D60642;
     margin-top: -5px; }
   .morelink a {
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     color: #fff; }
 
 .disabled .morelink:after {
@@ -4038,13 +4038,14 @@ html:not([lang="ns"]) .footer-parent {
   clear: both;
   float: left;
   width: 100%;
-  border-bottom: 40px solid #822;
+  border-bottom: 40px solid #D60642;
   position: relative;
   padding-bottom: 100px; }
   html:not([lang="ns"]) .footer-parent:after {
-    content: "current r/rangers theme: third";
-    font-size: 10px;
-    color: #1B447F;
+    content: "current r/rangers theme: away";
+    font-size: 11px;
+    font-weight: 700;
+    color: #0161ab;
     position: absolute;
     z-index: -1;
     height: 730px;
@@ -4052,8 +4053,8 @@ html:not([lang="ns"]) .footer-parent {
     left: 0;
     right: 0;
     bottom: 0;
-    border-bottom: 50px solid #dbd5b8;
-    box-shadow: 20px 160px 0px 20px #dbd5b8; }
+    border-bottom: 50px solid #0161ab;
+    box-shadow: 20px 160px 0px 20px #0161ab; }
 
 .footer .flat-vert.title {
   color: #000; }
@@ -4103,7 +4104,7 @@ body > .content {
   padding: 9px 20px; }
 
 .btn, button.btn, button {
-  background-color: #822;
+  background-color: #D60642;
   color: #000;
   text-decoration: none;
   border-radius: 0px;
@@ -4111,7 +4112,7 @@ body > .content {
   text-align: center;
   cursor: pointer; }
   .btn:hover, button.btn:hover, button:hover {
-    background-color: #1B213F; }
+    background-color: #0161ab; }
   .btn.complete, button.btn.complete, button.complete {
     cursor: default;
     background: #a6a6a7;
