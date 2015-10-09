@@ -11,6 +11,13 @@ body {
     background-position: $header-bg-position;
     z-index: 8;
   }
+/*   &:after {
+  background-image: url($current-header-img);
+  height: $header-height;
+  background-size: $header-bg-size;
+  background-position: $header-bg-position;
+  z-index: 8;
+} */
 }
 
 body>.content {
