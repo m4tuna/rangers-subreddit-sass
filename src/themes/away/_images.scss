@@ -1,7 +1,7 @@
 // ==========================================================================
 // Images
+// Note: Vars used here need to be defined in global/_define.scss
 // ==========================================================================
-
 @if $current-theme == "away" {
   //-body
   $body-bg-image:'' ;
@@ -10,9 +10,14 @@
   $body-bg-repeat: no-repeat;
   $body-bg-size: cover;
 
-  //-header
-  $header-img: '%%headerimg%%';
+  //-banners
   $rangerstown-banner: '%%rangerstown%%';
+  $rangers-banner: '%%rangersbanner-away%%';
+
+  $current-header-img: $rangers-banner;
+
+  $header-bg-size: cover;
+  $header-bg-position: center center;
 
   //-sprite
   $naut-sprite: '%%spritesheet%%';
@@ -24,7 +29,12 @@
   $tab-menu-left-height: 48px;
 
   //-sidebar
-  $sidebar-img: '%%sidebar1%%';
+  $all-teams-flair: '%%all-teams-flair%%';
+  $kleiner-sidebar: '%%kleiner%%';
+  $win: '%%win%%';
+
+  $sidebar-img: $win;
+
   $sidebar-img-height: 350px;
   $sidebar-img-bg-size: cover;
   $sidebar-img-bg-repeat: no-repeat;
@@ -35,11 +45,15 @@
   $sidebar-bg-repeat: no-repeat;
   $sidebar-bg-size: cover;
 
+  //-links
+  $sticky-img: "%%stickytoast%%";
+  $upvote-img: "%%sidebar-nhl-rangers%%";
+  $downvote-img: "%%sticky%%";
+
   //-footer
   $footer-img: "%%footerbg%%";
   $footer-img-attachment: none;
   $footer-img-position: bottom 100px center;
   $footer-img-repeat: no-repeat;
   $footer-img-size: '';
-
 }

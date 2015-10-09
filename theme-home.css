@@ -1,14 +1,15 @@
 @charset "UTF-8";
 /*
-
 // ==========================================================================
 // R Rangers Theme Engine
 // Author: Mike Fortuna
 // ==========================================================================
-
-  themes: home, away, third, playoffs
-
  */
+/*
+// ==========================================================================
+// Current /r/rangers theme: home
+// ==========================================================================
+*/
 /*
 		Naut 3.2
 		by Cryptonaut
@@ -3093,6 +3094,9 @@ input[type="submit"] {
 .column-12 {
   width: 100%; }
 
+#sr-header-area {
+  background-color: #1B447F; }
+
 div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
   border-color: #D60642; }
 
@@ -3231,6 +3235,8 @@ body > .content {
 #header {
   z-index: 99; }
 
+#header .tabmenu li.selected a {
+  color: #fff; }
 #header .tabmenu li a {
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
   color: #fff; }
@@ -3342,354 +3348,354 @@ body > .content {
     height: 20px;
     content: "";
     margin-right: 3px; }
-  .flair .flair-Diaz:before {
+  .flair.flair-Diaz:before {
     background-position: -212px -44px;
     width: 15px;
     height: 21px; }
-  .flair .flair-Girardi:before {
+  .flair.flair-Girardi:before {
     background-position: -261px -44px;
     width: 13px;
     height: 21px; }
-  .flair .flair-McIlrath:before {
+  .flair.flair-McIlrath:before {
     background-position: -308px -44px;
     width: 13px;
     height: 21px; }
-  .flair .flair-Klein:before {
+  .flair.flair-Klein:before {
     background-position: -402px -44px;
     width: 13px;
     height: 21px; }
-  .flair .flair-Miller:before {
+  .flair.flair-Miller:before {
     background-position: -11px -82px; }
-  .flair .flair-Fast:before {
+  .flair.flair-Fast:before {
     background-position: -96px -82px; }
-  .flair .flair-Hayes:before {
+  .flair.flair-Hayes:before {
     background-position: -140px -82px; }
-  .flair .flair-Glass:before {
+  .flair.flair-Glass:before {
     background-position: -229px -82px; }
-  .flair .flair-Brassard:before {
+  .flair.flair-Brassard:before {
     background-position: -272px -82px; }
-  .flair .flair-JMoore:before {
+  .flair.flair-JMoore:before {
     background-position: -316px -82px; }
-  .flair .flair-Staal:before {
+  .flair.flair-Staal:before {
     background-position: -361px -82px; }
-  .flair .flair-Richards:before {
+  .flair.flair-Richards:before {
     background-position: -405px -82px; }
-  .flair .flair-Kreider:before {
+  .flair.flair-Kreider:before {
     background-position: -448px -82px; }
-  .flair .flair-Stepan:before {
+  .flair.flair-Stepan:before {
     background-position: -11px -120px; }
-  .flair .flair-Boyle:before {
+  .flair.flair-Boyle:before {
     background-position: -55px -120px; }
-  .flair .flair-Lindberg:before {
+  .flair.flair-Lindberg:before {
     background-position: -149px -120px; }
-  .flair .flair-Stalberg:before {
+  .flair.flair-Stalberg:before {
     background-position: -197px -120px; }
-  .flair .flair-Stoll:before {
+  .flair.flair-Stoll:before {
     background-position: -244px -120px; }
-  .flair .flair-McDonagh:before {
+  .flair.flair-McDonagh:before {
     background-position: -291px -120px; }
-  .flair .flair-Moore:before {
+  .flair.flair-Moore:before {
     background-position: -338px -120px; }
-  .flair .flair-Lundqvist:before {
+  .flair.flair-Lundqvist:before {
     background-position: -432px -120px; }
-  .flair .flair-Raanta:before {
+  .flair.flair-Raanta:before {
     background-position: -55px -158px; }
-  .flair .flair-Talbot:before {
+  .flair.flair-Talbot:before {
     background-position: -102px -158px; }
-  .flair .flair-Zuccarello:before {
+  .flair.flair-Zuccarello:before {
     background-position: -244px -158px; }
-  .flair .flair-Haggerty:before {
+  .flair.flair-Haggerty:before {
     background-position: -385px -158px; }
-  .flair .flair-Falk:before {
+  .flair.flair-Falk:before {
     background-position: -152px -196px; }
-  .flair .flair-Nash:before {
+  .flair.flair-Nash:before {
     background-position: -10px -272px; }
-  .flair .flair-Hagelin:before {
+  .flair.flair-Hagelin:before {
     background-position: -55px -272px; }
-  .flair .flair-Pouliot:before {
+  .flair.flair-Pouliot:before {
     background-position: -290px -272px; }
-  .flair .flair-Yandle:before {
+  .flair.flair-Yandle:before {
     background-position: -101px -386px; }
-  .flair .flair-Etem:before {
+  .flair.flair-Etem:before {
     background-position: -244px -386px; }
-  .flair .flair-Giacomin:before {
+  .flair.flair-Giacomin:before {
     width: 10px;
     height: 21px;
     background-position: -75px -44px; }
-  .flair .flair-Leetch:before {
+  .flair.flair-Leetch:before {
     width: 13px;
     height: 21px;
     background-position: -119px -44px; }
-  .flair .flair-Howell:before {
+  .flair.flair-Howell:before {
     width: 13px;
     height: 21px;
     background-position: -166px -44px; }
-  .flair .flair-Gilbert:before {
+  .flair.flair-Gilbert:before {
     width: 13px;
     height: 21px;
     background-position: -355px -44px; }
-  .flair .flair-Bathgate:before, .flair .flair-Graves:before {
+  .flair.flair-Bathgate:before, .flair.flair-Graves:before {
     width: 13px;
     height: 21px;
     background-position: -449px -44px; }
-  .flair .flair-Messier:before {
+  .flair.flair-Messier:before {
     width: 24px;
     height: 21px;
     background-position: -55px -82px; }
-  .flair .flair-Richter:before {
+  .flair.flair-Richter:before {
     width: 30px;
     height: 21px;
     background-position: -197px -158px; }
-  .flair .flair-Gretzky:before {
+  .flair.flair-Gretzky:before {
     width: 30px;
     height: 21px;
     background-position: -385px -386px; }
-  .flair .flair-NHLNewYorkRangers:before {
+  .flair.flair-NHLNewYorkRangers:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -20px -1155px; }
-  .flair .flair-NHLNewYorkRangersLady:before {
+  .flair.flair-NHLNewYorkRangersLady:before {
     width: 18px;
     height: 18px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -20px -1177px; }
-  .flair .flair-NHLNewYorkRangersOld1:before {
+  .flair.flair-NHLNewYorkRangersOld1:before {
     width: 18px;
     height: 17px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -20px -1199px; }
-  .flair .flair-NHLNewYorkRangersOld2:before {
+  .flair.flair-NHLNewYorkRangersOld2:before {
     width: 18px;
     height: 17px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -20px -1221px; }
-  .flair .flair-NHLNewYorkRangersOld3:before {
+  .flair.flair-NHLNewYorkRangersOld3:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -20px -1241px; }
-  .flair .flair-Toast:before {
+  .flair.flair-Toast:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -84px -735px; }
-  .flair .flair-NHLLeagueLogo:before {
+  .flair.flair-NHLLeagueLogo:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%nhl%%);
     vertical-align: middle;
     background-position: 0px 0px; }
-  .flair .flair-NHLAnaheimDucks:before {
+  .flair.flair-NHLAnaheimDucks:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: 0px -1701px; }
-  .flair .flair-NHLBostonBruins:before {
+  .flair.flair-NHLBostonBruins:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: 0px -1785px; }
-  .flair .flair-NHLBuffaloSabres:before {
+  .flair.flair-NHLBuffaloSabres:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: 0px -1932px; }
-  .flair .flair-NHLCalgaryFlames:before {
+  .flair.flair-NHLCalgaryFlames:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: 0px -1995px; }
-  .flair .flair-NHLCarolinaHurricanes:before {
+  .flair.flair-NHLCarolinaHurricanes:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -42px; }
-  .flair .flair-NHLChicagoBlackhawks:before {
+  .flair.flair-NHLChicagoBlackhawks:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -84px; }
-  .flair .flair-NHLColoradoAvalanche:before {
+  .flair.flair-NHLColoradoAvalanche:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -168px; }
-  .flair .flair-NHLColumbusBlueJackets:before {
+  .flair.flair-NHLColumbusBlueJackets:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -210px; }
-  .flair .flair-NHLDallasStars:before {
+  .flair.flair-NHLDallasStars:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -83px -712px; }
-  .flair .flair-NHLDetroitRedWings:before {
+  .flair.flair-NHLDetroitRedWings:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -357px; }
-  .flair .flair-NHLEdmontonOilers:before {
+  .flair.flair-NHLEdmontonOilers:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -441px; }
-  .flair .flair-NHLFloridaPanthers:before {
+  .flair.flair-NHLFloridaPanthers:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -546px; }
-  .flair .flair-NHLLosAngelesKings:before {
+  .flair.flair-NHLLosAngelesKings:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -567px; }
-  .flair .flair-NHLMinnesotaWild:before {
+  .flair.flair-NHLMinnesotaWild:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -735px; }
-  .flair .flair-NHLMontrealCanadiens:before {
+  .flair.flair-NHLMontrealCanadiens:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -798px; }
-  .flair .flair-NHLNashvillePredators:before {
+  .flair.flair-NHLNashvillePredators:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -987px; }
-  .flair .flair-NHLNewJerseyDevils:before {
+  .flair.flair-NHLNewJerseyDevils:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -1050px; }
-  .flair .flair-NHLNewYorkIslanders:before {
+  .flair.flair-NHLNewYorkIslanders:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -1092px; }
-  .flair .flair-NHLOttawaSenators:before {
+  .flair.flair-NHLOttawaSenators:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -1491px; }
-  .flair .flair-NHLPhiladelphiaFlyers:before {
+  .flair.flair-NHLPhiladelphiaFlyers:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -1575px; }
-  .flair .flair-NHLPhoenixCoyotes:before {
+  .flair.flair-NHLPhoenixCoyotes:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -1596px; }
-  .flair .flair-NHLPittsburghPenguins:before {
+  .flair.flair-NHLPittsburghPenguins:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -1721px; }
-  .flair .flair-NHLSanJoseSharks:before {
+  .flair.flair-NHLSanJoseSharks:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -1827px; }
-  .flair .flair-NHLStLouisBlues:before {
+  .flair.flair-NHLStLouisBlues:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -21px -1911px; }
-  .flair .flair-NHLTampaBayLightning:before {
+  .flair.flair-NHLTampaBayLightning:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -42px 0px; }
-  .flair .flair-NHLTorontoMapleLeafs:before {
+  .flair.flair-NHLTorontoMapleLeafs:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -42px -105px; }
-  .flair .flair-NHLVancouverCanucks:before {
+  .flair.flair-NHLVancouverCanucks:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -42px -210px; }
-  .flair .flair-NHLWashingtonCapitals:before {
+  .flair.flair-NHLWashingtonCapitals:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-image: url(%%allteamflair%%);
     vertical-align: middle;
     background-position: -42px -336px; }
-  .flair .flair-NHLWinnipegJets:before {
+  .flair.flair-NHLWinnipegJets:before {
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
@@ -3900,7 +3906,7 @@ div.titlebox span.number:after {
   margin: 400px 16px 0 0;
   width: 300px; }
   .side:before {
-    background-image: url("%%kleiner%%");
+    background-image: url("%%win%%");
     content: ' ';
     height: 350px;
     width: 100%;

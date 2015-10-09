@@ -1,57 +1,67 @@
 // ==========================================================================
-// Home Color Config
+// Away Color Config
+// Note: Vars used here need to be defined in global/_define.scss
 // ==========================================================================
+
 @if $current-theme == "away" {
 
   //-pagename
   $pagename-hover: $rangers-red;
-  $pagename-color: $var-white;
+  $pagename-color: $rangers-blue;
   $body-bg-color: $rangers-blue;
 
   //-primary-colors
   $active-post-border: $rangers-red;
   $sidebar-color: $var-white;
-  $link-bg: $var-white;
+  $link-bg: $rangers-red;
 
   //-tabmenu
-  $tabmenu-anchor-color: $var-white;
-  $tabmenu-anchor-hover: $var-white;
+  $tabmenu-anchor-color: $rangers-blue;
+  $tabmenu-anchor-hover: $rangers-blue;
   $tabmenu-anchor-text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+  $tabmenu-selected: $rangers-red;
 
   //-sidebar
   $submit-txt-color: $var-white;
   $submit-bg: $rangers-red;
   $submit-bg-border-color: $rangers-red;
 
+  //-topbar
+  $topbar-hover: $var-white;
+
+  //-res-header
+  $res-header-bg: $rangers-blue;
+
   //-custom buttons
-  $button1-txt-color: $var-white;
-  $button1-border-color: $var-white;
+  $button1-txt-color: $rangers-blue;
+  $button1-border-color: $rangers-blue;
   $button1-bg-color: $fb-blue;
 
-  $button2-txt-color: $var-white;
-  $button2-border-color: $var-white;
+  $button2-txt-color: $rangers-blue;
+  $button2-border-color: $rangers-blue;
   $button2-bg-color: $tw-blue;
 
-  $button3-txt-color: $var-white;
-  $button3-border-color: $var-white;
+  $button3-txt-color: $rangers-blue;
+  $button3-border-color: $rangers-blue;
   $button3-bg-color: $insta-blue;
 
-  $button4-txt-color: $var-white;
-  $button4-border-color: $var-white;
+  $button4-txt-color: $rangers-blue;
+  $button4-border-color: $rangers-blue;
   $button4-bg-color: $yt-red;
 
   //-body
-  $body-bg-color: $rangers-blue;
+  $body-bg-color: $var-white;
   $body-text-color: $var-black;
 
   //-main links
   $main-link-bg-color: $var-white;
-  $main-link-txt-color: $var-white;
+  $main-link-txt-color: $rangers-blue;
   $main-link-hover: #EAF5FF;
   $main-link-border-color: rgba(199, 199, 199, 1);
   $main-link-box-shadow: 2px 4px 3px #C8C8C8;
-  $main-link-last-clicked-bg: #E7E5DA;
+  $main-link-last-clicked-bg: #F5F5F5;
   $main-link-stickied-txt-color: #2F5594!important;
+  $main-link-stickied-border-color: $rangers-red;
   $main-link-comments-anchor: #DF011E;
 
   $like-score: #F5092A;
@@ -61,14 +71,14 @@
   $anchor-hover: $var-black;
 
   //-footer
-  $footer-link-titles: $var-white;
-  $footer-link-color: $var-white;
+  $footer-link-titles: $var-black;
+  $footer-link-color: $var-black;
 
-  $footer-stripe1: $var-white;
+  $footer-stripe1: $rangers-blue;
   $footer-stripe2: $rangers-red;
-  $footer-stripe3: $var-white;
+  $footer-stripe3: $rangers-blue;
 
-  $theme-name-color: $var-white;
+  $theme-name-color: $rangers-blue;
 
   //-buttons
   $btn-text-color: $var-black;

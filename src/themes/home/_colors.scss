@@ -10,6 +10,12 @@
   $pagename-color: $var-white;
   $body-bg-color: $rangers-blue;
 
+  //-topbar
+  $topbar-hover: $rangers-blue;
+
+  //-res-header
+  $res-header-bg: $rangers-blue;
+
   //-primary-colors
   $active-post-border: $rangers-red;
   $sidebar-color: $var-white;
@@ -19,6 +25,7 @@
   $tabmenu-anchor-color: $var-white;
   $tabmenu-anchor-hover: $var-white;
   $tabmenu-anchor-text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+  $tabmenu-selected: $var-white;
 
   //-sidebar
   $submit-txt-color: $var-white;

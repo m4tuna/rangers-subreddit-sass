@@ -16,7 +16,7 @@
     border-bottom: 2px solid $rangers-red;
     @include transition-all(0.75s);
     &:hover {
-      background:$rangers-blue;
+      background:$topbar-hover;
     }
     a {
       opacity:0.65;

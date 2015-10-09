@@ -20,11 +20,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/fonts\/nhl-fonts\/ffonts.net.htm": {
+	"\/Fonts\/nhl-fonts\/ffonts.net.htm": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/nhl-fonts\/ffonts.net.htm",
+		"inputAbbreviatedPath": "\/Fonts\/nhl-fonts\/ffonts.net.htm",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -124,6 +124,17 @@
 		"initialSize": 107019,
 		"inputAbbreviatedPath": "\/Images\/headers\/headerimg.png",
 		"outputAbbreviatedPath": "\/Images\/headers\/headerimg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/headers\/rangersbanner-away.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56343,
+		"inputAbbreviatedPath": "\/Images\/headers\/rangersbanner-away.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangersbanner-away.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -311,6 +322,17 @@
 		"initialSize": 92874,
 		"inputAbbreviatedPath": "\/Images\/sidebar\/kleiner.jpg",
 		"outputAbbreviatedPath": "\/Images\/sidebar\/kleiner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/sidebar\/win.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 472367,
+		"inputAbbreviatedPath": "\/Images\/sidebar\/win.png",
+		"outputAbbreviatedPath": "\/Images\/sidebar\/win.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1099,38 +1121,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/reddit-modules\/_top-bar.scss",
 		"outputAbbreviatedPath": "\/src\/css\/_top-bar.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/src\/theme\/home\/_colors.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/home\/_colors.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_colors.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/src\/theme\/home\/_dimensions.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/theme\/home\/_dimensions.scss",
-		"outputAbbreviatedPath": "\/src\/theme\/css\/_dimensions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
