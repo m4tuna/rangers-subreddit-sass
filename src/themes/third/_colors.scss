@@ -23,10 +23,14 @@
   $tabmenu-anchor-text-shadow: 0 1px 2px rgba(0,0,0,0.25);
   $tabmenu-selected: $rangers-third-red;
 
+  $downvote-hover-bg: rgba(1,97,171,0.93);
+  $downvote-hover-color: $var-white;
+
   //-sidebar
   $submit-txt-color: $var-white;
   $submit-bg: $rangers-third-red;
-  $submit-bg-border-color: $rangers-third-red;
+  $submit-hover: $rangers-third-blue;
+  $submit-hover-border: $rangers-third-red;
 
   //-topbar
   $topbar-hover: $rangers-third-blue;

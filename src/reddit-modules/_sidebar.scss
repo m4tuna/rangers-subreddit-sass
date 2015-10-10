@@ -85,9 +85,9 @@ div.titlebox span.number:after {
   @include transition-all(0.3s);
   &:hover {
     height:$submit-height;
-    background-color:$rangers-blue;
-    border-top: 5px solid $rangers-red;
-    border-bottom: 5px solid $rangers-red;
+    background-color:$submit-hover;
+    border-top: 5px solid $submit-hover-border;
+    border-bottom: 5px solid $submit-hover-border;
     margin-top:-5px;
   }
   a {

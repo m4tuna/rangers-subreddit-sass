@@ -24,6 +24,9 @@
   $link-bg: $var-white;
   $link-visited: $rangers-dark-red;
 
+  $downvote-hover-bg: rgba(1,97,171,0.93);
+  $downvote-hover-color: $var-white;
+
   //-tabmenu
   $tabmenu-anchor-color: $var-white;
   $tabmenu-anchor-hover: $var-white;
@@ -33,7 +36,8 @@
   //-sidebar
   $submit-txt-color: $var-white;
   $submit-bg: $rangers-red;
-  $submit-bg-border-color: $rangers-red;
+  $submit-hover: $rangers-blue;
+  $submit-hover-border: $rangers-red;
 
   //-buttons
   $button-bg-color: $rangers-blue;

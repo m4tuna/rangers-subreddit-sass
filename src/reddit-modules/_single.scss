@@ -2,9 +2,25 @@
 // Single Page
 // ==========================================================================
 
-.comments-page .side, .res.comments-page .side {
-  margin-top:$single-sidebar-top;
-  .linkinfo {
-    top: $single-linkinfo-top;
+.comments-page {
+  table {
+    width:100%;
+    margin-top: 30px;
+  }
+  h1 {
+    text-transform: uppercase;
+    margin-top:25px;
+  }
+  h1, h2, h3, h4, h5 {
+    text-align: center;
+  }
+  &.res.comments-page .side, .side {
+    margin-top:$single-sidebar-top;
+    .linkinfo {
+      top: $single-linkinfo-top;
+    }
+  }
+  .link:hover {
+    background:$var-white;
   }
 }
