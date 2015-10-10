@@ -1289,6 +1289,12 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
 .side h6 a[href="http://reddit.com/r/rangers"] { opacity: 1; }
 .side h6 a[href="http://reddit.com/r/rangers"]:after { background: url("%%sidebar-nhl-rangers%%"); background-size: cover; width: 40px; height: 40px; content: ' '; display: block; left: 48%; top: 5px; position: absolute; opacity: 1; }
 
+.side h5 { position: fixed; top: 195px; right: -300px; width: 350px; z-index: 8; height: 60px; background: rgba(1, 97, 171, 0.93); margin: 0 !important; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.68); text-decoration: none; color: #D60642; border: 2px solid #D60642; padding-left: 60px; padding-top: 16px; -webkit-transition: all 0.75s ease; -moz-transition: all 0.75s ease; transition: all 0.75s ease; }
+.side h5:before { content: ' '; background: url("%%sidebar-nhl-rangers%%"); background-size: cover; right: 300px; top: 10px; display: block; height: 38px; width: 40px; position: absolute; }
+.side h5:hover { background: #0161ab; right: 0; }
+.side h5 a { opacity: 0.65; -webkit-transition: all 0.7s ease; -moz-transition: all 0.7s ease; transition: all 0.7s ease; cursor: pointer; }
+.side h5 a:hover { opacity: 1; }
+
 body { background-color: #0161ab; /*   &:after { background-image: url($current-header-img); height: $header-height; background-size: $header-bg-size; background-position: $header-bg-position; z-index: 8;
 } */ }
 body:before { background-image: url("%%rangersbanner%%"); height: 250px; background-size: cover; background-position: center center; z-index: 8; }
@@ -1403,6 +1409,8 @@ body > .content { margin: 300px 345px 0 25px; z-index: 5; }
 /* a[href="https://docs.google.com/forms/d/1AnaE5jB4uVd1Q3CcpQP75OAi4YYos_wFEqt1MvZqG0Q/viewform?usp=send_form"] {
 
 } */
+a[href="http://www.msgnetworks.com"] { background-image: url("%%msg%%"); width: 25px; height: 25px; display: inline-block; background-repeat: no-repeat; vertical-align: middle; content: " "; }
+
 a[href="/r/anaheimducks"]:before, a[href="/r/bostonbruins"]:before, a[href="/r/sabres"]:before, a[href="/r/calgaryflames"]:before, a[href="/r/canes"]:before, a[href="/r/hawks"]:before, a[href="/r/coloradoavalanche"]:before, a[href="/r/bluejackets"]:before, a[href="/r/dallasstars"]:before, a[href="/r/detroitredwings"]:before, a[href="/r/edmontonoilers"]:before, a[href="/r/floridapanthers"]:before, a[href="/r/losangeleskings"]:before, a[href="/r/wildhockey"]:before, a[href="/r/habs"]:before, a[href="/r/predators"]:before, a[href="/r/devils"]:before, a[href="/r/newyorkislanders"]:before, a[href="/r/rangers"]:before, a[href="/r/ottawasenators"]:before, a[href="/r/flyers"]:before, a[href="/r/coyotes"]:before, a[href="/r/penguins"]:before, a[href="/r/sanjosesharks"]:before, a[href="/r/stlouisblues"]:before, a[href="/r/tampabaylightning"]:before, a[href="/r/leafs"]:before, a[href="/r/atlantathrashers"]:before, a[href="/r/canucks"]:before, a[href="/r/caps"]:before, a[href="/r/winnipegjets"]:before, a[href="/r/austria"]:before, a[href="/r/teamcanada"]:before, a[href="/r/czech"]:before, a[href="/r/denmark"]:before, a[href="/r/finland"]:before, a[href="/r/unitedkingdom"]:before, a[href="/r/japan"]:before, a[href="/r/norway"]:before, a[href="/r/latvia"]:before, a[href="/r/russia"]:before, a[href="/r/slovakia"]:before, a[href="/r/slovenia"]:before, a[href="/r/sweden"]:before, a[href="/r/switzerland"]:before, a[href="/r/usahockey"]:before, a[href="/r/france"]:before, a[href="/r/italy"]:before, a[href="/r/kazakhstan"]:before, a[href="/r/belgium"]:before, a[href="/r/belarus"]:before, a[href="/r/germany"]:before { background-image: url("%%all-teams-flair%%"); width: 25px; height: 25px; display: inline-block; background-repeat: no-repeat; background-position: -9999px -9999px; vertical-align: middle; content: " "; }
 
 a[href="/r/bostonbruins"]:before { background-position: -670px -460px !important; }
@@ -1505,12 +1513,15 @@ a[href="/r/unitedkingdom"]:before { background-position: -145px -250px !importan
 
 a[href="/r/austria"]:before { background-position: -425px -215px !important; }
 
-.comments-page table { width: 100%; margin-top: 30px; }
-.comments-page h1 { text-transform: uppercase; margin-top: 25px; }
-.comments-page h1, .comments-page h2, .comments-page h3, .comments-page h4, .comments-page h5 { text-align: center; }
 .comments-page.res.comments-page .side, .comments-page .side { margin-top: 525px; }
 .comments-page.res.comments-page .side .linkinfo, .comments-page .side .linkinfo { top: 400px; }
 .comments-page .link:hover { background: #fff; }
+
+.expando table { width: 100%; margin-top: 30px; }
+.expando h1 { text-transform: uppercase; margin-top: 25px; }
+.expando h1, .expando h2, .expando h3, .expando h4, .expando h5 { text-align: center; }
+
+#noresults { top: 10px; }
 
 .submit-page .content { margin-top: 265px; margin-bottom: 10px; }
 .submit-page .content #newlink.submit.content .btn { font-size: 20px; height: 62px; }
@@ -1584,9 +1595,12 @@ html:not([lang="ns"]) .footer-parent:after { content: "current r/rangers theme: 
 
 p.bottommenu { color: #fff; }
 
-#images { height: auto; float: left; }
+#images { height: auto; float: left; width: 100%; }
 
-ul#image-preview-list li { padding-bottom: 10px; margin-bottom: 20px; vertical-align: top; width: 50%; height: 100px; float: left; position: relative; margin-right: 0; margin-left: 0; padding-right: 0; }
+#RESStyleSheetTipPane { width: 100%; }
+
+ul#image-preview-list .description { vertical-align: top; margin-left: 125px; width: 100%; }
+ul#image-preview-list li { padding-bottom: 10px; margin-bottom: 20px; vertical-align: top; width: 100%; height: 100px; float: left; clear: both; position: relative; margin-right: 0; margin-left: 0; padding-right: 0; }
 
 .md textarea { z-index: 5; }
 

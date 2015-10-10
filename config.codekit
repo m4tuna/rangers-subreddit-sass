@@ -29,330 +29,330 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/fonts\/nhl-fonts\/ffonts.net.htm": {
+	"\/Fonts\/nhl-fonts\/ffonts.net.htm": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/fonts\/nhl-fonts\/ffonts.net.htm",
+		"inputAbbreviatedPath": "\/Fonts\/nhl-fonts\/ffonts.net.htm",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/footers\/footer.png": {
+	"\/Images\/footers\/footer.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 505883,
-		"inputAbbreviatedPath": "\/images\/footers\/footer.png",
-		"outputAbbreviatedPath": "\/images\/footers\/footer.png",
+		"inputAbbreviatedPath": "\/Images\/footers\/footer.png",
+		"outputAbbreviatedPath": "\/Images\/footers\/footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/footers\/footerbg.png": {
+	"\/Images\/footers\/footerbg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 166289,
-		"inputAbbreviatedPath": "\/images\/footers\/footerbg.png",
-		"outputAbbreviatedPath": "\/images\/footers\/footerbg.png",
+		"inputAbbreviatedPath": "\/Images\/footers\/footerbg.png",
+		"outputAbbreviatedPath": "\/Images\/footers\/footerbg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/footers\/footerbg1.png": {
+	"\/Images\/footers\/footerbg1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 228080,
-		"inputAbbreviatedPath": "\/images\/footers\/footerbg1.png",
-		"outputAbbreviatedPath": "\/images\/footers\/footerbg1.png",
+		"inputAbbreviatedPath": "\/Images\/footers\/footerbg1.png",
+		"outputAbbreviatedPath": "\/Images\/footers\/footerbg1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/header-hank.png": {
+	"\/Images\/headers\/header-hank.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 509568,
-		"inputAbbreviatedPath": "\/images\/headers\/header-hank.png",
-		"outputAbbreviatedPath": "\/images\/headers\/header-hank.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/header-hank.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/header-hank.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/header-mac.png": {
+	"\/Images\/headers\/header-mac.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 467986,
-		"inputAbbreviatedPath": "\/images\/headers\/header-mac.png",
-		"outputAbbreviatedPath": "\/images\/headers\/header-mac.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/header-mac.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/header-mac.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/header-step.png": {
+	"\/Images\/headers\/header-step.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 327018,
-		"inputAbbreviatedPath": "\/images\/headers\/header-step.png",
-		"outputAbbreviatedPath": "\/images\/headers\/header-step.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/header-step.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/header-step.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/header1.png": {
+	"\/Images\/headers\/header1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 377539,
-		"inputAbbreviatedPath": "\/images\/headers\/header1.png",
-		"outputAbbreviatedPath": "\/images\/headers\/header1.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/header1.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/header1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/headerimg-OG.png": {
+	"\/Images\/headers\/headerimg-OG.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 44062,
-		"inputAbbreviatedPath": "\/images\/headers\/headerimg-OG.png",
-		"outputAbbreviatedPath": "\/images\/headers\/headerimg-OG.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/headerimg-OG.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/headerimg-OG.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/headerimg.png": {
+	"\/Images\/headers\/headerimg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 107019,
-		"inputAbbreviatedPath": "\/images\/headers\/headerimg.png",
-		"outputAbbreviatedPath": "\/images\/headers\/headerimg.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/headerimg.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/headerimg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/rangersbanner-away.png": {
+	"\/Images\/headers\/rangersbanner-away.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 13680,
-		"inputAbbreviatedPath": "\/images\/headers\/rangersbanner-away.png",
-		"outputAbbreviatedPath": "\/images\/headers\/rangersbanner-away.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/rangersbanner-away.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangersbanner-away.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/rangersbanner-third.png": {
+	"\/Images\/headers\/rangersbanner-third.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 26211,
-		"inputAbbreviatedPath": "\/images\/headers\/rangersbanner-third.png",
-		"outputAbbreviatedPath": "\/images\/headers\/rangersbanner-third.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/rangersbanner-third.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangersbanner-third.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/rangersbanner.png": {
+	"\/Images\/headers\/rangersbanner.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 12903,
-		"inputAbbreviatedPath": "\/images\/headers\/rangersbanner.png",
-		"outputAbbreviatedPath": "\/images\/headers\/rangersbanner.png",
+		"inputAbbreviatedPath": "\/Images\/headers\/rangersbanner.png",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangersbanner.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/rangerstown-lg.jpg": {
+	"\/Images\/headers\/rangerstown-lg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 284187,
-		"inputAbbreviatedPath": "\/images\/headers\/rangerstown-lg.jpg",
-		"outputAbbreviatedPath": "\/images\/headers\/rangerstown-lg.jpg",
+		"inputAbbreviatedPath": "\/Images\/headers\/rangerstown-lg.jpg",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangerstown-lg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/headers\/rangerstown-md.jpg": {
+	"\/Images\/headers\/rangerstown-md.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 417339,
-		"inputAbbreviatedPath": "\/images\/headers\/rangerstown-md.jpg",
-		"outputAbbreviatedPath": "\/images\/headers\/rangerstown-md.jpg",
+		"inputAbbreviatedPath": "\/Images\/headers\/rangerstown-md.jpg",
+		"outputAbbreviatedPath": "\/Images\/headers\/rangerstown-md.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/link-imgs\/noresults.png": {
+	"\/Images\/link-imgs\/noresults.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 50500,
-		"inputAbbreviatedPath": "\/images\/link-imgs\/noresults.png",
-		"outputAbbreviatedPath": "\/images\/link-imgs\/noresults.png",
+		"inputAbbreviatedPath": "\/Images\/link-imgs\/noresults.png",
+		"outputAbbreviatedPath": "\/Images\/link-imgs\/noresults.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/link-imgs\/noresults1.png": {
+	"\/Images\/link-imgs\/noresults1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7792,
-		"inputAbbreviatedPath": "\/images\/link-imgs\/noresults1.png",
-		"outputAbbreviatedPath": "\/images\/link-imgs\/noresults1.png",
+		"inputAbbreviatedPath": "\/Images\/link-imgs\/noresults1.png",
+		"outputAbbreviatedPath": "\/Images\/link-imgs\/noresults1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/link-imgs\/sidebar-nhl-rangers.png": {
+	"\/Images\/link-imgs\/sidebar-nhl-rangers.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 24658,
-		"inputAbbreviatedPath": "\/images\/link-imgs\/sidebar-nhl-rangers.png",
-		"outputAbbreviatedPath": "\/images\/link-imgs\/sidebar-nhl-rangers.png",
+		"inputAbbreviatedPath": "\/Images\/link-imgs\/sidebar-nhl-rangers.png",
+		"outputAbbreviatedPath": "\/Images\/link-imgs\/sidebar-nhl-rangers.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/link-imgs\/spritesheet.png": {
+	"\/Images\/link-imgs\/spritesheet.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 13709,
-		"inputAbbreviatedPath": "\/images\/link-imgs\/spritesheet.png",
-		"outputAbbreviatedPath": "\/images\/link-imgs\/spritesheet.png",
+		"inputAbbreviatedPath": "\/Images\/link-imgs\/spritesheet.png",
+		"outputAbbreviatedPath": "\/Images\/link-imgs\/spritesheet.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/link-imgs\/stickytoast.png": {
+	"\/Images\/link-imgs\/stickytoast.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 22148,
-		"inputAbbreviatedPath": "\/images\/link-imgs\/stickytoast.png",
-		"outputAbbreviatedPath": "\/images\/link-imgs\/stickytoast.png",
+		"inputAbbreviatedPath": "\/Images\/link-imgs\/stickytoast.png",
+		"outputAbbreviatedPath": "\/Images\/link-imgs\/stickytoast.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/other\/flair.png": {
+	"\/Images\/other\/flair.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8969,
-		"inputAbbreviatedPath": "\/images\/other\/flair.png",
-		"outputAbbreviatedPath": "\/images\/other\/flair.png",
+		"inputAbbreviatedPath": "\/Images\/other\/flair.png",
+		"outputAbbreviatedPath": "\/Images\/other\/flair.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/other\/gd-foundation.png": {
+	"\/Images\/other\/gd-foundation.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 8755,
-		"inputAbbreviatedPath": "\/images\/other\/gd-foundation.png",
-		"outputAbbreviatedPath": "\/images\/other\/gd-foundation.png",
+		"inputAbbreviatedPath": "\/Images\/other\/gd-foundation.png",
+		"outputAbbreviatedPath": "\/Images\/other\/gd-foundation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/other\/km-foundation.png": {
+	"\/Images\/other\/km-foundation.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 37026,
-		"inputAbbreviatedPath": "\/images\/other\/km-foundation.png",
-		"outputAbbreviatedPath": "\/images\/other\/km-foundation.png",
+		"inputAbbreviatedPath": "\/Images\/other\/km-foundation.png",
+		"outputAbbreviatedPath": "\/Images\/other\/km-foundation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/other\/nhl-allstar2016.jpg": {
+	"\/Images\/other\/nhl-allstar2016.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 47465,
-		"inputAbbreviatedPath": "\/images\/other\/nhl-allstar2016.jpg",
-		"outputAbbreviatedPath": "\/images\/other\/nhl-allstar2016.jpg",
+		"inputAbbreviatedPath": "\/Images\/other\/nhl-allstar2016.jpg",
+		"outputAbbreviatedPath": "\/Images\/other\/nhl-allstar2016.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/other\/nyriveters.png": {
+	"\/Images\/other\/nyriveters.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 24522,
-		"inputAbbreviatedPath": "\/images\/other\/nyriveters.png",
-		"outputAbbreviatedPath": "\/images\/other\/nyriveters.png",
+		"inputAbbreviatedPath": "\/Images\/other\/nyriveters.png",
+		"outputAbbreviatedPath": "\/Images\/other\/nyriveters.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/other\/r-hockey.png": {
+	"\/Images\/other\/r-hockey.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2836,
-		"inputAbbreviatedPath": "\/images\/other\/r-hockey.png",
-		"outputAbbreviatedPath": "\/images\/other\/r-hockey.png",
+		"inputAbbreviatedPath": "\/Images\/other\/r-hockey.png",
+		"outputAbbreviatedPath": "\/Images\/other\/r-hockey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/other\/wolf-pack.png": {
+	"\/Images\/other\/wolf-pack.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 9308,
-		"inputAbbreviatedPath": "\/images\/other\/wolf-pack.png",
-		"outputAbbreviatedPath": "\/images\/other\/wolf-pack.png",
+		"inputAbbreviatedPath": "\/Images\/other\/wolf-pack.png",
+		"outputAbbreviatedPath": "\/Images\/other\/wolf-pack.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/sidebar\/all-teams-flair.png": {
+	"\/Images\/sidebar\/all-teams-flair.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 124818,
-		"inputAbbreviatedPath": "\/images\/sidebar\/all-teams-flair.png",
-		"outputAbbreviatedPath": "\/images\/sidebar\/all-teams-flair.png",
+		"inputAbbreviatedPath": "\/Images\/sidebar\/all-teams-flair.png",
+		"outputAbbreviatedPath": "\/Images\/sidebar\/all-teams-flair.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/sidebar\/kleiner.jpg": {
+	"\/Images\/sidebar\/kleiner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 92874,
-		"inputAbbreviatedPath": "\/images\/sidebar\/kleiner.jpg",
-		"outputAbbreviatedPath": "\/images\/sidebar\/kleiner.jpg",
+		"inputAbbreviatedPath": "\/Images\/sidebar\/kleiner.jpg",
+		"outputAbbreviatedPath": "\/Images\/sidebar\/kleiner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/sidebar\/win.png": {
+	"\/Images\/sidebar\/win.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 472367,
-		"inputAbbreviatedPath": "\/images\/sidebar\/win.png",
-		"outputAbbreviatedPath": "\/images\/sidebar\/win.png",
+		"inputAbbreviatedPath": "\/Images\/sidebar\/win.png",
+		"outputAbbreviatedPath": "\/Images\/sidebar\/win.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1077,6 +1077,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/reddit-modules\/_single.scss",
 		"outputAbbreviatedPath": "\/src\/css\/_single.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/reddit-modules\/_slide-menu.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/reddit-modules\/_slide-menu.scss",
+		"outputAbbreviatedPath": "\/src\/css\/_slide-menu.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
