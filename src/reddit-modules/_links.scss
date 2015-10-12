@@ -32,6 +32,8 @@
   border: 1px solid transparent;
   margin: $main-link-margin;
   box-shadow: 2px 4px 3px transparent;
+
+
   &:hover {
     background-color: $main-link-hover;
     border: 1px solid $main-link-border-color;
@@ -52,6 +54,13 @@
     }
   }
 }
+
+@if $hide-ads == true {
+  .link.promotedlink.promoted, .promotedlink {
+    display:none !important;
+  }
+}
+
 
 .link.last-clicked {
   background-color: $main-link-last-clicked-bg;

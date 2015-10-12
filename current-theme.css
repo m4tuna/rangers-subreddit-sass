@@ -1526,6 +1526,8 @@ a[href="/r/austria"]:before { background-position: -425px -215px !important; }
 .submit-page .content { margin-top: 265px; margin-bottom: 10px; }
 .submit-page .content #newlink.submit.content .btn { font-size: 20px; height: 62px; }
 
+#ad_sponsorship, #ad-frame, #ad_main { display: none; }
+
 div.titlebox span.number:after { content: " blueshirts,"; }
 
 .link.stickied:before { content: url("%%stickytoast%%"); float: left; top: 18px; position: relative; left: 8px; }
@@ -1566,6 +1568,8 @@ div.titlebox span.number:after { content: " blueshirts,"; }
 .link .score.likes { color: #F5092A; }
 .link .entry .buttons li a { font-size: 11px; }
 .link .entry .buttons li .redditSingleClick { font-size: 9px; }
+
+.link.promotedlink.promoted, .promotedlink { display: none !important; }
 
 .link.last-clicked { background-color: #F5F5F5; }
 

@@ -2,7 +2,14 @@
 // Sidebar
 // ==========================================================================
 
-// side
+// ad_sponsorship
+
+@if $hide-ads == true {
+  #ad_sponsorship, #ad-frame, #ad_main {
+    display: none;  
+  }
+}
+
 
 // name of users
 div.titlebox span.number:after {
