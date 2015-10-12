@@ -1289,8 +1289,8 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
 .side h6 a[href="http://reddit.com/r/rangers"] { opacity: 1; }
 .side h6 a[href="http://reddit.com/r/rangers"]:after { background: url("%%sidebar-nhl-rangers%%"); background-size: cover; width: 40px; height: 40px; content: ' '; display: block; left: 48%; top: 5px; position: absolute; opacity: 1; }
 
-.side h5 { position: fixed; top: 195px; right: -300px; width: 350px; z-index: 8; height: 60px; background: rgba(1, 97, 171, 0.93); margin: 0 !important; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.68); text-decoration: none; color: #D60642; border: 2px solid #D60642; padding-left: 60px; padding-top: 16px; -webkit-transition: all 0.75s ease; -moz-transition: all 0.75s ease; transition: all 0.75s ease; }
-.side h5:before { content: ' '; background: url("%%sidebar-nhl-rangers%%"); background-size: cover; right: 300px; top: 10px; display: block; height: 38px; width: 40px; position: absolute; }
+.side h5 { position: fixed; top: 195px; right: -160px; width: auto; z-index: 8; height: 45px; background: rgba(1, 97, 171, 0.93); margin: 0 !important; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.68); text-decoration: none; color: #D60642; border: none; padding: 10px 10px 10px 42px; -webkit-transition: all 0.75s ease; -moz-transition: all 0.75s ease; transition: all 0.75s ease; }
+.side h5:before { content: ' '; background-image: url("%%all-teams-flair%%"); background-position: -670px -600px !important; right: 165px; top: 10px; display: block; height: 22px; width: 25px; position: absolute; }
 .side h5:hover { background: #0161ab; right: 0; }
 .side h5 a { opacity: 0.65; -webkit-transition: all 0.7s ease; -moz-transition: all 0.7s ease; transition: all 0.7s ease; cursor: pointer; }
 .side h5 a:hover { opacity: 1; }
@@ -1568,6 +1568,8 @@ div.titlebox span.number:after { content: " blueshirts,"; }
 .link .entry .buttons li .redditSingleClick { font-size: 9px; }
 
 .link.last-clicked { background-color: #F5F5F5; }
+
+.thing.collapsed { padding: 12px 14px !important; }
 
 .thing.stickied { /* border:2px solid $main-link-stickied-border-color; */ }
 .thing.stickied a.title, .thing.stickied .thing.stickied a, .thing.stickied .entry li .comments { color: #2F5594 !important; }

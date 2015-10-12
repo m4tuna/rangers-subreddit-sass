@@ -57,6 +57,9 @@
   background-color: $main-link-last-clicked-bg;
 }
 
+.thing.collapsed {
+  padding:12px 14px !important;
+}
 
 .thing.stickied {
   /* border:2px solid $main-link-stickied-border-color; */
