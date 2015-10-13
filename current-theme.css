@@ -1289,7 +1289,7 @@ div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry
 .side h6 a[href="http://reddit.com/r/rangers"] { opacity: 1; }
 .side h6 a[href="http://reddit.com/r/rangers"]:after { background: url("%%sidebar-nhl-rangers%%"); background-size: cover; width: 40px; height: 40px; content: ' '; display: block; left: 48%; top: 5px; position: absolute; opacity: 1; }
 
-.side h5 { position: fixed; top: 195px; right: -160px; width: auto; z-index: 8; height: 45px; background: rgba(1, 97, 171, 0.93); margin: 0 !important; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.68); text-decoration: none; color: #D60642; border: none; padding: 10px 10px 10px 42px; -webkit-transition: all 0.75s ease; -moz-transition: all 0.75s ease; transition: all 0.75s ease; }
+.side h5 { position: fixed; top: 195px; right: -160px; width: auto; z-index: 8; height: 45px; background: rgba(1, 97, 171, 0.93); color: #fff; margin: 0 !important; box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.68); text-decoration: none; border: none; padding: 10px 10px 10px 42px; -webkit-transition: all 0.75s ease; -moz-transition: all 0.75s ease; transition: all 0.75s ease; }
 .side h5:before { content: ' '; background-image: url("%%all-teams-flair%%"); background-position: -670px -600px !important; right: 165px; top: 10px; display: block; height: 22px; width: 25px; position: absolute; }
 .side h5:hover { background: #0161ab; right: 0; }
 .side h5 a { opacity: 0.65; -webkit-transition: all 0.7s ease; -moz-transition: all 0.7s ease; transition: all 0.7s ease; cursor: pointer; }
@@ -1319,7 +1319,7 @@ body > .content { margin: 300px 345px 0 25px; z-index: 5; }
 #header-img.default-header, #header-img { z-index: 99; width: 40px; background-size: initial; padding-left: 48px; height: 48px; background-image: url("%%spritesheet%%"); background-position: -208px -48px; position: relative; top: 0; margin: 0; }
 #header-img.default-header:hover, #header-img:hover { background-position: -208px -96px; }
 
-.linkflair .linkflairlabel { padding: 2px; border-radius: 0px; max-width: none; }
+.linkflair .linkflairlabel { padding: 2px; border-radius: 0px; max-width: none; height: 22px; padding: 5px 10px; text-transform: uppercase; font-size: 10px; }
 .linkflair .linkflairlabel.linkflair-flair-yellow { background-color: #ff0; color: #444; border: 1px Solid #E2E200; }
 .linkflair .linkflairlabel.linkflair-flair-blue { background-color: #0072BC; color: #fff; border: 1px Solid #1D009B; }
 .linkflair .linkflairlabel.linkflair-flair-green { background-color: #041e42; color: #fff; border: 1px Solid #2CA243; }
@@ -1518,6 +1518,7 @@ a[href="/r/austria"]:before { background-position: -425px -215px !important; }
 .comments-page .link:hover { background: #fff; }
 
 .expando table { width: 100%; margin-top: 30px; }
+.expando table th { background-color: #0161ab; color: #fff; }
 .expando h1 { text-transform: uppercase; margin-top: 25px; }
 .expando h1, .expando h2, .expando h3, .expando h4, .expando h5 { text-align: center; }
 
