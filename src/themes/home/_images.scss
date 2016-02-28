@@ -39,10 +39,10 @@
   $kleiner-sidebar: '%%kleiner%%';
   $win: '%%win%%';
 
-  $sidebar-img: $win;
+  $sidebar-img: '%%sidebar%%';
 
-  $sidebar-img-height: 333px;
-  $sidebar-img-bg-size: cover;
+  $sidebar-img-height: 230px;
+  $sidebar-img-bg-size: contain;
   $sidebar-img-bg-repeat: no-repeat;
 
   $sidebar-bg-image: '';

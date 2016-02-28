@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19051",
+"creatorBuild": "19076",
 "files": {
 	"\/_archive\/_old10-7.css": {
 		"fileType": 16,
@@ -16,6 +16,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_archive\/r-hockey.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/225-backup.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/225-backup.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -369,6 +378,17 @@
 		"initialSize": 124818,
 		"inputAbbreviatedPath": "\/images\/sidebar\/all-teams-flair.png",
 		"outputAbbreviatedPath": "\/images\/sidebar\/all-teams-flair.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/sidebar\/g-pirate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 472590,
+		"inputAbbreviatedPath": "\/images\/sidebar\/g-pirate.png",
+		"outputAbbreviatedPath": "\/images\/sidebar\/g-pirate.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2071,7 +2091,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,

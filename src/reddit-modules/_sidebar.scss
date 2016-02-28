@@ -6,7 +6,7 @@
 
 @if $hide-ads == true {
   #ad_sponsorship, #ad-frame, #ad_main {
-    display: none;  
+    display: none;
   }
 }
 
@@ -39,7 +39,7 @@ div.titlebox span.number:after {
   //-sidebar img
   &:before {
     background-image:url($sidebar-img);
-    content:' ';
+    content:'';
     height: $sidebar-img-height;
     width: 100%;
     background-repeat: $sidebar-img-bg-repeat;
